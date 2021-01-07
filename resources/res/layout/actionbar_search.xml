@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/search_wrapper" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText android:layout_gravity="center_vertical" android:id="@+id/action_bar_search" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/actionbar_item_search" android:maxLines="1" android:freezesText="true" android:drawablePadding="@dimen/actionbar_search_drawables_padding" android:inputType="textNoSuggestions" android:imeOptions="actionUnspecified|actionNone|actionGo|actionSearch|flagNoExtractUi"/>
+</FrameLayout>

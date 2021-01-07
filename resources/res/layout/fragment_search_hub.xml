@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/search_hubs_root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/gradient_background" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.spotify.music.libs.search.view.ToolbarSearchFieldView android:id="@+id/search_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.spotify.mobile.android.ui.view.CancellableSeekBar android:layout_gravity="top" android:id="@+id/seek_bar" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/car_now_playing_mode_seek_bar_size" android:contentDescription="@string/player_content_description_seekbar" android:layoutDirection="ltr" style="@style/CarModeNowPlayingSeekBar"/>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/timestamps" android:paddingTop="@dimen/car_now_playing_mode_seek_bar_timestamps_top_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.spotify.mobile.android.ui.view.SuppressLayoutTextView android:textAppearance="@style/res_2132083289_textappearance_carmode_timestamps" android:layout_gravity="left" android:id="@+id/position" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textAppearance="@style/res_2132083289_textappearance_carmode_timestamps" android:layout_gravity="right" android:id="@+id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</merge>

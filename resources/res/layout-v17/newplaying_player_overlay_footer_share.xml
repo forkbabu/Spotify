@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/newplaying_footer_top_padding" android:paddingBottom="@dimen/newplaying_footer_bottom_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/newplaying_footer_button_external_margin" android:layout_toLeftOf="@+id/share_button" android:layout_alignParentLeft="true" android:layout_marginStart="@dimen/newplaying_footer_button_external_margin" android:layout_toStartOf="@+id/share_button" android:layout_alignParentStart="true">
+        <include android:layout_width="wrap_content" android:layout_height="@dimen/newplaying_quaternary_button_size" layout="@layout/connect_unit"/>
+    </LinearLayout>
+    <com.spotify.music.nowplaying.common.view.share.ShareButton android:id="@+id/share_button" android:padding="@dimen/newplaying_button_padding" android:layout_width="@dimen/newplaying_quaternary_button_size" android:layout_height="@dimen/newplaying_quaternary_button_size" android:layout_marginRight="@dimen/newplaying_footer_button_external_margin" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/newplaying_footer_button_external_margin" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

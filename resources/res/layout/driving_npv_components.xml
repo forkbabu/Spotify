@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@+id/top_bar_bottom_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/top_bar_height_percent"/>
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@+id/seekbar_space_top_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/driving_seekbar_space_top_guideline_percent"/>
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@+id/seekbar_space_bottom_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/driving_seekbar_space_bottom_guideline_percent"/>
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@+id/connect_label_top_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/driving_connect_label_top_guideline_percent"/>
+    <com.spotify.music.nowplaying.common.view.pager.TrackCarouselView android:id="@+id/driving_track_carousel" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include android:id="@+id/top_bar_layout" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="@+id/top_bar_bottom_guideline" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" layout="@layout/driving_top_bar"/>
+    <FrameLayout android:id="@+id/seekbar_placeholder" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/driving_seekbar_half_size" app:layout_constraintTop_toTopOf="@+id/seekbar_space_top_guideline"/>
+    <com.spotify.music.nowplaying.drivingmode.view.playercontrols.DrivingPlayerControlsView android:id="@+id/driving_player_controls" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/seekbar_space_bottom_guideline"/>
+    <FrameLayout android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHeight_percent="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="@+id/connect_label_top_guideline">
+        <include layout="@layout/driving_connect_label"/>
+    </FrameLayout>
+</merge>

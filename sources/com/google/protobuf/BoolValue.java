@@ -1,0 +1,123 @@
+package com.google.protobuf;
+
+import com.google.protobuf.GeneratedMessageLite;
+import java.io.IOException;
+
+public final class BoolValue extends GeneratedMessageLite<BoolValue, b> implements Object {
+    private static final BoolValue b;
+    private static volatile x<BoolValue> c;
+    private boolean a;
+
+    public static final class b extends GeneratedMessageLite.b<BoolValue, b> implements Object {
+        private b() {
+            super(BoolValue.b);
+        }
+
+        b(a aVar) {
+            super(BoolValue.b);
+        }
+    }
+
+    static {
+        BoolValue boolValue = new BoolValue();
+        b = boolValue;
+        boolValue.makeImmutable();
+    }
+
+    private BoolValue() {
+    }
+
+    public static BoolValue h() {
+        return b;
+    }
+
+    public static x<BoolValue> parser() {
+        return b.getParserForType();
+    }
+
+    /* JADX INFO: Can't fix incorrect switch cases order, some code will duplicate */
+    /* access modifiers changed from: protected */
+    @Override // com.google.protobuf.GeneratedMessageLite
+    public final Object dynamicMethod(GeneratedMessageLite.MethodToInvoke methodToInvoke, Object obj, Object obj2) {
+        switch (methodToInvoke.ordinal()) {
+            case 0:
+                return b;
+            case 1:
+                boolean z = this.a;
+                boolean z2 = ((BoolValue) obj2).a;
+                this.a = ((GeneratedMessageLite.h) obj).f(z, z, z2, z2);
+                return this;
+            case 2:
+                g gVar = (g) obj;
+                k kVar = (k) obj2;
+                boolean z3 = false;
+                while (!z3) {
+                    try {
+                        int B = gVar.B();
+                        if (B != 0) {
+                            if (B == 8) {
+                                this.a = gVar.h();
+                            } else if (!gVar.F(B)) {
+                            }
+                        }
+                        z3 = true;
+                    } catch (InvalidProtocolBufferException e) {
+                        e.d(this);
+                        throw new RuntimeException(e);
+                    } catch (IOException e2) {
+                        InvalidProtocolBufferException invalidProtocolBufferException = new InvalidProtocolBufferException(e2.getMessage());
+                        invalidProtocolBufferException.d(this);
+                        throw new RuntimeException(invalidProtocolBufferException);
+                    }
+                }
+                break;
+            case 3:
+                return null;
+            case 4:
+                return new BoolValue();
+            case 5:
+                return new b(null);
+            case 6:
+                break;
+            case 7:
+                if (c == null) {
+                    synchronized (BoolValue.class) {
+                        if (c == null) {
+                            c = new GeneratedMessageLite.c(b);
+                        }
+                    }
+                }
+                return c;
+            default:
+                throw new UnsupportedOperationException();
+        }
+        return b;
+    }
+
+    @Override // com.google.protobuf.u
+    public int getSerializedSize() {
+        int i = this.memoizedSerializedSize;
+        if (i != -1) {
+            return i;
+        }
+        int i2 = 0;
+        boolean z = this.a;
+        if (z) {
+            i2 = 0 + CodedOutputStream.d(1, z);
+        }
+        this.memoizedSerializedSize = i2;
+        return i2;
+    }
+
+    public boolean i() {
+        return this.a;
+    }
+
+    @Override // com.google.protobuf.u
+    public void writeTo(CodedOutputStream codedOutputStream) {
+        boolean z = this.a;
+        if (z) {
+            codedOutputStream.A(1, z);
+        }
+    }
+}

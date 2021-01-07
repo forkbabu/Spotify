@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/driving_seekbar_size" android:width="@dimen/driving_seekbar_size"/>
+            <solid android:color="@color/white_20"/>
+        </shape>
+    </item>
+    <item android:left="48dp" android:top="48dp" android:right="48dp" android:bottom="48dp">
+        <shape android:shape="oval">
+            <size android:height="8dp" android:width="8dp"/>
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+</layer-list>

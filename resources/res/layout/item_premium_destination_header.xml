@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:id="@+id/feature_list_header" android:paddingLeft="32dp" android:paddingTop="32dp" android:paddingRight="32dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/premium_destination_what_you_get" style="?attr/pasteTextAppearanceBodyMediumBold"/>

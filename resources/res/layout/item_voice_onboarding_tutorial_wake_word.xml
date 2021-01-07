@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/drag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_16dp" android:src="@drawable/ic_drag"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_32dp" android:text="@string/tutorial_title" style="@style/Encore_TextView_Canon"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_16dp" android:layout_marginBottom="@dimen/std_16dp" android:text="@string/tutorial_description_one" style="@style/Encore_TextView_Ballad"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tutorial_description_two" style="@style/Encore_TextView_Ballad"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/std_24dp" android:text="@string/bubble_hey_spotify" style="@style/Bubble"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tutorial_description_three" style="@style/Encore_TextView_Ballad"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/std_24dp" android:text="@string/bubble_play_some_music" style="@style/Bubble"/>
+    <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <ImageButton android:layout_gravity="center" android:id="@android:id/button1" android:background="@null" android:layout_width="@dimen/earcons_size" android:layout_height="@dimen/earcons_size" android:layout_marginBottom="@dimen/earcons_bottom_margin" android:src="@drawable/ic_mic_retry" android:contentDescription="@string/tutorial_launch_content_description"/>
+</LinearLayout>

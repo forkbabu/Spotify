@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/naming_dialog" android:paddingLeft="32dp" android:paddingTop="16dp" android:paddingRight="32dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_centerInParent="true">
+        <TextView android:textAppearance="?attr/pasteTextAppearanceHeaderSmall" android:gravity="center" android:id="@+id/naming_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/rename_playlist_rename_title"/>
+        <EditText android:textAppearance="?attr/pasteTextAppearanceHeroSmall" android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/edit_text" android:background="@null" android:layout_width="match_parent" android:layout_height="48sp" android:layout_marginTop="52dp" android:maxLines="1" android:inputType="textCapSentences" android:imeOptions="actionDone"/>
+        <View android:background="@color/white_40" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="6dp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="56dp">
+            <TextView android:textAppearance="@style/res_2132083321_textappearance_cat_metadata" android:textSize="12sp" android:gravity="end" android:id="@+id/cancel_button" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/rename_playlist_rename_button_cancel" android:layout_weight="1" android:paddingStart="0dp" android:paddingEnd="20dp"/>
+            <TextView android:textAppearance="@style/res_2132083321_textappearance_cat_metadata" android:textSize="12sp" android:textColor="@color/btn_rename_playlist_continue" android:id="@+id/continue_button" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/rename_playlist_rename_button_rename" android:layout_weight="1" android:paddingStart="20dp" android:paddingEnd="0dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.music.features.podcast.episode.transcript.ui.views.TranscriptTextSectionView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/std_16dp" android:layout_marginTop="4dp" android:layout_marginRight="@dimen/std_16dp" android:layout_marginBottom="28dp" android:layout_marginStart="@dimen/std_16dp" android:layout_marginEnd="@dimen/std_16dp"/>

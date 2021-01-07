@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/home_root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/home_gradient_view" android:layout_width="match_parent" android:layout_height="@dimen/home_gradient_height"/>
+    <FrameLayout android:id="@+id/home_content" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/home_topbar_container" android:background="@color/pasteTransparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="0dp" app:elevation="0dp">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/home_topbar_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="0dp" app:layout_scrollFlags="3">
+            <View android:id="@+id/home_status_bar_placeholder" android:layout_width="match_parent" android:layout_height="2dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/home_topbar_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/home_toolbar_margin_32dp" android:layout_marginBottom="@dimen/home_toolbar_margin_12dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/home_status_bar_placeholder">
+                <TextView android:ellipsize="end" android:id="@+id/home_topbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/std_16dp" android:maxLines="1" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/home_icon_container" app:layout_constraintHorizontal_bias="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/Encore_TextView_Canon"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/home_icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHorizontal_bias="1" app:layout_constraintTop_toTopOf="0"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

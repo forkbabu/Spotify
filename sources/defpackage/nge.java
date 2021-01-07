@@ -1,0 +1,19 @@
+package defpackage;
+
+import com.spotify.signup.splitflow.views.j;
+import com.spotify.signup.splitflow.views.l;
+import io.reactivex.functions.a;
+
+/* renamed from: nge  reason: default package */
+public final /* synthetic */ class nge implements a {
+    public final /* synthetic */ l a;
+
+    public /* synthetic */ nge(l lVar) {
+        this.a = lVar;
+    }
+
+    @Override // io.reactivex.functions.a
+    public final void run() {
+        ((j) this.a).j();
+    }
+}

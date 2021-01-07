@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.fragment.app.FragmentContainerView android:id="@+id/zero_navigation_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.spotify.paste.spotifyicon.SpotifyIconView android:id="@+id/back_button" android:padding="@dimen/std_16dp" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/content_description_toolbar_back_button" app:iconSize="24dp" app:iconType="9" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

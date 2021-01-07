@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.spotify.music.contentviewstate.view.LoadingView android:id="@+id/loading_view" android:background="?android:attr/windowBackground" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:id="@+id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/indeterminateProgressBar"/>
+        <TextView android:textAppearance="?attr/pasteTextAppearanceHeadingSmall" android:gravity="center" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/local_files_import_scanning_body" android:layout_above="@+id/progress"/>
+    </com.spotify.music.contentviewstate.view.LoadingView>
+    <RelativeLayout android:id="@+id/content" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.common.view.SlidingTabLayout android:id="@+id/tabs" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/res_2132083067_localfilesimport_slidingtablayout"/>
+        <androidx.viewpager.widget.ViewPager android:id="@+id/pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/tabs"/>
+    </RelativeLayout>
+</RelativeLayout>

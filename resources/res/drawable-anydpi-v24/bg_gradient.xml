@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="480dp" android:width="315dp" android:viewportWidth="315" android:viewportHeight="480">
+    <group>
+        <clip-path android:pathData="M5 0H310C312.761 0 315 2.23858 315 5V475C315 477.761 312.761 480 310 480H5C2.23858 480 0 477.761 0 475V5C0 2.23858 2.23858 0 5 0Z"/>
+        <group android:pivotX="157.5" android:pivotY="240" android:scaleX="2" android:scaleY="2" android:rotation="90" android:translateX="1" android:translateY="0">
+            <path android:fillColor="@drawable/res_2131230727_bg_gradient__0" android:pathData="M0 0V480H315V0"/>
+        </group>
+    </group>
+</vector>

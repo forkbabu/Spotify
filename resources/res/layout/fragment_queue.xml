@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:paste="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.spotify.paste.spotifyicon.SpotifyIconView android:id="@+id/btn_close" android:layout_width="56dp" android:layout_height="56dp" android:scaleType="centerInside" android:contentDescription="@string/queue_content_description_btn_close" paste:iconColor="@color/btn_queue_now_playing_gray" paste:iconSize="18dp" paste:iconType="1136"/>
+        <com.spotify.music.nowplaying.common.view.header.TitleHeader android:id="@+id/title_header" android:layout_width="0dp" android:layout_height="56dp" android:layout_weight="1"/>
+        <LinearLayout android:gravity="center" android:id="@+id/facepile_container" android:visibility="invisible" android:layout_width="56dp" android:layout_height="56dp">
+            <com.spotify.music.sociallistening.facepile.FacePile android:id="@+id/facepile" android:layout_width="wrap_content" android:layout_height="34dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <com.spotify.music.features.queue.playcontrols.QueuePlayerControlsView android:id="@+id/player_controller" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.spotify.music.features.queue.view.AddRemoveQueueView android:id="@+id/add_remove_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

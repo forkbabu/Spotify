@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/gray_20" android:layout_width="0dp" android:layout_height="140dp" android:layout_weight="1">
+    <TextView android:gravity="center_horizontal" android:id="@+id/value_card_header" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/header_free" style="?attr/pasteTextAppearanceMetadata"/>
+    <TextView android:gravity="center" android:id="@+id/value_card_free_description" android:padding="8dp" android:layout_width="0dp" android:layout_height="0dp" android:maxLines="4" app:autoSizeMaxTextSize="18sp" app:autoSizeTextType="uniform" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="?attr/pasteTextAppearanceHeaderSmall"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

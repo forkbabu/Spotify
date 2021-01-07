@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/std_16dp">
+    <ImageView android:id="@android:id/icon" android:duplicateParentState="true" android:layout_width="@dimen/mobile_artistspickrow_imagesize" android:layout_height="@dimen/mobile_artistspickrow_imagesize" android:scaleType="centerCrop"/>
+    <FrameLayout android:id="@+id/artistspick_comment_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mobile_artistspickrow_comment_initial_left_margin" android:layout_marginTop="@dimen/std_8dp">
+        <include android:visibility="gone" layout="@layout/artistpick_comment"/>
+        <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/artistpick_nocomment"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@+id/labels" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/std_16dp" android:layout_marginRight="@dimen/std_16dp" android:layout_marginBottom="@dimen/std_8dp" android:layout_toRightOf="@android:id/icon" android:layout_below="@+id/artistspick_comment_container" android:layout_alignBottom="@android:id/icon">
+        <TextView android:textAppearance="?attr/pasteTextAppearance" android:ellipsize="end" android:id="@android:id/text1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:maxLines="1"/>
+        <TextView android:textAppearance="?attr/pasteTextAppearanceSecondary" android:ellipsize="end" android:id="@android:id/text2" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+    </LinearLayout>
+</RelativeLayout>

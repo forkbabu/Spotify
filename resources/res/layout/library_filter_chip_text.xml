@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textColor="@color/library_filter_chip_text" android:gravity="center" android:layout_gravity="center" android:id="@+id/name" android:paddingLeft="@dimen/std_16dp" android:paddingTop="@dimen/std_8dp" android:paddingRight="@dimen/std_16dp" android:paddingBottom="@dimen/std_8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Encore_TextView_Mesto"/>

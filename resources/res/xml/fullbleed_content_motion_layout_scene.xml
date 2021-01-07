@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Transition app:constraintSetEnd="@layout/fullbleed_content" app:constraintSetStart="@layout/fullbleed_content">
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="1" app:framePosition="0" app:motionTarget="@+id/artwork" app:transitionEasing="cubic(0.6, 0, 0.7, 1)"/>
+            <KeyAttribute android:alpha="0" app:framePosition="100" app:motionTarget="@+id/artwork"/>   
+            <KeyAttribute android:scaleX="1.1" android:scaleY="1.1" app:framePosition="0" app:motionTarget="@+id/artwork"/>
+            <KeyAttribute android:scaleX="1" android:scaleY="1" app:framePosition="100" app:motionTarget="@+id/artwork"/>   
+        </KeyFrameSet>
+    </Transition>
+</MotionScene>

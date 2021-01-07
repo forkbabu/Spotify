@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_playlist_your_episodes_subtitle">
+        <item quantity="one">%1$s выпуск</item>
+        <item quantity="few">%1$s выпуска</item>
+        <item quantity="many">%1$s выпусков</item>
+        <item quantity="other">%1$s выпуска</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_hours">
+        <item quantity="one">%1$d ч.</item>
+        <item quantity="few">%1$d ч.</item>
+        <item quantity="many">%1$d ч.</item>
+        <item quantity="other">%1$d ч.</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_min">
+        <item quantity="one">%1$d мин.</item>
+        <item quantity="few">%1$d мин.</item>
+        <item quantity="many">%1$d мин.</item>
+        <item quantity="other">%1$d мин.</item>
+    </plurals>
+    <plurals name="artist_header_followers_count">
+        <item quantity="one">%1$,d ПОДПИСЧИК</item>
+        <item quantity="few">%1$,d ПОДПИСЧИКА</item>
+        <item quantity="many">%1$,d ПОДПИСЧИКОВ</item>
+        <item quantity="other">%1$,d ПОДПИСЧИКА</item>
+    </plurals>
+    <plurals name="artist_number_of_songs">
+        <item quantity="one">%1$,d трек исполнителя %2$s</item>
+        <item quantity="few">%1$,d трека исполнителя %2$s</item>
+        <item quantity="many">%1$,d треков исполнителя %2$s</item>
+        <item quantity="other">%1$,d трека исполнителя %2$s</item>
+    </plurals>
+    <plurals name="artist_saved_songs_subtitle">
+        <item quantity="one">%1$d трек • %2$s</item>
+        <item quantity="few">%1$d трека • %2$s</item>
+        <item quantity="many">%1$d треков • %2$s</item>
+        <item quantity="other">%1$d трека • %2$s</item>
+    </plurals>
+    <plurals name="charts_daily_plays">
+        <item quantity="one">Послушали %1$,d раз за день</item>
+        <item quantity="few">Послушали %1$,d раза за день</item>
+        <item quantity="many">Послушали %1$,d раз за день</item>
+        <item quantity="other">Послушали %1$,d раза за день</item>
+    </plurals>
+    <plurals name="charts_header_new_entry_count">
+        <item quantity="one">%1$,d новый трек</item>
+        <item quantity="few">%1$,d новых трека</item>
+        <item quantity="many">%1$,d новых треков</item>
+        <item quantity="other">%1$,d нового трека</item>
+    </plurals>
+    <plurals name="collection_podcast_updated_days_ago">
+        <item quantity="one">Обновлено %1$d день назад</item>
+        <item quantity="few">Обновлено %1$d дня назад</item>
+        <item quantity="many">Обновлено %1$d дней назад</item>
+        <item quantity="other">Обновлено %1$d дня назад</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_hours">
+        <item quantity="one">%1$d час</item>
+        <item quantity="few">%1$d часа</item>
+        <item quantity="many">%1$d часов</item>
+        <item quantity="other">%1$d часа</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_mins">
+        <item quantity="one">%1$d минута</item>
+        <item quantity="few">%1$d минуты</item>
+        <item quantity="many">%1$d минут</item>
+        <item quantity="other">%1$d минуты</item>
+    </plurals>
+    <plurals name="device_picker_available_for_join_subtitle_others">
+        <item quantity="one">Слушают %1$s и еще %2$d пользователь</item>
+        <item quantity="few">Слушают %1$s и еще %2$d пользователя</item>
+        <item quantity="many">Слушают %1$s и еще %2$d пользователей</item>
+        <item quantity="other">Слушают %1$s и еще %2$d пользователя</item>
+    </plurals>
+    <plurals name="edit_profile_notice_character_cap">
+        <item quantity="one">Не более %1$,d символа</item>
+        <item quantity="few">Не более %1$,d символов</item>
+        <item quantity="many">Не более %1$,d символов</item>
+        <item quantity="other">Не более %1$,d символа</item>
+    </plurals>
+    <plurals name="error_dialog_body_resend_limit">
+        <item quantity="one">Подожди %1$d секунду и запроси новый код.</item>
+        <item quantity="few">Подожди %1$d секунды и запроси новый код.</item>
+        <item quantity="many">Подожди %1$d секунд и запроси новый код.</item>
+        <item quantity="other">Подожди %1$d секунды и запроси новый код.</item>
+    </plurals>
+    <plurals name="error_dialog_title_resend_limit">
+        <item quantity="one">Попробуй еще раз через %1$d секунду</item>
+        <item quantity="few">Попробуй еще раз через %1$d секунды</item>
+        <item quantity="many">Попробуй еще раз через %1$d секунд</item>
+        <item quantity="other">Попробуй еще раз через %1$d секунды</item>
+    </plurals>
+    <plurals name="find_friends_flow_confirm_desc">
+        <item quantity="one">Ты точно хочешь подписаться на %1$,d человека?</item>
+        <item quantity="few">Ты точно хочешь подписаться на %1$,d человек?</item>
+        <item quantity="many">Ты точно хочешь подписаться на %1$,d человек?</item>
+        <item quantity="other">Ты точно хочешь подписаться на %1$,d человека?</item>
+    </plurals>
+    <plurals name="follow_feed_timestamp_days_ago">
+        <item quantity="one">%1$d д. назад</item>
+        <item quantity="few">%1$d дн. назад</item>
+        <item quantity="many">%1$d дн. назад</item>
+        <item quantity="other">%1$d дн. назад</item>
+    </plurals>
+    <plurals name="follow_feed_timestamp_hours_ago">
+        <item quantity="one">%1$d ч. назад</item>
+        <item quantity="few">%1$d ч. назад</item>
+        <item quantity="many">%1$d ч. назад</item>
+        <item quantity="other">%1$d ч. назад</item>
+    </plurals>
+    <plurals name="follow_feed_timestamp_minutes_ago">
+        <item quantity="one">%1$d мин. назад</item>
+        <item quantity="few">%1$d мин. назад</item>
+        <item quantity="many">%1$d мин. назад</item>
+        <item quantity="other">%1$d мин. назад</item>
+    </plurals>
+    <plurals name="header_playlist_followers_count">
+        <item quantity="one">%1$,d ПОДПИСЧИК</item>
+        <item quantity="few">%1$,d ПОДПИСЧИКА</item>
+        <item quantity="many">%1$,d ПОДПИСЧИКОВ</item>
+        <item quantity="other">%1$,d ПОДПИСЧИКА</item>
+    </plurals>
+    <plurals name="home_inline_onboarding_header_title">
+        <item quantity="one">Улучши рекомендации — подпишись на %1$d исполнителя</item>
+        <item quantity="few">Улучши рекомендации — подпишись на %1$d исполнителей</item>
+        <item quantity="many">Улучши рекомендации — подпишись на %1$d исполнителей</item>
+        <item quantity="other">Улучши рекомендации — подпишись на %1$d исполнителя</item>
+    </plurals>
+    <plurals name="item_description_folder_folders_count">
+        <item quantity="one">%1$s папка</item>
+        <item quantity="few">%1$s папки</item>
+        <item quantity="many">%1$s папок</item>
+        <item quantity="other">%1$s папки</item>
+    </plurals>
+    <plurals name="item_description_folder_playlists_count">
+        <item quantity="one">%1$s плейлист</item>
+        <item quantity="few">%1$s плейлиста</item>
+        <item quantity="many">%1$s плейлистов</item>
+        <item quantity="other">%1$s плейлиста</item>
+    </plurals>
+    <plurals name="item_description_liked_songs">
+        <item quantity="one">Плейлист • %1$s трек</item>
+        <item quantity="few">Плейлист • %1$s трека</item>
+        <item quantity="many">Плейлист • %1$s треков</item>
+        <item quantity="other">Плейлист • %1$s трека</item>
+    </plurals>
+    <plurals name="item_description_liked_songs_filtered">
+        <item quantity="one">%1$s трек</item>
+        <item quantity="few">%1$s трека</item>
+        <item quantity="many">%1$s треков</item>
+        <item quantity="other">%1$s трека</item>
+    </plurals>
+    <plurals name="item_description_your_episodes">
+        <item quantity="one">Плейлист • %1$s выпуск</item>
+        <item quantity="few">Плейлист • %1$s выпуска</item>
+        <item quantity="many">Плейлист • %1$s выпусков</item>
+        <item quantity="other">Плейлист • %1$s выпуска</item>
+    </plurals>
+    <plurals name="item_description_your_episodes_filtered">
+        <item quantity="one">%1$s выпуск</item>
+        <item quantity="few">%1$s выпуска</item>
+        <item quantity="many">%1$s выпусков</item>
+        <item quantity="other">%1$s выпуска</item>
+    </plurals>
+    <plurals name="local_files_imported_dialog_body">
+        <item quantity="one">В медиатеку добавлен %1$,d трек</item>
+        <item quantity="few">В медиатеку добавлено %1$,d трека</item>
+        <item quantity="many">В медиатеку добавлено %1$,d треков</item>
+        <item quantity="other">В медиатеку добавлено %1$,d трека</item>
+    </plurals>
+    <plurals name="local_files_subtitle_number_of_songs">
+        <item quantity="one">%1$,d трек</item>
+        <item quantity="few">%1$,d трека</item>
+        <item quantity="many">%1$,d треков</item>
+        <item quantity="other">%1$,d трека</item>
+    </plurals>
+    <plurals name="mobile_artist_tracks_count">
+        <item quantity="one">%1$,d трек</item>
+        <item quantity="few">%1$,d трека</item>
+        <item quantity="many">%1$,d треков</item>
+        <item quantity="other">%1$,d трека</item>
+    </plurals>
+    <plurals name="notification_syncing_text">
+        <item quantity="one">%1$,d из %2$,d (%3$,d %%)</item>
+        <item quantity="few">%1$,d из %2$,d (%3$,d %%)</item>
+        <item quantity="many">%1$,d из %2$,d (%3$,d %%)</item>
+        <item quantity="other">%1$,d из %2$,d (%3$,d %%)</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="one">Мы отправили SMS с %1$d-значным кодом на номер %2$s.</item>
+        <item quantity="few">Мы отправили SMS с %1$d-значным кодом на номер %2$s.</item>
+        <item quantity="many">Мы отправили SMS с %1$d-значным кодом на номер %2$s.</item>
+        <item quantity="other">Мы отправили SMS с %1$d-значным кодом на номер %2$s.</item>
+    </plurals>
+    <plurals name="playlist_folder_count">
+        <item quantity="one">%1$,d папка</item>
+        <item quantity="few">%1$,d папки</item>
+        <item quantity="many">%1$,d папок</item>
+        <item quantity="other">%1$,d папки</item>
+    </plurals>
+    <plurals name="playlist_header_owner_button_text_collaborative">
+        <item quantity="one">%1$s и еще %2$d пользователь</item>
+        <item quantity="few">%1$s и еще %2$d пользователя</item>
+        <item quantity="many">%1$s и еще %2$d пользователей</item>
+        <item quantity="other">%1$s и еще %2$d пользователя</item>
+    </plurals>
+    <plurals name="playlist_header_subtitle_likes">
+        <item quantity="one">%1$s ЛАЙК</item>
+        <item quantity="few">%1$s ЛАЙКА</item>
+        <item quantity="many">%1$s ЛАЙКОВ</item>
+        <item quantity="other">%1$s ЛАЙКА</item>
+    </plurals>
+    <plurals name="playlist_header_subtitle_owner_collaborative">
+        <item quantity="one">Авторы: %1$s и еще %2$d пользователь</item>
+        <item quantity="few">Авторы: %1$s и еще %2$d пользователя</item>
+        <item quantity="many">Авторы: %1$s и еще %2$d пользователей</item>
+        <item quantity="other">Авторы: %1$s и еще %2$d пользователя</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_episodes">
+        <item quantity="one">%1$d выпуск</item>
+        <item quantity="few">%1$d выпуска</item>
+        <item quantity="many">%1$d выпусков</item>
+        <item quantity="other">%1$d выпуска</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_tracks">
+        <item quantity="one">%1$d трек</item>
+        <item quantity="few">%1$d трека</item>
+        <item quantity="many">%1$d треков</item>
+        <item quantity="other">%1$d трека</item>
+    </plurals>
+    <plurals name="playlist_participants_title">
+        <item quantity="one">%1$d человек</item>
+        <item quantity="few">%1$d человека</item>
+        <item quantity="many">%1$d человек</item>
+        <item quantity="other">%1$d человека</item>
+    </plurals>
+    <plurals name="playlist_playlist_count">
+        <item quantity="one">%1$,d плейлист</item>
+        <item quantity="few">%1$,d плейлиста</item>
+        <item quantity="many">%1$,d плейлистов</item>
+        <item quantity="other">%1$,d плейлиста</item>
+    </plurals>
+    <plurals name="playlist_track_count">
+        <item quantity="one">%1$,d трек</item>
+        <item quantity="few">%1$,d трека</item>
+        <item quantity="many">%1$,d треков</item>
+        <item quantity="other">%1$,d трека</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_episodes">
+        <item quantity="one">%1$,d ЭПИЗОД</item>
+        <item quantity="few">%1$,d ЭПИЗОДА</item>
+        <item quantity="many">%1$,d ЭПИЗОДОВ</item>
+        <item quantity="other">%1$,d ЭПИЗОДА</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_songs">
+        <item quantity="one">%1$,d ТРЕК</item>
+        <item quantity="few">%1$,d ТРЕКА</item>
+        <item quantity="many">%1$,d ТРЕКОВ</item>
+        <item quantity="other">%1$,d ТРЕКА</item>
+    </plurals>
+    <plurals name="podcast_poll_days_left_label">
+        <item quantity="one">Остался %1$d день</item>
+        <item quantity="few">Осталось %1$d дня</item>
+        <item quantity="many">Осталось %1$d дней</item>
+        <item quantity="other">Осталось %1$d дня</item>
+    </plurals>
+    <plurals name="podcast_poll_hours_left_label">
+        <item quantity="one">%1$d час</item>
+        <item quantity="few">%1$d часа</item>
+        <item quantity="many">%1$d часов</item>
+        <item quantity="other">%1$d часа</item>
+    </plurals>
+    <plurals name="podcast_poll_minutes_left_label">
+        <item quantity="one">Осталась %1$d минута</item>
+        <item quantity="few">Осталось %1$d минуты</item>
+        <item quantity="many">Осталось %1$d минут</item>
+        <item quantity="other">Осталось %1$d минуты</item>
+    </plurals>
+    <plurals name="podcast_poll_poll_subtitle">
+        <item quantity="one">%1$d голос • %2$s</item>
+        <item quantity="few">%1$d голоса • %2$s</item>
+        <item quantity="many">%1$d голосов • %2$s</item>
+        <item quantity="other">%1$d голоса • %2$s</item>
+    </plurals>
+    <plurals name="podcast_qna_days_ago">
+        <item quantity="one">%1$d день назад</item>
+        <item quantity="few">%1$d дня назад</item>
+        <item quantity="many">%1$d дней назад</item>
+        <item quantity="other">%1$d дня назад</item>
+    </plurals>
+    <plurals name="podcast_qna_month_ago">
+        <item quantity="one">%1$d месяц назад</item>
+        <item quantity="few">%1$d месяца назад</item>
+        <item quantity="many">%1$d месяцев назад</item>
+        <item quantity="other">%1$d месяца назад</item>
+    </plurals>
+    <plurals name="podcast_qna_week_ago">
+        <item quantity="one">%1$d неделю назад</item>
+        <item quantity="few">%1$d недели назад</item>
+        <item quantity="many">%1$d недель назад</item>
+        <item quantity="other">%1$d недели назад</item>
+    </plurals>
+    <plurals name="podcast_topic_episodes">
+        <item quantity="one">%1$d выпуск подкаста</item>
+        <item quantity="few">%1$d выпуска подкаста</item>
+        <item quantity="many">%1$d выпусков подкаста</item>
+        <item quantity="other">%1$d выпуска подкаста</item>
+    </plurals>
+    <plurals name="points_label">
+        <item quantity="one">Очки: %1$d</item>
+        <item quantity="few">Очки: %1$d</item>
+        <item quantity="many">Очки: %1$d</item>
+        <item quantity="other">Очки: %1$d</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_add_song_subtitle">
+        <item quantity="one">Остался %1$d трек.</item>
+        <item quantity="few">Осталось %1$d трека.</item>
+        <item quantity="many">Осталось %1$d треков.</item>
+        <item quantity="other">Осталось %1$d трека.</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_subtitle">
+        <item quantity="one">%1$d трек • %2$s</item>
+        <item quantity="few">%1$d трека • %2$s</item>
+        <item quantity="many">%1$d треков • %2$s</item>
+        <item quantity="other">%1$d трека • %2$s</item>
+    </plurals>
+    <plurals name="profile_list_item_followers_count">
+        <item quantity="one">%1$,d подписчик</item>
+        <item quantity="few">%1$,d подписчика</item>
+        <item quantity="many">%1$,d подписчиков</item>
+        <item quantity="other">%1$,d подписчика</item>
+    </plurals>
+    <plurals name="redownload_dialog_message">
+        <item quantity="one">Чтобы снова слушать эти треки офлайн, скачай их на устройство. Они займут %1$d МБ памяти.</item>
+        <item quantity="few">Чтобы снова слушать эти треки офлайн, скачай их на устройство. Они займут %1$d МБ памяти.</item>
+        <item quantity="many">Чтобы снова слушать эти треки офлайн, скачай их на устройство. Они займут %1$d МБ памяти.</item>
+        <item quantity="other">Чтобы снова слушать эти треки офлайн, скачай их на устройство. Они займут %1$d МБ памяти.</item>
+    </plurals>
+    <plurals name="refresh_header_followers_count">
+        <item quantity="one">%1$,d подписчик</item>
+        <item quantity="few">%1$,d подписчика</item>
+        <item quantity="many">%1$,d подписчиков</item>
+        <item quantity="other">%1$,d подписчика</item>
+    </plurals>
+    <plurals name="refresh_header_likes_count">
+        <item quantity="one">%1$s лайк</item>
+        <item quantity="few">%1$s лайка</item>
+        <item quantity="many">%1$s лайков</item>
+        <item quantity="other">%1$s лайка</item>
+    </plurals>
+    <plurals name="response_count">
+        <item quantity="one">%1$d ответ</item>
+        <item quantity="few">%1$d ответа</item>
+        <item quantity="many">%1$d ответов</item>
+        <item quantity="other">%1$d ответа</item>
+    </plurals>
+    <plurals name="selection_subtitle">
+        <item quantity="one">Выбрано строчек: %1$d из %2$d.</item>
+        <item quantity="few">Выбрано строчек: %1$d из %2$d.</item>
+        <item quantity="many">Выбрано строчек: %1$d из %2$d.</item>
+        <item quantity="other">Выбрано строчек: %1$d из %2$d.</item>
+    </plurals>
+    <plurals name="share_notice">
+        <item quantity="one">Чтобы поделиться, добавь %1$d трек.</item>
+        <item quantity="few">Чтобы поделиться, добавь %1$d трека.</item>
+        <item quantity="many">Чтобы поделиться, добавь %1$d треков.</item>
+        <item quantity="other">Чтобы поделиться, добавь %1$d трека.</item>
+    </plurals>
+    <plurals name="social_listening_join_failed_session_full_body">
+        <item quantity="one">В сеансе уже участвует %1$s человек — это максимальное количество.</item>
+        <item quantity="few">В сеансе уже участвуют %1$s человека — это максимальное количество.</item>
+        <item quantity="many">В сеансе уже участвуют %1$s человек — это максимальное количество.</item>
+        <item quantity="other">В сеансе уже участвуют %1$s человека — это максимальное количество.</item>
+    </plurals>
+    <plurals name="social_listening_participant_list_invite_notice_title">
+        <item quantity="one">Пригласи до %1$s друга</item>
+        <item quantity="few">Пригласи до %1$s друзей</item>
+        <item quantity="many">Пригласи до %1$s друзей</item>
+        <item quantity="other">Пригласи до %1$s друга</item>
+    </plurals>
+    <plurals name="social_listening_participants_listening">
+        <item quantity="one">%1$s слушатель</item>
+        <item quantity="few">%1$s слушателя</item>
+        <item quantity="many">%1$s слушателей</item>
+        <item quantity="other">%1$s слушателя</item>
+    </plurals>
+    <plurals name="song_limit_dialog_title">
+        <item quantity="one">Достигнут лимит: скачан %1$d трек</item>
+        <item quantity="few">Достигнут лимит: скачано %1$d трека</item>
+        <item quantity="many">Достигнут лимит: скачано %1$d треков</item>
+        <item quantity="other">Достигнут лимит: скачано %1$d трека</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="one">%d д</item>
+        <item quantity="few">%d д</item>
+        <item quantity="many">%d д</item>
+        <item quantity="other">%d д</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="one">%d ч</item>
+        <item quantity="few">%d ч</item>
+        <item quantity="many">%d ч</item>
+        <item quantity="other">%d ч</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="one">%d м</item>
+        <item quantity="few">%d м</item>
+        <item quantity="many">%d м</item>
+        <item quantity="other">%d м</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="one">%d дн.</item>
+        <item quantity="few">%d дн.</item>
+        <item quantity="many">%d дн.</item>
+        <item quantity="other">%d дн.</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="one">%d ч.</item>
+        <item quantity="few">%d ч.</item>
+        <item quantity="many">%d ч.</item>
+        <item quantity="other">%d ч.</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="one">%d мин.</item>
+        <item quantity="few">%d мин.</item>
+        <item quantity="many">%d мин.</item>
+        <item quantity="other">%d мин.</item>
+    </plurals>
+    <plurals name="time_format_hours">
+        <item quantity="one">%1$d ч.</item>
+        <item quantity="few">%1$d ч.</item>
+        <item quantity="many">%1$d ч.</item>
+        <item quantity="other">%1$d ч.</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="one">%1$d мин.</item>
+        <item quantity="few">%1$d мин.</item>
+        <item quantity="many">%1$d мин.</item>
+        <item quantity="other">%1$d мин.</item>
+    </plurals>
+    <plurals name="time_format_sec">
+        <item quantity="one">%1$d сек.</item>
+        <item quantity="few">%1$d сек.</item>
+        <item quantity="many">%1$d сек.</item>
+        <item quantity="other">%1$d сек.</item>
+    </plurals>
+    <plurals name="title_group_session_view">
+        <item quantity="one">Слушает %1$d человек</item>
+        <item quantity="few">Слушают %1$d человека</item>
+        <item quantity="many">Слушают %1$d человек</item>
+        <item quantity="other">Слушают %1$d человека</item>
+    </plurals>
+    <plurals name="toast_imported_to_collection">
+        <item quantity="one">Добавлен %1$,d трек</item>
+        <item quantity="few">Добавлено %1$,d трека</item>
+        <item quantity="many">Добавлено %1$,d треков</item>
+        <item quantity="other">Добавлено %1$,d трека</item>
+    </plurals>
+    <plurals name="user_mix_songs_limit_popup_header">
+        <item quantity="one">В плейлисте «Скачанные треки» уже есть %1$d композиция — это максимум</item>
+        <item quantity="few">В плейлисте «Скачанные треки» уже есть %1$d композиции — это максимум</item>
+        <item quantity="many">В плейлисте «Скачанные треки» уже есть %1$d композиций — это максимум</item>
+        <item quantity="other">В плейлисте «Скачанные треки» уже есть %1$d композиции — это максимум</item>
+    </plurals>
+    <plurals name="your_episodes_header_subtitle">
+        <item quantity="one">%1$d выпуск</item>
+        <item quantity="few">%1$d выпуска</item>
+        <item quantity="many">%1$d выпусков</item>
+        <item quantity="other">%1$d выпуска</item>
+    </plurals>
+    <plurals name="your_episodes_subtitle">
+        <item quantity="one">%1$d выпуск</item>
+        <item quantity="few">%1$d выпуска</item>
+        <item quantity="many">%1$d выпусков</item>
+        <item quantity="other">%1$d выпуска</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_artist_tracks_in_collection_subtitle">
+        <item quantity="one">%1$s трек</item>
+        <item quantity="few">%1$s трека</item>
+        <item quantity="many">%1$s треков</item>
+        <item quantity="other">%1$s трека</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_favorite_songs_subtitle">
+        <item quantity="one">%1$s трек</item>
+        <item quantity="few">%1$s трека</item>
+        <item quantity="many">%1$s треков</item>
+        <item quantity="other">%1$s трека</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_folder_folders_count_subtitle">
+        <item quantity="one">%1$s папка</item>
+        <item quantity="few">%1$s папки</item>
+        <item quantity="many">%1$s папок</item>
+        <item quantity="other">%1$s папки</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_folder_subtitle">
+        <item quantity="one">%1$s плейлист</item>
+        <item quantity="few">%1$s плейлиста</item>
+        <item quantity="many">%1$s плейлистов</item>
+        <item quantity="other">%1$s плейлиста</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_your_episodes_subtitle">
+        <item quantity="one">%1$s выпуск</item>
+        <item quantity="few">%1$s выпуска</item>
+        <item quantity="many">%1$s выпусков</item>
+        <item quantity="other">%1$s выпуска</item>
+    </plurals>
+</resources>

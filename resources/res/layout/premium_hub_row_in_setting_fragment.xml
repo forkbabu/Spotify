@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.paste.widgets.layouts.PasteLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/premium_hub_row_in_setting_fragment" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="?attr/pasteTextAppearanceHeaderSmall" android:id="@+id/premium_hub_setting_row_label" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:layout_marginBottom="8dp" android:text="@string/premium_account" android:maxLines="1"/>
+    <Button android:id="@+id/btn_view_other_plans" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:text="@string/view_other_plans" android:filterTouchesWhenObscured="false" style="@style/res_2132083974_widget_solar_button_primary_white"/>
+</com.spotify.paste.widgets.layouts.PasteLinearLayout>

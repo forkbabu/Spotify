@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.music.features.navigation.BottomNavigationItemView xmlns:android="http://schemas.android.com/apk/res/android" style="@style/res_2132082927_bottomnavigationitem_adaptive">
+    <View android:id="@+id/bottom_navigation_item_indicator" style="@style/res_2132082931_bottomnavigationitemindicator_adaptive"/>
+    <ImageView android:id="@+id/bottom_navigation_item_icon" android:contentDescription="@null" style="@style/res_2132082929_bottomnavigationitemicon_adaptive"/>
+    <TextView android:id="@+id/bottom_navigation_item_title" style="@style/res_2132082933_bottomnavigationitemtitle_adaptive"/>
+</com.spotify.music.features.navigation.BottomNavigationItemView>

@@ -1,0 +1,87 @@
+package io.netty.handler.codec.http;
+
+import com.spotify.mobile.android.spotlets.appprotocol.model.AppProtocol;
+import io.netty.util.c;
+
+public final class p {
+    public static final c a = new c("authorization");
+    public static final c b = new c("connection");
+    public static final c c = new c("content-length");
+    public static final c d = new c("content-type");
+    public static final c e = new c("host");
+    public static final c f = new c("sec-websocket-key1");
+    public static final c g = new c("sec-websocket-key2");
+    public static final c h = new c("sec-websocket-location");
+    public static final c i = new c("sec-websocket-origin");
+    public static final c j = new c("sec-websocket-accept");
+    public static final c k = new c("trailer");
+    public static final c l = new c("transfer-encoding");
+    public static final c m = new c("upgrade");
+
+    static {
+        new c("accept");
+        new c("accept-charset");
+        new c("accept-encoding");
+        new c("accept-language");
+        new c("accept-ranges");
+        new c("accept-patch");
+        new c("access-control-allow-credentials");
+        new c("access-control-allow-headers");
+        new c("access-control-allow-methods");
+        new c("access-control-allow-origin");
+        new c("access-control-expose-headers");
+        new c("access-control-max-age");
+        new c("access-control-request-headers");
+        new c("access-control-request-method");
+        new c("age");
+        new c("allow");
+        new c("cache-control");
+        new c("content-base");
+        new c("content-encoding");
+        new c("content-language");
+        new c("content-location");
+        new c("content-transfer-encoding");
+        new c("content-disposition");
+        new c("content-md5");
+        new c("content-range");
+        new c("cookie");
+        new c("date");
+        new c("etag");
+        new c("expect");
+        new c("expires");
+        new c("from");
+        new c("if-match");
+        new c("if-modified-since");
+        new c("if-none-match");
+        new c("if-range");
+        new c("if-unmodified-since");
+        new c("keep-alive");
+        new c("last-modified");
+        new c("location");
+        new c("max-forwards");
+        new c("origin");
+        new c("pragma");
+        new c("proxy-authenticate");
+        new c("proxy-authorization");
+        new c("proxy-connection");
+        new c("range");
+        new c("referer");
+        new c("retry-after");
+        new c("sec-websocket-protocol");
+        new c("sec-websocket-version");
+        new c("sec-websocket-key");
+        new c("sec-websocket-extensions");
+        new c("server");
+        new c("set-cookie");
+        new c("set-cookie2");
+        new c("te");
+        new c("user-agent");
+        new c("vary");
+        new c("via");
+        new c(AppProtocol.LogMessage.SEVERITY_WARNING);
+        new c("websocket-location");
+        new c("websocket-origin");
+        new c("websocket-protocol");
+        new c("www-authenticate");
+    }
+}

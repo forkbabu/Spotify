@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/toolbar_wrapper" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.spotify.music.features.editplaylist.header.SimpleHeaderLayout android:id="@+id/glue_header_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="com.spotify.android.glue.patterns.header.behavior.GlueScrollingViewBehavior"/>
+            <com.spotify.paste.widgets.recyclerview.fastscroll.RecyclerViewFastScroller android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/recycler_view_fast_scroll" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <com.spotify.music.features.editplaylist.header.SimpleHeaderView android:gravity="center" android:id="@+id/header_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes"/>
+        </com.spotify.music.features.editplaylist.header.SimpleHeaderLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.mobile.android.ui.view.DownloadHeaderView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:id="@+id/header" android:background="?attr/pasteColorSubHeaderBackground" android:paddingLeft="@dimen/download_button_margin" android:paddingRight="@dimen/download_button_margin" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:id="@+id/button_download_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/download_header_content_height">
+        <TextView android:textAppearance="?attr/pasteTextAppearance" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/header_download_available_offline_new_copy" android:layout_weight="1" android:textAlignment="viewStart"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-4dp">
+        <TextView android:textAppearance="?attr/pasteTextAppearanceSecondary" android:textColor="@color/gray_70" android:gravity="center" android:id="@+id/text_waiting" android:paddingBottom="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/header_download_waiting" android:drawableLeft="@drawable/icn_download_header_waiting" android:drawablePadding="5dp" android:drawableStart="@drawable/icn_download_header_waiting"/>
+        <ProgressBar android:id="@+id/progress_bar" android:paddingLeft="0dp" android:paddingRight="0dp" android:paddingBottom="@dimen/download_header_progress_bar_padding_bottom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/download_header_progress_bar_height" style="?attr/pasteProgressBarStyleHorizontal"/>
+    </FrameLayout>
+</com.spotify.mobile.android.ui.view.DownloadHeaderView>

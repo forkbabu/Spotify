@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform_AppCompat" parent="@style/Platform_V25_AppCompat">
+    </style>
+    <style name="Platform_AppCompat_Light" parent="@style/Platform_V25_AppCompat_Light">
+    </style>
+    <style name="Platform_V25_AppCompat" parent="@android:style/Theme.Material.NoActionBar">
+    </style>
+    <style name="Platform_V25_AppCompat_Light" parent="@android:style/Theme.Material.Light.NoActionBar">
+    </style>
+</resources>

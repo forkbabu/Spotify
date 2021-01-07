@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@android:interpolator/linear_out_slow_in" android:duration="@android:integer/config_shortAnimTime" android:transitionOrdering="together">
+    <fade/>
+    <targets>
+        <target android:targetId="@android:id/list"/>
+        <target android:targetId="@+id/floating_action_button"/>
+    </targets>
+</transitionSet>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/app_bar_layout" android:background="@color/header_background_default" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.constraintlayout.motion.widget.MotionLayout android:id="@+id/motion_container" android:background="@drawable/header_background_gradient" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize" app:layoutDescription="@xml/header_motion_layout_scene" app:layout_scrollFlags="3">
+        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="@drawable/toolbar_background_gradient" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:titleMarginStart="@dimen/toolbar_title_start_margin" app:titleTextAppearance="@style/Encore_TextView_BalladBold"/>
+        <com.spotify.encore.consumer.elements.backbutton.BackButtonView android:id="@+id/back_button" android:layout_width="@dimen/encore_back_button_size" android:layout_height="@dimen/encore_back_button_size" android:layout_marginTop="@dimen/header_back_button_top_margin" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="@+id/toolbar"/>
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+</com.google.android.material.appbar.AppBarLayout>

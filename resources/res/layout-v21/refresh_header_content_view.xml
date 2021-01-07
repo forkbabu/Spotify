@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/header_content" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_scrollFlags="1">
+    <FrameLayout android:id="@+id/cover_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.spotify.paste.widgets.FlexibleSquareImageView android:layout_gravity="center" android:id="@+id/cover_art_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:elevation="4dp" android:outlineProvider="bounds" app:widthFraction="@fraction/header_cover_art_screen_width_percentage"/>
+        <TextView android:ellipsize="end" android:layout_gravity="bottom" android:id="@+id/full_bleed_title" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="64sp" android:maxLines="2" android:elevation="5dp" app:autoSizeTextType="uniform" style="@style/Encore_TextView_Alto"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/data_container" android:paddingLeft="16dp" android:paddingRight="94dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="8dp">
+        <TextView android:ellipsize="end" android:id="@+id/title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" app:autoSizeTextType="uniform" style="@style/Encore_TextView_Alto"/>
+        <TextView android:textColor="@color/white_70" android:ellipsize="end" android:id="@+id/metadata_section" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:maxLines="2" style="@style/Encore_TextView_Finale"/>
+        <TextView android:textColor="@color/white_70" android:ellipsize="end" android:id="@+id/description" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:maxLines="2" style="@style/Encore_TextView_Finale"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/follow_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</LinearLayout>

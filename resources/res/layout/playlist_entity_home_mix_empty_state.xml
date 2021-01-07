@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?attr/pasteTextAppearanceHeaderLarge" android:textSize="32sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/home_mix_empty_state_title" android:paddingBottom="80dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/home_mix_taste_onboarding_cta_reminder" android:lineSpacingMultiplier="0.9"/>
+    <FrameLayout android:id="@+id/home_mix_empty_state_cta" android:background="@drawable/playlist_entity_home_mix_gradient_to_black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignBottom="@+id/home_mix_empty_state_title">
+        <Button android:textSize="16sp" android:ellipsize="none" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/action_button" android:layout_width="wrap_content" android:layout_height="48dp" android:layout_marginTop="32dp" android:text="@string/home_mix_taste_onboarding_cta_button" android:singleLine="true" android:maxLength="28" android:filterTouchesWhenObscured="false" android:textAllCaps="true" style="?attr/glueButtonPrimaryWhite"/>
+    </FrameLayout>
+</merge>

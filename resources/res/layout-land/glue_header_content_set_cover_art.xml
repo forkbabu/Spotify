@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.android.glue.patterns.header.headers.NonOverlappingLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.spotify.paste.widgets.FlexibleSquareImageView android:layout_gravity="center" android:id="@+id/cover_art_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="8dp" android:layout_marginRight="24dp" android:layout_marginBottom="8dp" android:minWidth="112dp" app:widthFraction="@fraction/header_cover_art_screen_width_percentage"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <me.grantland.widget.AutofitTextView android:ellipsize="end" android:gravity="left" android:id="@android:id/text1" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/res_2132083824_widget_header_title_small_left"/>
+        <TextView android:gravity="left" android:id="@android:id/text2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/res_2132083821_widget_header_subtitle_small_left"/>
+        <TextView android:id="@+id/metadata" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" style="@style/res_2132083816_widget_header_metadata"/>
+    </LinearLayout>
+</com.spotify.android.glue.patterns.header.headers.NonOverlappingLinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.encore.consumer.elements.heart.HeartButton android:id="@+id/heart_btn" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:iconSize="@dimen/player_side_action_button_drawable_size"/>
+    <com.spotify.encore.consumer.elements.heart.AnimatedHeartButton android:layout_gravity="center" android:id="@+id/animated_heart_btn" android:visibility="gone" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</merge>

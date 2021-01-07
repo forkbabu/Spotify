@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/bookmark_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Use as startpage" android:filterTouchesWhenObscured="false" style="?attr/pasteButtonStyleInfoSmall"/>
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/reset_bookmark_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Reset startpage" android:filterTouchesWhenObscured="false" style="?attr/pasteButtonStyleInfoSmall"/>
+    </LinearLayout>
+    <TextView android:textAppearance="?attr/pasteTextAppearanceHeadingSmall" android:gravity="center" android:id="@+id/view_debug_toolbar_header" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:textAppearance="?attr/pasteTextAppearanceMicro" android:ellipsize="end" android:id="@+id/view_debug_info_panel" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:textAppearance="?attr/pasteTextAppearanceHeaderSmall" android:layout_gravity="center" android:id="@+id/view_debug_info_nav" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Feature Tooling"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/data" android:background="@color/gray_7" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:orientation="horizontal" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="12sp" android:id="@+id/view_debug_toolbar_issue_button" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:text="Report bug" android:layout_weight="1" android:filterTouchesWhenObscured="false" style="?attr/pasteButtonStyleInfo"/>
+        <Button android:textSize="12sp" android:id="@+id/view_debug_toolbar_tools_button" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:text="To debug" android:layout_weight="1" android:filterTouchesWhenObscured="false" style="?attr/pasteButtonStylePrimary"/>
+    </LinearLayout>
+</LinearLayout>

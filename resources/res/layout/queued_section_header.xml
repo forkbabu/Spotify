@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="?attr/pasteTextAppearanceBodyMediumBold" android:textColor="?attr/glueSectionHeaderTitleColor" android:ellipsize="end" android:id="@android:id/text1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="16dp" android:text="@string/queue_section_next_in_queue" android:maxLines="1" android:layout_alignParentLeft="true"/>
+    <Button android:id="@+id/clear_queue_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/queue_clear_all" android:layout_alignBaseline="@android:id/text1" android:layout_alignParentRight="true" android:filterTouchesWhenObscured="true" style="?attr/pasteButtonStyleSmall"/>
+</RelativeLayout>

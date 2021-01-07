@@ -1,0 +1,17 @@
+package defpackage;
+
+import com.spotify.android.glue.patterns.toolbarmenu.w;
+
+/* renamed from: fv6  reason: default package */
+public final /* synthetic */ class fv6 implements w {
+    public final /* synthetic */ wt6 a;
+
+    public /* synthetic */ fv6(wt6 wt6) {
+        this.a = wt6;
+    }
+
+    @Override // com.spotify.android.glue.patterns.toolbarmenu.w
+    public final void a() {
+        this.a.m();
+    }
+}

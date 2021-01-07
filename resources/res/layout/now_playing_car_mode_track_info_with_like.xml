@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.music.nowplaying.common.view.trackinfo.MarqueeTrackInfoView android:id="@+id/track_info_view" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@+id/seek_bar_view" app:layout_constraintEnd_toStartOf="@+id/heart_button" app:layout_constraintStart_toStartOf="@+id/guideline_content_start" app:marqueeSubtitleTextAppearance="@style/res_2132083285_textappearance_carmode_marqueetracksubtitle" app:marqueeTitleTextAppearance="@style/res_2132083286_textappearance_carmode_marqueetracktitle"/>
+    <com.spotify.music.carmode.nowplaying.common.view.HeartButton android:id="@+id/heart_button" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@+id/track_info_view" app:layout_constraintEnd_toEndOf="@+id/guideline_content_end" app:layout_constraintTop_toTopOf="@+id/track_info_view"/>
+</merge>

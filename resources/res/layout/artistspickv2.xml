@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/white_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/std_16dp" app:cardCornerRadius="4dp">
+    <androidx.percentlayout.widget.PercentFrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/artistspick_background" android:layout_height="0dp" android:scaleType="centerCrop" app:layout_aspectRatio="150%" app:layout_widthPercent="100%"/>
+        <com.spotify.mobile.android.ui.view.GradientView android:layout_height="0dp" android:startColor="#34000000" android:endColor="#c0000000" android:angle="270" app:layout_aspectRatio="150%" app:layout_widthPercent="100%"/>
+    </androidx.percentlayout.widget.PercentFrameLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/std_16dp" android:layout_marginTop="@dimen/std_16dp" android:layout_marginRight="@dimen/std_16dp">
+        <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/artistpick_comment"/>
+        <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/artistpick_nocomment"/>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/artistspick_description_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/std_8dp"/>
+</androidx.cardview.widget.CardView>

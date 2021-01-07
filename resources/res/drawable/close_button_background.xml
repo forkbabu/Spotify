@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <stroke android:width="@dimen/stroke_shape_thickness" android:color="@color/white_30"/>
+        </shape>
+    </item>
+    <item android:left="@dimen/cross_line_padding" android:top="@dimen/cross_line_padding" android:right="@dimen/cross_line_padding" android:bottom="@dimen/cross_line_padding">
+        <rotate android:fromDegrees="135" android:toDegrees="135" android:pivotX="50%" android:pivotY="50%">
+            <shape android:shape="line">
+                <stroke android:width="@dimen/stroke_shape_thickness" android:color="@color/white"/>
+            </shape>
+        </rotate>
+    </item>
+    <item android:left="@dimen/cross_line_padding" android:top="@dimen/cross_line_padding" android:right="@dimen/cross_line_padding" android:bottom="@dimen/cross_line_padding">
+        <rotate android:fromDegrees="45" android:toDegrees="45" android:pivotX="50%" android:pivotY="50%">
+            <shape android:shape="line">
+                <stroke android:width="@dimen/stroke_shape_thickness" android:color="@color/white"/>
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

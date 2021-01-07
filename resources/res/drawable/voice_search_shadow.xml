@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <gradient android:startColor="@color/black_50" android:endColor="@color/black_0" android:angle="0" android:type="radial" android:gradientRadius="@dimen/voice_search_shadow_radius"/>
+</shape>

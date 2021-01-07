@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/eventsender_core_event_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16dp" android:text="@string/eventsender_button_text" android:filterTouchesWhenObscured="false" style="?attr/glueButtonPrimaryGreen"/>
+</LinearLayout>

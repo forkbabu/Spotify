@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="@color/track_row_charts_circle"/>
+    <size android:height="@dimen/charts_new_indicator_size" android:width="@dimen/charts_new_indicator_size"/>
+</shape>

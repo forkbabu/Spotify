@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CardText" parent="@style/CardTextBase">
+    </style>
+    <style name="CardTextBase" parent="@style/res_2132083459_textview_medium_light">
+        <item name="android:textColor">@color/card_text_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">0.92</item>
+    </style>
+    <style name="CardTitle" parent="@style/CardTitleBase">
+    </style>
+    <style name="CardTitleBase" parent="@style/res_2132083459_textview_medium_light">
+        <item name="android:textColor">@color/card_grey_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="DismissOverlayText" parent="@style/res_2132083457_textview_large_light">
+        <item name="android:textColor">@color/primary_text_dark</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@color/dismiss_close</item>
+        <item name="android:lineSpacingExtra">-2sp</item>
+    </style>
+    <style name="DotsPageIndicatorStyle">
+        <item name="dotColor">@color/white</item>
+        <item name="dotColorSelected">@color/white</item>
+        <item name="dotFadeInDuration">100</item>
+        <item name="dotFadeOutDelay">1000</item>
+        <item name="dotFadeOutDuration">250</item>
+        <item name="dotFadeWhenIdle">true</item>
+        <item name="dotRadius">2.1dp</item>
+        <item name="dotRadiusSelected">3.1dp</item>
+        <item name="dotShadowColor">#66000000</item>
+        <item name="dotShadowDx">1px</item>
+        <item name="dotShadowDy">1px</item>
+        <item name="dotShadowRadius">2px</item>
+        <item name="dotSpacing">7.8dp</item>
+    </style>
+    <style name="PageIndicatorViewStyle">
+        <item name="pageIndicatorDotColor">?android:attr/colorForeground</item>
+        <item name="pageIndicatorDotColorSelected">?android:attr/colorForeground</item>
+        <item name="pageIndicatorDotFadeInDuration">100</item>
+        <item name="pageIndicatorDotFadeOutDelay">1000</item>
+        <item name="pageIndicatorDotFadeOutDuration">250</item>
+        <item name="pageIndicatorDotFadeWhenIdle">true</item>
+        <item name="pageIndicatorDotRadius">2.1dp</item>
+        <item name="pageIndicatorDotRadiusSelected">3.1dp</item>
+        <item name="pageIndicatorDotShadowColor">#66000000</item>
+        <item name="pageIndicatorDotShadowDx">1px</item>
+        <item name="pageIndicatorDotShadowDy">1px</item>
+        <item name="pageIndicatorDotShadowRadius">2px</item>
+        <item name="pageIndicatorDotSpacing">7.8dp</item>
+    </style>
+    <style name="res_2132083448_textappearance_wearable_large" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/primary_text_light</item>
+    </style>
+    <style name="res_2132083449_textappearance_wearable_medium" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/primary_text_light</item>
+    </style>
+    <style name="res_2132083450_textappearance_wearable_small" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/primary_text_light</item>
+    </style>
+    <style name="res_2132083456_textview_large" parent="@android:style/Widget.Holo.Light">
+        <item name="android:textAppearance">@style/res_2132083448_textappearance_wearable_large</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="res_2132083457_textview_large_light" parent="@style/res_2132083456_textview_large">
+        <item name="android:textAppearance">@style/res_2132083448_textappearance_wearable_large</item>
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+    </style>
+    <style name="res_2132083458_textview_medium" parent="@android:style/Widget.Holo.Light">
+        <item name="android:textAppearance">@style/res_2132083449_textappearance_wearable_medium</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="res_2132083459_textview_medium_light" parent="@style/res_2132083458_textview_medium">
+        <item name="android:textAppearance">@style/res_2132083449_textappearance_wearable_medium</item>
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+    </style>
+    <style name="res_2132083460_textview_small" parent="@android:style/Widget.Holo.Light">
+        <item name="android:textAppearance">@style/res_2132083450_textappearance_wearable_small</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="res_2132083461_textview_small_light" parent="@style/res_2132083460_textview_small">
+        <item name="android:textAppearance">@style/res_2132083450_textappearance_wearable_small</item>
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+    </style>
+    <style name="res_2132083583_theme_wearable" parent="@android:style/Theme.DeviceDefault">
+    </style>
+    <style name="res_2132083584_theme_wearable_modal" parent="@style/res_2132083583_theme_wearable">
+        <item name="android:windowSwipeToDismiss">false</item>
+    </style>
+</resources>

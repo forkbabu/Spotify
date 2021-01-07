@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.spotify.mobile.android.ui.view.MainLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+        <com.spotify.mobile.android.ui.view.anchorbar.AnchorBar android:id="@+id/anchor_bar_top" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.spotify.mobile.android.ui.view.anchorbar.AnchorBar android:id="@+id/anchor_bar_bottom" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@+id/snackbarContainer" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.spotify.music.features.carmode.optin.SnackbarCoordinatedCarModeOptInButton android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/car_mode_opt_in_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/car_mode_opt_in_button_bottom_margin" android:layout_marginEnd="@dimen/car_mode_opt_in_button_right_margin" app:layout_dodgeInsetEdges="0" app:layout_insetEdge="0" style="@style/CarModeOptInButton"/>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <FrameLayout android:id="@+id/toolbar_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.spotify.music.libs.connect.access.view.ConnectAccessButton android:id="@+id/connect_access_button" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout android:id="@+id/navigation_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+        <com.spotify.mobile.android.spotlets.tooltip.TooltipContainer android:id="@+id/tooltip_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.spotify.mobile.android.ui.view.MainLayout>
+    <FrameLayout android:id="@+id/screensaver_ad_container" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/quicksilver_views_main_activity"/>
+    <include layout="@layout/partner_account_linking_dialog_main_activity"/>
+</merge>

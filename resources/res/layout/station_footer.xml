@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textAppearance="@style/res_2132083326_textappearance_cat_secondary" android:gravity="center" android:id="@+id/track_hint" android:layout_width="match_parent" android:layout_height="@dimen/station_footer_height" android:text="@string/station_track_list_footer"/>

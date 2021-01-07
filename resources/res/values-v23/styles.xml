@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base_TextAppearance_AppCompat_Widget_ActionBar_Menu" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Widget_Button_Inverse" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse">
+    </style>
+    <style name="Base_Theme_AppCompat" parent="@style/Base_V23_Theme_AppCompat">
+    </style>
+    <style name="Base_Theme_AppCompat_Light" parent="@style/Base_V23_Theme_AppCompat_Light">
+    </style>
+    <style name="Base_V23_Theme_AppCompat" parent="@style/Base_V22_Theme_AppCompat">
+        <item name="actionBarItemBackground">?android:attr/actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:attr/actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:attr/actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:attr/actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:attr/ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="Base_V23_Theme_AppCompat_Light" parent="@style/Base_V22_Theme_AppCompat_Light">
+        <item name="actionBarItemBackground">?android:attr/actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:attr/actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:attr/actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:attr/actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:attr/ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="Base_Widget_AppCompat_ActionButton_Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow">
+    </style>
+    <style name="Base_Widget_AppCompat_Button_Borderless_Colored" parent="@android:style/Widget.Material.Button.Borderless.Colored">
+    </style>
+    <style name="Base_Widget_AppCompat_Button_Colored" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:textAppearance">@style/TextAppearance_AppCompat_Widget_Button_Colored</item>
+    </style>
+    <style name="Base_Widget_AppCompat_EditText" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">@null</item>
+        <item name="android:hyphenationFrequency">@null</item>
+    </style>
+    <style name="Base_Widget_AppCompat_RatingBar_Indicator" parent="@android:style/Widget.Material.RatingBar.Indicator">
+    </style>
+    <style name="Base_Widget_AppCompat_RatingBar_Small" parent="@android:style/Widget.Material.RatingBar.Small">
+    </style>
+    <style name="Base_Widget_AppCompat_Spinner_Underlined" parent="@android:style/Widget.Material.Spinner.Underlined">
+    </style>
+    <style name="Base_Widget_AppCompat_TextView" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">@null</item>
+    </style>
+    <style name="CallToActionTitle" parent="@style/TextAppearance_Encore_Canon">
+        <item name="android:textSize">@dimen/call_to_action_title_font_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">left|center_horizontal</item>
+        <item name="android:breakStrategy">@null</item>
+    </style>
+    <style name="CardText" parent="@style/CardTextBase">
+        <item name="android:breakStrategy">balanced</item>
+        <item name="android:hyphenationFrequency">normal</item>
+    </style>
+    <style name="CardTitle" parent="@style/CardTitleBase">
+        <item name="android:breakStrategy">balanced</item>
+        <item name="android:hyphenationFrequency">normal</item>
+    </style>
+    <style name="CardView" parent="@style/Base_CardView">
+        <item name="cardBackgroundColor">?android:attr/colorBackgroundFloating</item>
+    </style>
+    <style name="res_2132083516_theme_glue_noactionbar_transparent_superbirdsetup" parent="@style/res_2132083514_theme_glue_noactionbar_transparent">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="WearableActionDrawerItemText">
+        <item name="android:textSize">@dimen/action_drawer_item_text_size</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">clip_horizontal</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+    </style>
+    <style name="WearableActionDrawerTitleText" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="android:alpha">0.7</item>
+    </style>
+    <style name="WearableWatchFaceSettings" parent="@android:style/Theme.DeviceDefault.Dialog.Alert">
+    </style>
+    <style name="Widget_MaterialComponents_PopupMenu_ContextMenu" parent="@style/Base_Widget_MaterialComponents_PopupMenu_ContextMenu">
+        <item name="android:popupBackground">?attr/popupMenuBackground</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+    <style name="Widget_MaterialComponents_PopupMenu_ListPopupWindow" parent="@style/Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow">
+        <item name="android:popupBackground">?attr/popupMenuBackground</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+</resources>

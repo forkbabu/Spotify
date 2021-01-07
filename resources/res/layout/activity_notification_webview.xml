@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/legacy_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/fragment_notification_webview" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.spotify.mobile.android.ui.view.GradientView android:id="@+id/actionbar_shadow" android:layout_width="match_parent" android:layout_height="4dp" android:startColor="#66000000" android:endColor="#00000000" android:angle="270"/>
+</FrameLayout>

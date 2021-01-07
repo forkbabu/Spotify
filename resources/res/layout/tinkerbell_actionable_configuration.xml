@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:paste="http://schemas.android.com/apk/res-auto" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/tinkerbell_actionable_tooltip_body_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+        <FrameLayout android:paddingTop="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/tinkerbell_tooltip_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="8dp" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textAppearance="?attr/pasteTextAppearance" android:textSize="20sp" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/tinkerbell_tooltip_title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp"/>
+            <TextView android:textAppearance="?attr/pasteTextAppearance" android:textSize="14sp" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/tinkerbell_tooltip_body" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp"/>
+        </LinearLayout>
+        <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.2">
+            <com.spotify.paste.spotifyicon.SpotifyIconView android:id="@+id/btn_close" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="32dp" android:scaleType="centerInside" android:contentDescription="@string/generic_content_description_close" paste:iconType="1135"/>
+        </FrameLayout>
+    </LinearLayout>
+    <Button android:id="@+id/tinkerbell_action_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_below="@+id/tinkerbell_actionable_tooltip_body_container" android:layout_centerHorizontal="true" android:filterTouchesWhenObscured="false" style="?attr/pasteButtonStyleInfoSmall"/>
+</RelativeLayout>

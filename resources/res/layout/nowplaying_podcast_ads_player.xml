@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/content" android:background="?attr/pasteColorBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.spotify.nowplaying.ui.components.overlay.OverlayHidingGradientBackgroundView android:id="@+id/overlay_hiding_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.spotify.music.nowplaying.common.view.pager.TrackCarouselView android:id="@+id/track_carousel" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <include layout="@layout/nowplaying_podcast_ads_player_overlay"/>
+    </com.spotify.nowplaying.ui.components.overlay.OverlayHidingGradientBackgroundView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:attr/selectableItemBackground" android:duplicateParentState="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp">
+    <Button android:layout_gravity="center" android:id="@android:id/checkbox" android:layout_width="64dp" android:layout_height="match_parent" android:filterTouchesWhenObscured="false"/>
+    <ImageView android:id="@android:id/icon" android:visibility="gone" android:duplicateParentState="true" android:layout_width="54dp" android:layout_height="54dp" android:layout_marginTop="5dp" android:layout_marginRight="12dp" android:layout_marginBottom="5dp" android:scaleType="centerCrop"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/labels" android:paddingTop="8dp" android:paddingBottom="8dp" android:duplicateParentState="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textAppearance="?attr/pasteTextAppearance" android:textColor="?attr/pasteColorTextPrimary" android:ellipsize="end" android:id="@android:id/text1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        <TextView android:textAppearance="?attr/pasteTextAppearanceSecondary" android:textColor="?attr/pasteColorTextSecondary" android:ellipsize="end" android:gravity="center_vertical" android:id="@android:id/text2" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="6dp"/>
+    </LinearLayout>
+</LinearLayout>

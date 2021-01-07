@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/item_track_recycler" android:paddingTop="@dimen/feed_expandable_item_footer_vertical_padding" android:paddingBottom="@dimen/feed_expandable_item_footer_vertical_padding" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <include android:layout_gravity="bottom" android:id="@+id/footer_layout" android:layout_width="match_parent" android:layout_height="35dp" layout="@layout/item_footer_view"/>
+</merge>

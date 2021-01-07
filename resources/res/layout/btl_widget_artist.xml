@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:autofit="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/verified_artist_annotation_card" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0">
+    <FrameLayout android:id="@+id/verified_annotation_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp">
+        <com.spotify.paste.widgets.SquareImageView android:id="@+id/artist_image" android:layout_width="34dp" android:layout_height="34dp"/>
+        <LinearLayout android:gravity="start" android:orientation="vertical" android:paddingLeft="40dp" android:paddingRight="40dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <me.grantland.widget.AutofitTextView android:textAppearance="?attr/pasteTextAppearanceMetadata" android:textSize="13dp" android:textColor="?attr/pasteColorTextPrimary" android:id="@+id/artist_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btl_artist_card_label" android:maxLines="1"/>
+            <com.spotify.mobile.android.ui.view.MarqueeTextView android:textSize="14dp" android:textColor="@color/genius_yellow" android:gravity="start" android:id="@+id/artist_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" android:marqueeRepeatLimit="marquee_forever" style="@style/res_2132083397_textappearance_glue_header2"/>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:background="@drawable/bubble" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <me.grantland.widget.AutofitTextView android:textSize="@dimen/btl_artist_quote_text_size" android:gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/artist_quote" android:padding="@dimen/btl_artist_quote_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="5" autofit:minimumTextSize="@dimen/btl_artist_quote_min_text_size" style="?attr/pasteTextAppearanceBodyMedium"/>
+    </FrameLayout>
+</LinearLayout>

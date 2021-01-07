@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <rotate android:fromDegrees="135" android:toDegrees="135" android:pivotX="50%" android:pivotY="50%">
+            <shape android:shape="line">
+                <size android:height="@dimen/close_item_size" android:width="@dimen/close_item_size"/>
+                <stroke android:width="@dimen/stroke_shape_thickness" android:color="@color/white"/>
+            </shape>
+        </rotate>
+    </item>
+    <item>
+        <rotate android:fromDegrees="45" android:toDegrees="45" android:pivotX="50%" android:pivotY="50%">
+            <shape android:shape="line">
+                <size android:height="@dimen/close_item_size" android:width="@dimen/close_item_size"/>
+                <stroke android:width="@dimen/stroke_shape_thickness" android:color="@color/white"/>
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

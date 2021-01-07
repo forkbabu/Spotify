@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.mobile.android.ui.view.AspectRatioFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/container" android:padding="@dimen/information_card_container_padding" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textAppearance="?attr/pasteTextAppearanceMetadata" android:textColor="#fff" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/information_card_title_bottom_margin" android:layout_alignParentLeft="true" android:textAllCaps="true" android:layout_alignParentStart="true"/>
+        <TextView android:textAppearance="?attr/pasteTextAppearanceHeaderMedium" android:textColor="#fff" android:id="@+id/text" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/information_card_container_bottom_margin" android:layout_below="@+id/title" android:layout_alignParentBottom="true" app:autoSizePresetSizes="@array/information_card_body_autosize_text_sizes" app:autoSizeTextType="uniform"/>
+    </RelativeLayout>
+</com.spotify.mobile.android.ui.view.AspectRatioFrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.viewpager.widget.ViewPager android:id="@+id/pager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.spotify.mobile.android.ui.view.GradientView android:layout_width="match_parent" android:layout_height="@dimen/mobile_artist_header_shadow_height" android:layout_alignParentBottom="true" android:startColor="#cc000000" android:endColor="#00000000" android:angle="90"/>
+    <com.spotify.music.features.creatorartist.view.PageIndicator android:id="@+id/page_indicator" android:paddingLeft="0dp" android:paddingRight="@dimen/cell_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

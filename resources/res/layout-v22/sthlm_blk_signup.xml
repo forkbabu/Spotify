@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/sthlm_blk" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAutofill="noExcludeDescendants">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.spotify.android.glue.components.toolbar.GlueToolbarLayout android:id="@+id/toolbar" android:layout_width="0dp" android:layout_height="?attr/actionBarSize" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <TextView android:textAppearance="@style/TextAppearance_Encore_BalladBold" android:textColor="@color/sthlm_blk_white" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/signup_create_account_title" app:layout_constraintBottom_toBottomOf="@+id/toolbar" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="@+id/toolbar"/>
+        <ViewAnimator android:id="@+id/view_animator" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:animateFirstView="false" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/title"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

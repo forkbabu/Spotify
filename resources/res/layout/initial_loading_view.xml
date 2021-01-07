@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewAnimator xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/view_animator" android:background="@color/allboarding_stockholm_black_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:animateFirstView="false" android:animateLayoutChanges="false">
+    <include android:id="@+id/initial_loading_fragment" layout="@layout/internal_loading_view"/>
+    <include android:id="@+id/glue_empty_state_button" layout="@layout/glue_empty_state_button"/>
+</ViewAnimator>

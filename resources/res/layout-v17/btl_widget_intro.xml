@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/intro_card" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/btl_info_card_insight" style="@style/ScrollWidgetHeader"/>
+    <TextView android:textSize="@dimen/btl_intro_title_text_size" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/intro_title" android:layout_width="match_parent" android:layout_height="0dp" android:maxLines="2" android:layout_weight="1" android:textAlignment="gravity" style="?attr/pasteTextAppearanceHeaderSmall"/>
+    <TextView android:textSize="12sp" android:textColor="@color/white_50" android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btl_powered_by" android:maxLines="1" style="?attr/pasteTextAppearanceMetadata"/>
+    <ImageView android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_genius_yellow" android:contentDescription="@string/btl_powered_by_accessibility_description"/>
+</LinearLayout>

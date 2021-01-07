@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/glue_button_primary_white_background_disabled"/>
+            <size android:height="@dimen/participant_list_invite_button_height"/>
+            <corners android:radius="@dimen/participant_list_invite_button_radius"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/glue_button_primary_white_background_pressed"/>
+            <size android:height="@dimen/participant_list_invite_button_height"/>
+            <corners android:radius="@dimen/participant_list_invite_button_radius"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/glue_button_primary_white_background_default"/>
+            <size android:height="@dimen/participant_list_invite_button_height"/>
+            <corners android:radius="@dimen/participant_list_invite_button_radius"/>
+        </shape>
+    </item>
+</selector>

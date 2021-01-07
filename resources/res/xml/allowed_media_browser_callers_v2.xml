@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<allowed_callers>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Google Maps" package="com.google.android.apps.maps">
+        <key release="true"> f0:fd:6c:5b:41:0f:25:cb:25:c3:b5:33:46:c8:97:2f:ae:30:f8:ee:74:11:df:91:04:80:ad:6b:2d:60:db:83 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Spotify MB Controller Sample" package="com.spotify.mbscontroller">
+        <key release="false"> D5:FD:11:26:74:0E:63:C1:2B:CE:01:CB:25:9A:21:7C:0F:7F:EC:50:25:D4:D5:AD:4C:5D:DB:D9:99:01:29:A9 
+        </key>
+    </signature>
+</allowed_callers>

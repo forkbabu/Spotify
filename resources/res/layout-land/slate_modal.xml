@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="horizontal" android:padding="24dp" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+    <androidx.percentlayout.widget.PercentFrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.5">
+        <ImageView android:layout_gravity="center" android:id="@+id/image_view" app:layout_aspectRatio="100%" app:layout_widthPercent="75%"/>
+    </androidx.percentlayout.widget.PercentFrameLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.5">
+        <TextView android:textAppearance="?attr/pasteTextAppearanceHeaderSmall" android:textSize="24sp" android:gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:maxLines="2"/>
+        <TextView android:textAppearance="?attr/pasteTextAppearanceBodySmall" android:textSize="16sp" android:gravity="center" android:id="@+id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:maxLines="4"/>
+        <Button android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:filterTouchesWhenObscured="true" style="?attr/glueButtonPrimaryWhite"/>
+    </LinearLayout>
+</LinearLayout>

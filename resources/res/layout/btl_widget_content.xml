@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/content_card" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0">
+    <FrameLayout android:id="@+id/content_card_container" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <include layout="@layout/btl_widget_artist"/>
+        <include layout="@layout/btl_widget_insight"/>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="18dp">
+        <ImageView android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_genius_gray55"/>
+        <com.spotify.music.behindthelyrics.view.FlippedProgressBar android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/progressBar" android:layout_width="18dp" android:layout_height="18dp" android:max="500" android:progress="500" android:progressDrawable="@drawable/progress_circle" android:rotation="90" style="?android:attr/progressBarStyleHorizontal"/>
+    </FrameLayout>
+</LinearLayout>

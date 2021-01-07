@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/container" android:background="@color/free_tier_taste_onboarding_stockholm_black_bg" android:paddingTop="24dp" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.spotify.music.libs.search.view.ToolbarSearchFieldView android:id="@+id/search_toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="?android:attr/actionBarSize" app:backgroundCornerRadius="4dp" app:color="@color/free_tier_taste_onboarding_stockholm_black_searchbar_bg" app:insetX="16dp" app:insetY="8dp"/>
+    </LinearLayout>
+</androidx.percentlayout.widget.PercentFrameLayout>

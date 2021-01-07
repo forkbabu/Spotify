@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.music.features.navigation.BottomNavigationItemView xmlns:android="http://schemas.android.com/apk/res/android" style="@style/BottomNavigationItem">
+    <ImageView android:id="@+id/bottom_navigation_item_icon" android:contentDescription="@null" style="@style/BottomNavigationItemIcon"/>
+    <TextView android:id="@+id/bottom_navigation_item_title" style="@style/BottomNavigationItemTitle"/>
+</com.spotify.music.features.navigation.BottomNavigationItemView>

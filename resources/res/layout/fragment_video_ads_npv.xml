@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.music.nowplaying.videoads.overlay.VideoAdOverlayHidingFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/fragment_video_ads_npv" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/video_ads_renderer_layout" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/video_ads_renderer_layout"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@+id/snackbarContainer" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/video_ads_player_overlay" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/video_ads_player_overlay"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <ProgressBar android:layout_gravity="bottom" android:id="@+id/playback_progress" android:paddingLeft="0dp" android:paddingRight="0dp" android:layout_width="match_parent" android:layout_height="8dp" style="?attr/pasteProgressBarStyleHorizontal"/>
+</com.spotify.music.nowplaying.videoads.overlay.VideoAdOverlayHidingFrameLayout>

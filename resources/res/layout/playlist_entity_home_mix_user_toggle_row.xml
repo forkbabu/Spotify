@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.spotify.libs.facepile.FaceView android:layout_gravity="center_vertical" android:id="@+id/face" android:layout_width="61dp" android:layout_height="61dp" android:layout_margin="16dp" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_alignParentLeft="true"/>
+    <TextView android:textAppearance="?attr/pasteTextAppearanceHeaderSmall" android:textColor="@color/white" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_gravity="center_vertical" android:id="@+id/name" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1" android:lines="1" android:layout_toLeftOf="@+id/toggle" android:layout_toRightOf="@+id/face" android:layout_centerVertical="true"/>
+    <androidx.appcompat.widget.SwitchCompat android:id="@+id/toggle" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.spotify.music.nowplaying.common.view.close.CloseButton android:id="@+id/audio_ads_close_button" android:padding="@dimen/player_v2_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/player_content_description_close"/>
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/audio_ads_header_title_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="36dp" android:layout_marginRight="36dp">
+        <com.spotify.mobile.android.ui.view.MarqueeTextView android:textAppearance="@style/AudioAdsSubtitle" android:gravity="center_horizontal" android:id="@+id/audio_ads_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/advertisement_title" style="@style/PlayerSubtitle"/>
+        <com.spotify.music.nowplaying.ads.view.tagline.AudioAdsTagLineView android:gravity="center_horizontal" android:id="@+id/audio_ads_advertiser" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/PlayerTitle"/>
+    </LinearLayout>
+</FrameLayout>

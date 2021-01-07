@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="adaptive_ui_content_area_horizontal_margin">24dp</dimen>
+    <dimen name="adaptive_ui_header_back_button_start_margin">34dp</dimen>
+    <dimen name="adaptive_ui_header_play_button_end_margin">36dp</dimen>
+    <dimen name="content_area_horizontal_margin">24dp</dimen>
+    <dimen name="full_width_content_area_horizontal_margin">144dp</dimen>
+</resources>

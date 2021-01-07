@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/bg_free_tier_taste_onboarding_skip_dialog" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ScrollView android:id="@+id/content" android:paddingLeft="@dimen/glue_dialog_content_horizontal_margin" android:paddingRight="@dimen/glue_dialog_content_horizontal_margin" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?attr/pasteTextAppearanceHeaderMedium" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="@dimen/glue_dialog_content_vertical_margin" android:layout_marginRight="16dp" android:text="@string/free_tier_taste_onboarding_skip_dialog_title"/>
+            <TextView android:textAppearance="?attr/pasteTextAppearanceBodyMedium" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@+id/body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/free_tier_taste_onboarding_skip_dialog_message"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/buttonPanel" android:paddingLeft="@dimen/std_24dp" android:paddingRight="@dimen/std_24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48dp">
+        <Button android:id="@android:id/button1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@string/free_tier_taste_onboarding_skip_dialog_continue" android:filterTouchesWhenObscured="true" style="?attr/glueButtonPrimaryGreen"/>
+        <Button android:textColor="@color/black" android:id="@android:id/button2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@string/free_tier_taste_onboarding_skip_dialog_skip" android:filterTouchesWhenObscured="true" style="?attr/glueButtonSecondary"/>
+        <Button android:id="@android:id/button3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:filterTouchesWhenObscured="true" style="?attr/glueButtonSecondary"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog" parent="@style/ThemeOverlay_AppCompat_Dialog_Alert">
+        <item name="android:backgroundDimAmount">0.32</item>
+        <item name="android:checkedTextViewStyle">@style/Widget_MaterialComponents_CheckedTextView</item>
+        <item name="alertDialogStyle">@style/MaterialAlertDialog_MaterialComponents</item>
+        <item name="buttonBarButtonStyle">@style/Widget_MaterialComponents_Button_TextButton_Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget_MaterialComponents_Button_TextButton_Dialog</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget_MaterialComponents_Button_TextButton_Dialog_Flush</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget_MaterialComponents_Button_TextButton_Dialog</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialog_MaterialComponents_Body_Text</item>
+    </style>
+    <style name="Base_Widget_MaterialComponents_AutoCompleteTextView" parent="@style/Widget_AppCompat_AutoCompleteTextView">
+        <item name="android:textAppearance">?attr/textAppearanceSubtitle1</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:dropDownVerticalOffset">@dimen/mtrl_exposed_dropdown_menu_popup_vertical_offset</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="enforceMaterialTheme">true</item>
+        <item name="enforceTextAppearance">true</item>
+    </style>
+    <style name="Base_Widget_MaterialComponents_TextInputEditText" parent="@style/res_2132083760_widget_design_textinputedittext">
+        <item name="android:textAppearance">?attr/textAppearanceSubtitle1</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="enforceMaterialTheme">true</item>
+        <item name="enforceTextAppearance">true</item>
+        <item name="textInputLayoutFocusedRectEnabled">true</item>
+    </style>
+    <style name="BottomNavigationItem">
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/bottom_navigation_text_padding_left_right</item>
+        <item name="android:paddingRight">@dimen/bottom_navigation_text_padding_left_right</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingStart">@dimen/bottom_navigation_text_padding_left_right</item>
+        <item name="android:paddingEnd">@dimen/bottom_navigation_text_padding_left_right</item>
+    </style>
+    <style name="Encore_Components_GenreHubHeader_Title" parent="@style/Encore_Components_GenreHubHeader">
+        <item name="android:textAppearance">@style/TextAppearance_Encore_Alto</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">top|center_vertical</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="Encore_Components_Headers_Description" parent="@style/Encore_Components_Headers">
+        <item name="android:textAppearance">@style/TextAppearance_Encore_Mesto</item>
+        <item name="android:textColor">?attr/encoreTextColorMetadata</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="Encore_Components_Headers_Metadata" parent="@style/Encore_Components_Headers">
+        <item name="android:textAppearance">@style/TextAppearance_Encore_Mesto</item>
+        <item name="android:textColor">?attr/encoreTextColorMetadata</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="Encore_Components_Headers_Title" parent="@style/Encore_Components_Headers">
+        <item name="android:textAppearance">@style/TextAppearance_Encore_Canon</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">top|center_vertical</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="Encore_Components_ListeningHistory_Entity_Subtitle" parent="@style/Encore_Components_ListeningHistory_Entity">
+        <item name="android:textAppearance">@style/TextAppearance_Encore_Mesto</item>
+        <item name="android:textColor">@color/encore_row_subtitle</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="Encore_Components_ListeningHistory_Entity_Title" parent="@style/Encore_Components_ListeningHistory_Entity">
+        <item name="android:textAppearance">@style/TextAppearance_Encore_Ballad</item>
+        <item name="android:textColor">@color/encore_row_title</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="Encore_Components_ParticipantRow_AddedItems" parent="@style/Encore_Components_ParticipantRow">
+        <item name="android:textAppearance">@style/TextAppearance_Encore_Mesto</item>
+        <item name="android:textColor">@color/encore_row_subtitle</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="Encore_Components_ParticipantRow_Name" parent="@style/Encore_Components_ParticipantRow">
+        <item name="android:textAppearance">@style/TextAppearance_Encore_Ballad</item>
+        <item name="android:textColor">@color/encore_row_title</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="Encore_Components_SectionHeading_Title" parent="@style/Encore_Components_SectionHeading">
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">right|center_horizontal|clip_horizontal</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="Encore_Components_TrackRow_ArtistName" parent="@style/Encore_Components_TrackRow">
+        <item name="android:textAppearance">@style/TextAppearance_Encore_Mesto</item>
+        <item name="android:textColor">@color/encore_row_subtitle</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="Encore_Components_TrackRow_TrackName" parent="@style/Encore_Components_TrackRow">
+        <item name="android:textAppearance">@style/TextAppearance_Encore_Ballad</item>
+        <item name="android:textColor">@color/encore_row_title</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="Encore_Components_TrackRow_TrackNumber" parent="@style/Encore_Components_TrackRow">
+        <item name="android:textAppearance">@style/TextAppearance_Encore_Mesto</item>
+        <item name="android:textColor">@color/encore_row_track_row_number</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="Encore_Components_TrackRow_TrackNumberOfListeners" parent="@style/Encore_Components_TrackRow">
+        <item name="android:textAppearance">@style/TextAppearance_NumberOfListeners</item>
+        <item name="android:textColor">@color/encore_row_subtitle</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="Encore_Elements_Creator" parent="@style/Encore_Elements">
+        <item name="android:textAppearance">@style/TextAppearance_Encore_MestoBold</item>
+        <item name="android:textColor">@color/encore_accessory_white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:drawablePadding">@dimen/encore_creator_drawable_padding</item>
+        <item name="android:textDirection">locale</item>
+    </style>
+    <style name="FullbleedContent_Title" parent="@style/FullbleedContent">
+        <item name="android:textAppearance">@style/TextAppearance_Encore_Bass</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">top|center_vertical</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="GlueExtension_Button_MultiLine" parent="@style/res_2132083959_widget_paste_button">
+        <item name="android:textAppearance">@style/TextAppearance_Encore_BalladBold</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:maxHeight">@dimen/cat_button_height</item>
+        <item name="android:minHeight">@dimen/cat_button_height</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:lines">@null</item>
+        <item name="android:paddingStart">@dimen/multiline_button_padding</item>
+        <item name="android:paddingEnd">@dimen/multiline_button_padding</item>
+    </style>
+    <style name="res_2132083071_loginfieldinput_white" parent="@style/LoginFieldInput">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/pasteTransparent</item>
+        <item name="android:background">@drawable/bg_login_text_field_white</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textCursorDrawable">@drawable/login_text_field_cursor</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="MaterialAlertDialog_MaterialComponents_Title_Icon" parent="@style/Base_MaterialAlertDialog_MaterialComponents_Title_Icon">
+        <item name="android:layout_gravity">right|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+    <style name="MaterialAlertDialog_MaterialComponents_Title_Text" parent="@style/Base_MaterialAlertDialog_MaterialComponents_Title_Text">
+        <item name="android:layout_gravity">right|center_horizontal|clip_horizontal</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked" parent="@style/Base_MaterialAlertDialog_MaterialComponents_Title_Text">
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="Platform_AppCompat" parent="@android:style/Theme.Holo">
+        <item name="android:colorForeground">@color/foreground_material_dark</item>
+        <item name="android:colorBackground">@color/background_material_dark</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:disabledAlpha">@dimen/abc_disabled_alpha_material_dark</item>
+        <item name="android:textAppearance">@style/TextAppearance_AppCompat</item>
+        <item name="android:textAppearanceInverse">@style/TextAppearance_AppCompat_Inverse</item>
+        <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
+        <item name="android:textColorSecondary">@color/abc_secondary_text_material_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_light</item>
+        <item name="android:textColorSecondaryInverse">@color/abc_secondary_text_material_light</item>
+        <item name="android:textColorHintInverse">@color/abc_hint_foreground_material_light</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance_AppCompat_Large</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance_AppCompat_Medium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance_AppCompat_Small</item>
+        <item name="android:textAppearanceLargeInverse">@style/TextAppearance_AppCompat_Large_Inverse</item>
+        <item name="android:textAppearanceMediumInverse">@style/TextAppearance_AppCompat_Medium_Inverse</item>
+        <item name="android:textAppearanceSmallInverse">@style/TextAppearance_AppCompat_Small_Inverse</item>
+        <item name="android:listPreferredItemHeight">@dimen/abc_list_item_height_material</item>
+        <item name="android:windowBackground">@color/background_material_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColorHighlight">@color/highlighted_text_material_dark</item>
+        <item name="android:textColorHint">@color/abc_hint_foreground_material_dark</item>
+        <item name="android:textColorLink">?attr/colorAccent</item>
+        <item name="android:colorForegroundInverse">@color/foreground_material_light</item>
+        <item name="android:textColorTertiary">@color/abc_secondary_text_material_dark</item>
+        <item name="android:textColorTertiaryInverse">@color/abc_secondary_text_material_light</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/abc_btn_radio_material</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/abc_btn_check_material</item>
+        <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_dark</item>
+        <item name="android:textSelectHandleLeft">@drawable/abc_text_select_handle_left_mtrl_dark</item>
+        <item name="android:textSelectHandleRight">@drawable/abc_text_select_handle_right_mtrl_dark</item>
+        <item name="android:textSelectHandle">@drawable/abc_text_select_handle_middle_mtrl_dark</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:textColorAlertDialogListItem">@color/abc_primary_text_material_dark</item>
+        <item name="android:actionModeCutDrawable">?attr/actionModeCutDrawable</item>
+        <item name="android:actionModeCopyDrawable">?attr/actionModeCopyDrawable</item>
+        <item name="android:actionModePasteDrawable">?attr/actionModePasteDrawable</item>
+        <item name="android:borderlessButtonStyle">?attr/borderlessButtonStyle</item>
+        <item name="android:buttonBarStyle">?attr/buttonBarStyle</item>
+        <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
+        <item name="android:textColorHighlightInverse">@color/highlighted_text_material_light</item>
+        <item name="android:textColorLinkInverse">?attr/colorAccent</item>
+        <item name="android:actionModeSelectAllDrawable">?attr/actionModeSelectAllDrawable</item>
+        <item name="android:listPreferredItemHeightLarge">@dimen/abc_list_item_height_large_material</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/abc_list_item_height_small_material</item>
+        <item name="android:textAppearanceListItem">@style/TextAppearance_AppCompat_Subhead</item>
+        <item name="android:textAppearanceListItemSmall">@style/TextAppearance_AppCompat_Subhead</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="listChoiceIndicatorMultipleAnimated">@drawable/abc_btn_check_material_anim</item>
+        <item name="listChoiceIndicatorSingleAnimated">@drawable/abc_btn_radio_material_anim</item>
+    </style>
+    <style name="Platform_AppCompat_Light" parent="@android:style/Theme.Holo.Light">
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:disabledAlpha">@dimen/abc_disabled_alpha_material_light</item>
+        <item name="android:textAppearance">@style/TextAppearance_AppCompat</item>
+        <item name="android:textAppearanceInverse">@style/TextAppearance_AppCompat_Inverse</item>
+        <item name="android:textColorPrimary">@color/abc_primary_text_material_light</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_light</item>
+        <item name="android:textColorSecondary">@color/abc_secondary_text_material_light</item>
+        <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/abc_secondary_text_material_dark</item>
+        <item name="android:textColorHintInverse">@color/abc_hint_foreground_material_dark</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance_AppCompat_Large</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance_AppCompat_Medium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance_AppCompat_Small</item>
+        <item name="android:textAppearanceLargeInverse">@style/TextAppearance_AppCompat_Large_Inverse</item>
+        <item name="android:textAppearanceMediumInverse">@style/TextAppearance_AppCompat_Medium_Inverse</item>
+        <item name="android:textAppearanceSmallInverse">@style/TextAppearance_AppCompat_Small_Inverse</item>
+        <item name="android:listPreferredItemHeight">@dimen/abc_list_item_height_material</item>
+        <item name="android:windowBackground">@color/background_material_light</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColorHighlight">@color/highlighted_text_material_light</item>
+        <item name="android:textColorHint">@color/abc_hint_foreground_material_light</item>
+        <item name="android:textColorLink">?attr/colorAccent</item>
+        <item name="android:colorForegroundInverse">@color/foreground_material_dark</item>
+        <item name="android:textColorTertiary">@color/abc_secondary_text_material_light</item>
+        <item name="android:textColorTertiaryInverse">@color/abc_secondary_text_material_dark</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/abc_btn_radio_material</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/abc_btn_check_material</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
+        <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_light</item>
+        <item name="android:textSelectHandleLeft">@drawable/abc_text_select_handle_left_mtrl_light</item>
+        <item name="android:textSelectHandleRight">@drawable/abc_text_select_handle_right_mtrl_light</item>
+        <item name="android:textSelectHandle">@drawable/abc_text_select_handle_middle_mtrl_light</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:textColorAlertDialogListItem">@color/abc_primary_text_material_light</item>
+        <item name="android:actionModeCutDrawable">?attr/actionModeCutDrawable</item>
+        <item name="android:actionModeCopyDrawable">?attr/actionModeCopyDrawable</item>
+        <item name="android:actionModePasteDrawable">?attr/actionModePasteDrawable</item>
+        <item name="android:borderlessButtonStyle">?attr/borderlessButtonStyle</item>
+        <item name="android:buttonBarStyle">?attr/buttonBarStyle</item>
+        <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
+        <item name="android:textColorHighlightInverse">@color/highlighted_text_material_dark</item>
+        <item name="android:textColorLinkInverse">?attr/colorAccent</item>
+        <item name="android:actionModeSelectAllDrawable">?attr/actionModeSelectAllDrawable</item>
+        <item name="android:listPreferredItemHeightLarge">@dimen/abc_list_item_height_large_material</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/abc_list_item_height_small_material</item>
+        <item name="android:textAppearanceListItem">@style/TextAppearance_AppCompat_Subhead</item>
+        <item name="android:textAppearanceListItemSmall">@style/TextAppearance_AppCompat_Subhead</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="listChoiceIndicatorMultipleAnimated">@drawable/abc_btn_check_material_anim</item>
+        <item name="listChoiceIndicatorSingleAnimated">@drawable/abc_btn_radio_material_anim</item>
+    </style>
+    <style name="res_2132083117_platform_theme_paste" parent="@style/res_2132083122_platform_v17_theme_paste">
+    </style>
+    <style name="res_2132083122_platform_v17_theme_paste" parent="@style/res_2132083121_platform_v12_theme_paste">
+        <item name="android:checkedTextViewStyle">?attr/android_checkedTextViewStyle</item>
+    </style>
+    <style name="res_2132083138_quickscroll_handler" parent="@style/QuickScroll">
+        <item name="android:layout_gravity">right|center_horizontal</item>
+        <item name="android:layout_width">@dimen/quickscroll_handler_width</item>
+        <item name="android:layout_height">@dimen/quickscroll_handler_height</item>
+        <item name="android:layout_marginRight">@dimen/quickscroll_handler_margin_end</item>
+        <item name="android:layout_marginEnd">@dimen/quickscroll_handler_margin_end</item>
+    </style>
+    <style name="res_2132083139_quickscroll_handler_arrow" parent="@style/res_2132083138_quickscroll_handler">
+        <item name="android:layout_width">@dimen/quickscroll_arrow_size</item>
+        <item name="android:layout_height">@dimen/quickscroll_arrow_size</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:layout_marginEnd">0dp</item>
+    </style>
+    <style name="res_2132083141_quickscroll_handler_arrow_up" parent="@style/res_2132083139_quickscroll_handler_arrow">
+        <item name="android:layout_marginRight">@dimen/quickscroll_arrow_horizontal_margin</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginEnd">@dimen/quickscroll_arrow_horizontal_margin</item>
+    </style>
+    <style name="res_2132083142_quickscroll_handler_container" parent="@style/res_2132083138_quickscroll_handler">
+        <item name="android:background">@drawable/quickscroll_handler_background</item>
+        <item name="android:layout_width">@dimen/quickscroll_handler_size</item>
+        <item name="android:layout_height">@dimen/quickscroll_handler_size</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginEnd">0dp</item>
+    </style>
+    <style name="res_2132083145_quickscroll_indicator_container" parent="@style/res_2132083144_quickscroll_indicator">
+        <item name="android:background">@drawable/quickscroll_indicator_background</item>
+        <item name="android:paddingLeft">@dimen/quickscroll_indicator_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/quickscroll_indicator_horizontal_padding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/quickscroll_indicator_height</item>
+        <item name="android:minWidth">@dimen/quickscroll_indicator_minimum_width</item>
+        <item name="android:paddingStart">@dimen/quickscroll_indicator_horizontal_padding</item>
+        <item name="android:paddingEnd">@dimen/quickscroll_indicator_horizontal_padding</item>
+    </style>
+    <style name="res_2132083146_quickscroll_indicator_label" parent="@style/res_2132083144_quickscroll_indicator">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/encore_font_circular_bold</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+    <style name="RtlOverlay_DialogWindowTitle_AppCompat" parent="@style/Base_DialogWindowTitle_AppCompat">
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="RtlOverlay_Widget_AppCompat_ActionBar_TitleItem" parent="@android:style/Widget">
+        <item name="android:layout_gravity">right|center_horizontal|clip_horizontal</item>
+        <item name="android:paddingEnd">8dp</item>
+    </style>
+    <style name="RtlOverlay_Widget_AppCompat_DialogTitle_Icon" parent="@android:style/Widget">
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+    <style name="RtlOverlay_Widget_AppCompat_PopupMenuItem" parent="@android:style/Widget">
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+    <style name="RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup" parent="@android:style/Widget">
+        <item name="android:layout_marginStart">16dp</item>
+    </style>
+    <style name="RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut" parent="@android:style/Widget">
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:layout_marginStart">16dp</item>
+    </style>
+    <style name="RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow" parent="@android:style/Widget">
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
+    <style name="RtlOverlay_Widget_AppCompat_PopupMenuItem_Text" parent="@android:style/Widget">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="RtlOverlay_Widget_AppCompat_PopupMenuItem_Title" parent="@android:style/Widget">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layout_marginStart">16dp</item>
+    </style>
+    <style name="RtlOverlay_Widget_AppCompat_Search_DropDown" parent="@android:style/Widget">
+        <item name="android:paddingStart">@dimen/abc_dropdownitem_text_padding_left</item>
+        <item name="android:paddingEnd">4dp</item>
+    </style>
+    <style name="RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1" parent="@android:style/Widget">
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2" parent="@android:style/Widget">
+        <item name="android:layout_toStartOf">@id/edit_query</item>
+    </style>
+    <style name="RtlOverlay_Widget_AppCompat_Search_DropDown_Query" parent="@android:style/Widget">
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="RtlOverlay_Widget_AppCompat_Search_DropDown_Text" parent="@style/Base_Widget_AppCompat_DropDownItem_Spinner">
+        <item name="android:layout_toStartOf">@android:id/icon2</item>
+        <item name="android:layout_toEndOf">@android:id/icon1</item>
+    </style>
+    <style name="RtlOverlay_Widget_AppCompat_SearchView_MagIcon" parent="@android:style/Widget">
+        <item name="android:layout_marginStart">@dimen/abc_dropdownitem_text_padding_left</item>
+    </style>
+    <style name="RtlUnderlay_Widget_AppCompat_ActionButton" parent="@android:style/Widget">
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+    </style>
+    <style name="RtlUnderlay_Widget_AppCompat_ActionButton_Overflow" parent="@style/Base_Widget_AppCompat_ActionButton">
+        <item name="android:paddingStart">@dimen/abc_action_bar_overflow_padding_start_material</item>
+        <item name="android:paddingEnd">@dimen/abc_action_bar_overflow_padding_end_material</item>
+    </style>
+    <style name="SthlmBlkLoginFieldInput">
+        <item name="android:textColor">@color/sthlm_blk_white</item>
+        <item name="android:textColorHint">@color/pasteTransparent</item>
+        <item name="android:background">@drawable/input_field_bg</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textCursorDrawable">@drawable/sthlm_blk_login_text_field_cursor</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="TrackInfoViewLeftAligned">
+        <item name="android:gravity">left|center_horizontal</item>
+        <item name="android:paddingLeft">@dimen/newplaying_track_info_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/newplaying_track_info_padding_vertical</item>
+        <item name="android:paddingRight">@dimen/newplaying_track_info_padding_horizontal</item>
+        <item name="android:paddingBottom">@dimen/newplaying_track_info_padding_vertical</item>
+        <item name="android:paddingStart">@dimen/newplaying_track_info_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/newplaying_track_info_padding_horizontal</item>
+    </style>
+    <style name="res_2132083737_widget_cat_button_borderless_starttrip" parent="@style/res_2132083735_widget_cat_button_borderless">
+        <item name="android:textAppearance">@style/TextAppearance_Encore_Ballad</item>
+        <item name="android:background">@drawable/bg_startrip_button</item>
+        <item name="android:paddingLeft">@dimen/std_8dp</item>
+        <item name="android:paddingRight">@dimen/std_8dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingStart">@dimen/std_8dp</item>
+        <item name="android:paddingEnd">@dimen/std_8dp</item>
+    </style>
+    <style name="res_2132083825_widget_login_edittext" parent="@style/res_2132083781_widget_glue_edittext">
+        <item name="android:textAppearance">@style/TextAppearance_Encore_Ballad</item>
+        <item name="android:textColor">@color/login_text_input_text</item>
+        <item name="android:textColorHint">@color/login_text_input_hint</item>
+        <item name="android:background">@drawable/bg_login_text_input</item>
+        <item name="android:paddingLeft">@dimen/login_text_input_padding</item>
+        <item name="android:paddingRight">@dimen/login_text_input_padding</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:addStatesFromChildren">true</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textCursorDrawable">@drawable/login_text_input_cursor</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="Widget_MaterialComponents_Button_TextButton_Dialog" parent="@style/Widget_MaterialComponents_Button_TextButton">
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginLeft">@dimen/mtrl_btn_text_btn_padding_left</item>
+        <item name="android:minWidth">@dimen/mtrl_btn_dialog_btn_min_width</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginStart">@dimen/mtrl_btn_text_btn_padding_left</item>
+    </style>
+    <style name="Widget_MaterialComponents_Button_TextButton_Dialog_Flush" parent="@style/Widget_MaterialComponents_Button_TextButton_Dialog">
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginStart">0dp</item>
+    </style>
+    <style name="Widget_MaterialComponents_ExtendedFloatingActionButton" parent="@style/Widget_MaterialComponents_Button">
+        <item name="android:textColor">@color/mtrl_fab_icon_text_color_selector</item>
+        <item name="android:paddingLeft">@dimen/mtrl_extended_fab_start_padding</item>
+        <item name="android:paddingTop">@dimen/mtrl_extended_fab_top_padding</item>
+        <item name="android:paddingRight">@dimen/mtrl_extended_fab_end_padding</item>
+        <item name="android:paddingBottom">@dimen/mtrl_extended_fab_bottom_padding</item>
+        <item name="android:minWidth">@dimen/mtrl_extended_fab_min_width</item>
+        <item name="android:minHeight">@dimen/mtrl_extended_fab_min_height</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingStart">@dimen/mtrl_extended_fab_start_padding</item>
+        <item name="android:paddingEnd">@dimen/mtrl_extended_fab_end_padding</item>
+        <item name="backgroundTint">@color/mtrl_fab_bg_color_selector</item>
+        <item name="elevation">@dimen/mtrl_extended_fab_elevation</item>
+        <item name="iconPadding">@dimen/mtrl_extended_fab_icon_text_spacing</item>
+        <item name="iconSize">@dimen/mtrl_extended_fab_icon_size</item>
+        <item name="iconTint">@color/mtrl_fab_icon_text_color_selector</item>
+        <item name="rippleColor">@color/mtrl_fab_ripple_color</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton</item>
+    </style>
+    <style name="Widget_MaterialComponents_ExtendedFloatingActionButton_Icon" parent="@style/Widget_MaterialComponents_ExtendedFloatingActionButton">
+        <item name="android:gravity">right|center_horizontal|clip_horizontal</item>
+        <item name="android:paddingLeft">@dimen/mtrl_extended_fab_start_padding_icon</item>
+        <item name="android:paddingRight">@dimen/mtrl_extended_fab_end_padding_icon</item>
+        <item name="android:paddingStart">@dimen/mtrl_extended_fab_start_padding_icon</item>
+        <item name="android:paddingEnd">@dimen/mtrl_extended_fab_end_padding_icon</item>
+    </style>
+    <style name="res_2132083905_widget_materialcomponents_snackbar_textview" parent="@style/Widget_AppCompat_TextView">
+        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+        <item name="android:textColor">?attr/colorSurface</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">@dimen/design_snackbar_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/design_snackbar_padding_vertical</item>
+        <item name="android:paddingRight">@dimen/design_snackbar_padding_horizontal</item>
+        <item name="android:paddingBottom">@dimen/design_snackbar_padding_vertical</item>
+        <item name="android:maxLines">@integer/design_snackbar_text_max_lines</item>
+        <item name="android:alpha">@dimen/material_emphasis_high_type</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="res_2132083938_widget_paste_base_checkedtextview" parent="@android:style/Widget.Holo.CheckedTextView">
+    </style>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/res_2132083435_textappearance_nowplayingbar_singlelinetitle" android:ellipsize="marquee" android:id="@+id/track_info_view_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever"/>
+    <TextView android:textAppearance="@style/res_2132083434_textappearance_nowplayingbar_singlelineartist" android:ellipsize="marquee" android:id="@+id/track_info_view_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever"/>
+</merge>

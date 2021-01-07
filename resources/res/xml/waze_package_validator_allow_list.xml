@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<allowed_callers>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Waze" package="com.waze">
+        <key release="true"> 03:63:7f:6c:5d:8f:60:4e:6f:db:79:a6:ff:bf:a5:78:de:4e:31:8f:8d:a2:2f:c6:10:66:65:24:7f:88:07:d7 
+        </key>
+    </signature>
+</allowed_callers>

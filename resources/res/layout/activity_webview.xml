@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar" layout="@layout/toolbar_webview"/>
+    <WebView android:id="@+id/webview" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/toolbar"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/error_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100dp" android:layout_centerHorizontal="true">
+        <TextView android:textAppearance="?attr/pasteTextAppearanceBodyMediumBold" android:textSize="20sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@+id/error_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/webview_error_title"/>
+        <TextView android:textAppearance="?attr/pasteTextAppearanceBodyMedium" android:textSize="16sp" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@+id/error_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/webview_error_subtitle"/>
+        <Button android:id="@+id/button_reload" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:minWidth="300dp" android:text="@string/webview_error_retry" android:filterTouchesWhenObscured="false" style="?attr/glueButtonPrimaryGreen"/>
+    </LinearLayout>
+    <ProgressBar android:id="@+id/progress" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/indeterminateProgressBar"/>
+</RelativeLayout>

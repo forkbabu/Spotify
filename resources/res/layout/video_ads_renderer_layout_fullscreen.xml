@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@+id/top_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.01"/>
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@+id/bottom_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.99"/>
+    <com.spotify.music.nowplaying.videoads.widget.view.VideoAdsRendererView android:id="@+id/video_ads_renderer_view" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="@+id/bottom_guideline" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="@+id/top_guideline"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

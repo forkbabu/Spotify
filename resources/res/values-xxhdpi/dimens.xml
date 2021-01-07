@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btl_widget_height">300dp</dimen>
+    <dimen name="canvas_artist_widget_bottom_padding">48dp</dimen>
+    <dimen name="connect_device_space_for_device_name">8dp</dimen>
+    <dimen name="context_header_subtitle_text_size">13sp</dimen>
+    <dimen name="context_header_title_text_size">10sp</dimen>
+    <dimen name="free_tier_home_header_padding">64dp</dimen>
+    <dimen name="newplaying_footer_bottom_padding">8dp</dimen>
+    <dimen name="newplaying_footer_top_padding">10dp</dimen>
+    <dimen name="newplaying_header_button_external_margin">12dp</dimen>
+    <dimen name="newplaying_header_button_size">40dp</dimen>
+    <dimen name="newplaying_header_top_margin">8dp</dimen>
+    <dimen name="newplaying_primary_button_size">64dp</dimen>
+    <dimen name="newplaying_quaternary_button_size">34dp</dimen>
+    <dimen name="newplaying_secondary_button_size">48dp</dimen>
+    <dimen name="newplaying_tertiary_button_size">40dp</dimen>
+    <dimen name="peek_height">32dp</dimen>
+    <dimen name="player_controls_bottom_margin">36dp</dimen>
+    <dimen name="player_v2_square_cover_art_min_bottom_vertical_margin">2dp</dimen>
+    <dimen name="player_v2_square_cover_art_min_horizontal_margin">24dp</dimen>
+    <dimen name="player_v2_square_cover_art_min_top_vertical_margin">8dp</dimen>
+    <dimen name="player_v2_square_cover_art_size">260dp</dimen>
+    <dimen name="player_v2_square_cover_art_top_margin">80dp</dimen>
+    <dimen name="player_v2_track_subtitle_text_size">16sp</dimen>
+    <dimen name="player_v2_track_title_text_size">20sp</dimen>
+    <dimen name="scroll_widget_header_text_size">12sp</dimen>
+    <dimen name="speed_control_button_text_size">18sp</dimen>
+    <dimen name="widget_padding">16dp</dimen>
+    <dimen name="widget_padding_top">14dp</dimen>
+</resources>

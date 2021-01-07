@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.spotify.libs.facepile.FacePileView android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/great_picks_facepile" android:layout_width="wrap_content" android:layout_height="wrap_content" app:border_mask_thickness="3dp" app:face_size="64dp" app:face_view_count="5" app:show_additional_count="false"/>
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@+id/lottie_animated_icon" android:layout_width="wrap_content" android:layout_height="64dp" android:contentDescription="@string/allboarding_finding_music_for_you" android:alpha="0" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/dots_animation"/>
+        </FrameLayout>
+        <TextView android:gravity="center" android:id="@+id/update_taste_playlist_text_view" android:padding="@dimen/std_16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_24dp" android:text="@string/allboarding_great_picks" style="@style/Encore_TextView_Canon"/>
+    </LinearLayout>
+</merge>

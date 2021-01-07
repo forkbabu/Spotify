@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="@dimen/std_8dp" android:layout_width="match_parent" android:layout_height="72dp">
+    <Button android:textAppearance="?attr/pasteTextAppearanceSecondary" android:textColor="@color/btn_now_playing_connect" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/voice_ad_settings" android:paddingLeft="@dimen/std_16dp" android:paddingRight="@dimen/std_16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/voice_ads_manage_settings" android:layout_toLeftOf="@+id/microphone_wrapper" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/voice_ads_manage_settings" android:filterTouchesWhenObscured="true" style="?attr/pasteButtonStyleBorderlessTransparent"/>
+    <FrameLayout android:id="@+id/microphone_wrapper" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:importantForAccessibility="noHideDescendants">
+        <View android:layout_gravity="center" android:id="@+id/circle_small" android:visibility="invisible" android:layout_width="32dp" android:layout_height="32dp"/>
+        <View android:layout_gravity="center" android:id="@+id/circle_middle" android:visibility="invisible" android:layout_width="44dp" android:layout_height="44dp"/>
+        <View android:layout_gravity="center" android:id="@+id/circle_large" android:visibility="invisible" android:layout_width="56dp" android:layout_height="56dp"/>
+        <com.spotify.paste.spotifyicon.SpotifyIconView android:layout_gravity="center" android:id="@+id/microphone_on" android:visibility="invisible" android:layout_width="16dp" android:layout_height="16dp" paste:iconColor="@color/voice_ad_mic_foreground" paste:iconType="664"/>
+        <ImageButton android:layout_gravity="center" android:id="@+id/microphone_off" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mic_off_16" android:scaleType="fitCenter" android:contentDescription="@null"/>
+    </FrameLayout>
+</RelativeLayout>

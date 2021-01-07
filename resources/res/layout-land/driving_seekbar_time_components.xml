@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <SeekBar android:id="@+id/seek_bar" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/driving_seekbar_height" android:minHeight="@dimen/driving_seekbar_height" style="@style/DrivingPlayerSeekBar"/>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/timestamps" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <FrameLayout android:layout_gravity="start" android:paddingBottom="54dp" android:layout_width="@dimen/driving_seekbar_padding_start_end" android:layout_height="wrap_content">
+            <com.spotify.mobile.android.ui.view.SuppressLayoutTextView android:textAppearance="?attr/pasteTextAppearanceSecondary" android:textSize="16sp" android:textColor="@color/gray_70" android:layout_gravity="end" android:id="@+id/position" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="end" android:layout_width="@dimen/driving_seekbar_padding_start_end" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?attr/pasteTextAppearanceSecondary" android:textSize="16sp" android:textColor="@color/gray_70" android:layout_gravity="start" android:id="@+id/duration" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </FrameLayout>
+    </FrameLayout>
+</merge>

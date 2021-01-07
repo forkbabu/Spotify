@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.spotify.paste.widgets.carousel.CarouselView android:id="@+id/carousel" android:paddingLeft="@dimen/full_width_content_area_horizontal_margin" android:paddingRight="@dimen/full_width_content_area_horizontal_margin" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

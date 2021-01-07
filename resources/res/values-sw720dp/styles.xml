@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LoginInputFields">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">448dp</item>
+    </style>
+    <style name="LoginInputFieldsContainer">
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">448dp</item>
+    </style>
+    <style name="SignupInputFieldsContainer">
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_width">448dp</item>
+    </style>
+</resources>

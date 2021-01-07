@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingBottom="24dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/top_divider" android:background="@color/gray_20" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <TextView android:textAppearance="?attr/pasteTextAppearanceBodySmallBold" android:textSize="12sp" android:textColor="@color/gray_7" android:layout_gravity="center_vertical" android:background="@drawable/poll_tag_background" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:layout_marginRight="4dp" android:layout_marginBottom="6dp" android:text="@string/podcast_poll_tag" android:textAllCaps="true"/>
+    <FrameLayout android:id="@+id/poll_info_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?attr/pasteTextAppearanceBodyMediumBold" android:textColor="@color/gray_90" android:id="@+id/question" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+            <TextView android:textAppearance="?attr/pasteTextAppearanceBodySmall" android:textColor="@color/white_70" android:id="@+id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="8dp"/>
+            <FrameLayout android:id="@+id/options_container_frame" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@+id/options_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <View android:id="@+id/spinner_overlay" android:background="@color/spinner_overlay_poll_no_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </FrameLayout>
+            <Button android:textStyle="bold" android:textColor="@color/vote_button_text_color" android:layout_gravity="center_horizontal" android:id="@+id/button" android:background="@drawable/vote_button_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/podcast_poll_vote_button" android:filterTouchesWhenObscured="true" style="?attr/pasteButtonStyleSmall"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

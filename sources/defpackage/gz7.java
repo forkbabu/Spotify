@@ -1,0 +1,18 @@
+package defpackage;
+
+import com.spotify.mobius.rx2.o;
+import io.reactivex.y;
+
+/* renamed from: gz7  reason: default package */
+public final /* synthetic */ class gz7 implements fa2 {
+    public final /* synthetic */ y a;
+
+    public /* synthetic */ gz7(y yVar) {
+        this.a = yVar;
+    }
+
+    @Override // defpackage.fa2
+    public final Object get() {
+        return new o(this.a);
+    }
+}

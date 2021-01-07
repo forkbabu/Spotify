@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="?attr/pasteTextAppearanceHeaderLarge" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_16dp" android:layout_marginBottom="@dimen/std_32dp" android:text="@string/connected"/>
+    <ImageView android:layout_width="160dp" android:layout_height="148dp" android:src="@drawable/speaker_icon" android:adjustViewBounds="true" android:contentDescription="@string/homething"/>
+    <TextView android:textAppearance="?attr/pasteTextAppearanceBodyMedium" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_32dp" android:text="@string/homething_voice_tip_title"/>
+    <Button android:id="@+id/button_done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_32dp" android:text="@string/done" android:filterTouchesWhenObscured="false" style="@style/res_2132083974_widget_solar_button_primary_white"/>
+</LinearLayout>

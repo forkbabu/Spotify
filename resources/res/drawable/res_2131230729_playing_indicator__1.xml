@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:interpolator="@android:interpolator/accelerate_decelerate" android:shareInterpolator="true" android:ordering="sequentially">
+    <objectAnimator android:duration="@integer/playing_indicator_duration" android:valueFrom="@string/playing_indicator_0" android:valueTo="@string/playing_indicator_1" android:valueType="pathType" android:propertyName="pathData"/>
+    <objectAnimator android:duration="@integer/playing_indicator_duration" android:valueFrom="@string/playing_indicator_1" android:valueTo="@string/playing_indicator_2" android:valueType="pathType" android:propertyName="pathData"/>
+    <objectAnimator android:duration="@integer/playing_indicator_duration" android:valueFrom="@string/playing_indicator_2" android:valueTo="@string/playing_indicator_3" android:valueType="pathType" android:propertyName="pathData"/>
+    <objectAnimator android:duration="@integer/playing_indicator_duration" android:valueFrom="@string/playing_indicator_3" android:valueTo="@string/playing_indicator_4" android:valueType="pathType" android:propertyName="pathData"/>
+    <objectAnimator android:duration="@integer/playing_indicator_duration" android:valueFrom="@string/playing_indicator_4" android:valueTo="@string/playing_indicator_0" android:valueType="pathType" android:propertyName="pathData"/>
+</set>

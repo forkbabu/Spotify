@@ -1,0 +1,714 @@
+{
+    "mutations": {
+        "insertions": [
+            {
+                "id": "automatedMessagingId2d07ab281f0d6db4528e6d094af625c917b01893",
+                "view_type": "automated_messaging_item",
+                "automated_messaging_item": {
+                    "title": "Recommended for you",
+                    "subtitle": "New music from Meek Mill and Roddy Ricch, Lil Nas X and Megan Thee Stallion",
+                    "icon_url": "https://i.scdn.co/image/ab67706f00000002a2e63d88408df70dbaabbad9",
+                    "delivery_time": "2020-01-20T19:29:41+00:00",
+                    "context": {
+                        "name": "RapCaviar",
+                        "type": "Playlist",
+                        "image_url": "https://i.scdn.co/image/ab67706f00000002a2e63d88408df70dbaabbad9",
+                        "uri": "spotify:playlist:37i9dQZF1DX0XUsuxWHRQd"
+                    }
+                }
+            },
+            {
+                "id": "musicReleaseId2d07ab281f0d6db4528e6d094af625c917b01893",
+                "view_type": "music_release",
+                "music_release": {
+                    "artist_pick_message": "Artist pick string",
+                    "release_time": "2019-11-01T00:29:41Z",
+                    "artists": [
+                        {
+                            "uri": "spotify:artist:1Zp054Jc86WVKCxKEqZGOA",
+                            "display_name": "The Smashing Pumpkins",
+                            "image_url": "https://i.scdn.co/image/a22f3b64173ad64928fbe7b5f0c95b84a89f96c5"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease1-2",
+                            "display_name": "ArtistName2",
+                            "image_url": "http://image2.com"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease1-3",
+                            "display_name": "ArtistName3",
+                            "image_url": "http://image3.com"
+                        }
+                    ],
+                    "name": "Solara",
+                    "album_type": "Single",
+                    "image_url": "https://i.scdn.co/image/2d07ab281f0d6db4528e6d094af625c917b01893",
+                    "uri": "spotify:album:2xYPdqGg7Haw1Xx593rOd8",
+                    "explicit": true,
+                    "tracks": [
+                        {
+                            "uri": "spotify:track:trackRelease1",
+                            "title": "Track title",
+                            "explicit": true,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:uriRelease1",
+                                    "display_name": "ArtistName1",
+                                    "image_url": "http://image.com/track1/release1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "musicReleaseId1Zp054Jc86WVKCxKEqZGOA",
+                "view_type": "music_release",
+                "music_release": {
+                    "artist_pick_message": "Artist pick string",
+                    "release_time": "2019-08-23T19:29:41+00:00",
+                    "artists": [
+                        {
+                            "uri": "spotify:artist:1Zp054Jc86WVKCxKEqZGOA",
+                            "display_name": "Jack Garratt",
+                            "image_url": "https://i.scdn.co/image/528501e25a55c0553d908a4c0abdbfb42f1e185b"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease1-2",
+                            "display_name": "ArtistName2",
+                            "image_url": "http://image2.com"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease1-3",
+                            "display_name": "ArtistName3",
+                            "image_url": "http://image3.com"
+                        }
+                    ],
+                    "name": "Far Cry",
+                    "album_type": "EP",
+                    "image_url": "https://i.scdn.co/image/f1d7a7b185c2be5dec105fe73cf8b02d4f93c4c8",
+                    "uri": "spotify:album:5NJITgj0nvjcbk5C5xF4MI",
+                    "explicit": true,
+                    "tracks": [
+                        {
+                            "uri": "spotify:track:7gdbWDlVkCQNVt06TKrwHA",
+                            "title": "Far Cry",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:1Zp054Jc86WVKCxKEqZGOA",
+                                    "display_name": "Jack Garratt",
+                                    "image_url": "http://image.com/track1/release1"
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "spotify:track:6MiQ8qzLb54Oi5RZXYc2tP",
+                            "title": "Far Cry - Little Simz",
+                            "explicit": true,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:1Zp054Jc86WVKCxKEqZGOA",
+                                    "display_name": "Jack Garratt",
+                                    "image_url": "http://image.com/track1/release1"
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "spotify:track:5bwrQFQQOGXCeZ76CnjJRk",
+                            "title": "BYSKB v2m2- Demo",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:1Zp054Jc86WVKCxKEqZGOA",
+                                    "display_name": "Jack Garratt",
+                                    "image_url": "http://image.com/track1/release1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "followRecId1sifguhaodfgsdofgh1",
+                "view_type": "follow_recs",
+                "follow_recs": {
+                    "section_title": "Artists to follow",
+                    "artists": [
+                        {
+                            "uri": "spotify:artist:4CvTDPKA6W06DRfBnZKrau",
+                            "display_name": "Thom Yorke",
+                            "image_url": "https://i.scdn.co/image/b4f83f1c59467d4e7f3abb7a115222d71c4d884c"
+                        },
+                        {
+                            "uri": "spotify:artist:3jK9MiCrA42lLAdMGUZpwa",
+                            "display_name": "Anderson .Paak",
+                            "image_url": "https://i.scdn.co/image/9acaf10dfe68e1c72430aa710aca033ae9b80fa8"
+                        },
+                        {
+                            "uri": "spotify:artist:1LeVJ5GPeYDOVUjxx1y7Rp",
+                            "display_name": "Unknown Mortal Orchestra",
+                            "image_url": "https://i.scdn.co/image/a8ca1855ebcd08dc6203d67560c76a37110c9fc3"
+                        },
+                        {
+                            "uri": "spotify:artist:3XHO7cRUPCLOr6jwp8vsx5",
+                            "display_name": "Alt J",
+                            "image_url": "https://i.scdn.co/image/7ac54cbec2f1b3f5f1b7f6fc23acb9d00c70fb51"
+                        },
+                        {
+                            "uri": "spotify:artist:6RY8UjKYVCl7SHpNNPMmfs",
+                            "display_name": "VIAA",
+                            "image_url": "https://i.scdn.co/image/ebe4c276cafd78c7fda0b996a0588d8fbfc862f5"
+                        },
+                        {
+                            "uri": "spotify:artist:3DiDSECUqqY1AuBP8qtaIa",
+                            "display_name": "Alicia Keys",
+                            "image_url": "https://i.scdn.co/image/5275af0184e2cf3887d048d4c18a1fbb284a44ef"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "musicReleasesIdb4f83f1c59467d4e7f3abb7a115222d71c4d884c",
+                "view_type": "music_release",
+                "music_release": {
+                    "artist_pick_message": "Artist pick string",
+                    "release_time": "2019-08-23T19:29:41Z",
+                    "artists": [
+                        {
+                            "uri": "spotify:artist:4CvTDPKA6W06DRfBnZKrau",
+                            "display_name": "Thome Yorke",
+                            "image_url": "https://i.scdn.co/image/b4f83f1c59467d4e7f3abb7a115222d71c4d884c"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease2-2",
+                            "display_name": "ArtistName2",
+                            "image_url": "http://image.com"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease2-3",
+                            "display_name": "ArtistName3",
+                            "image_url": "http://image.com"
+                        }
+                    ],
+                    "name": "Daily Battles",
+                    "album_type": "Single",
+                    "image_url": "https://i.scdn.co/image/8bac47b0bc4cf6d4bcc315ca8faa5b83567425cc",
+                    "uri": "spotify:album:6EqM2rlOCixg83ma0o4uDB",
+                    "explicit": false,
+                    "tracks": [
+                        {
+                            "uri": "spotify:track:trackUriRelease2",
+                            "title": "Track title",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:uriRelease2",
+                                    "display_name": "Toto",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "musicReleases4Z8W4fKeB5Yxbrf3f3",
+                "view_type": "music_release",
+                "music_release": {
+                    "artist_pick_message": "Artist pick string",
+                    "release_time": "2019-08-23T19:29:41Z",
+                    "artists": [
+                        {
+                            "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+                            "display_name": "Radiohead",
+                            "image_url": "https://i.scdn.co/image/b4f83f1c59467d4e7f3abb7a115222d71c4d884c"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease2-2",
+                            "display_name": "ArtistName2",
+                            "image_url": "http://image.com"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease2-3",
+                            "display_name": "ArtistName3",
+                            "image_url": "http://image.com"
+                        }
+                    ],
+                    "name": "In Rainbows",
+                    "album_type": "Album",
+                    "image_url": "https://i.scdn.co/image/34c390dd70fca5ba873ec7bc27c0f15888e77f12",
+                    "uri": "spotify:album:7eyQXxuf2nGj9d2367Gi5f",
+                    "explicit": false,
+                    "tracks": [
+                        {
+                            "uri": "spotify:track:6dsq7Nt5mIFzvm5kIYNORy",
+                            "title": "15 Step",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+                                    "display_name": "Radiohead",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "spotify:track:4m0Vgr48VFaMYw0Sp1ozJu",
+                            "title": "Bodysnatchers",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+                                    "display_name": "Radiohead",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "spotify:track:5k7VKj1Xwy5DjO4B0PdAOb",
+                            "title": "Nude",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+                                    "display_name": "Radiohead",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "spotify:track:4Iyo50UoYhuuYORMLrGDci",
+                            "title": "Weird Fishes / Arpeggi",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+                                    "display_name": "Radiohead",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "spotify:track:51ygW389BW4Dut3B69pSwc",
+                            "title": "All I Need",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+                                    "display_name": "Radiohead",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "spotify:track:5SdmtFbNOD7Qej6jFCHkOM",
+                            "title": "Faust Arp",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+                                    "display_name": "Radiohead",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "spotify:track:56Z7hbyMrndw1naxb6I5Oi",
+                            "title": "Reckoner",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+                                    "display_name": "Radiohead",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "spotify:track:3Jc6X15OZCCyhGSHBF4hwB",
+                            "title": "House Of Cards",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+                                    "display_name": "Radiohead",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "spotify:track:15ea10YpJIl3mJq75yzqsD",
+                            "title": "Jigsaw Falling Into Place",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+                                    "display_name": "Radiohead",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "spotify:track:3uxhyRdWVXp7GQvERQl6fA",
+                            "title": "Videotape",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:4Z8W4fKeB5YxbusRsdQVPb",
+                                    "display_name": "Radiohead",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "musicReleasesId5ed0960454c317168fd1d825ad2109eafd67fe1e",
+                "view_type": "music_release",
+                "music_release": {
+                    "artist_pick_message": "Artist pick string",
+                    "release_time": "2019-08-23T19:29:41Z",
+                    "artists": [
+                        {
+                            "uri": "spotify:artist:4wo1267SJuUfHgasdlfNfc",
+                            "display_name": "The Raconteurs",
+                            "image_url": "https://i.scdn.co/image/5ed0960454c317168fd1d825ad2109eafd67fe1e"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease2-2",
+                            "display_name": "ArtistName2",
+                            "image_url": "http://image.com"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease2-3",
+                            "display_name": "ArtistName3",
+                            "image_url": "http://image.com"
+                        }
+                    ],
+                    "name": "Help Me Stranger",
+                    "album_type": "Single",
+                    "image_url": "https://i.scdn.co/image/c696d2f14cdc4ab2623a439ca1960db7aed0c427",
+                    "uri": "spotify:album:13DitY8eh4lhx5eU7DFtoB",
+                    "explicit": true,
+                    "tracks": [
+                        {
+                            "uri": "spotify:track:trackUriRelease2",
+                            "title": "Track title",
+                            "explicit": true,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:uriRelease2",
+                                    "display_name": "Toto",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "musicReleasesIdebe4c276cafd78c7fda0b996a0588d8fbfc862f5",
+                "view_type": "music_release",
+                "music_release": {
+                    "artist_pick_message": "Artist pick string",
+                    "release_time": "2019-08-23T19:29:41Z",
+                    "artists": [
+                        {
+                            "uri": "spotify:artist:6RY8UjKYVCl7SHpNNPMmfs",
+                            "display_name": "VIAA",
+                            "image_url": "https://i.scdn.co/image/ebe4c276cafd78c7fda0b996a0588d8fbfc862f5"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease2-2",
+                            "display_name": "ArtistName2",
+                            "image_url": "http://image.com"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease2-3",
+                            "display_name": "ArtistName3",
+                            "image_url": "http://image.com"
+                        }
+                    ],
+                    "name": "Retrograde",
+                    "album_type": "Single",
+                    "image_url": "https://i.scdn.co/image/024ad5470ccf7023753071d260d8acd16c3cf4f4",
+                    "uri": "spotify:album:0odXvxoZVYFEterocml4ay",
+                    "explicit": false,
+                    "tracks": [
+                        {
+                            "uri": "spotify:track:trackUriRelease2",
+                            "title": "Track title",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:uriRelease2",
+                                    "display_name": "Toto",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "musicReleasesId7ac54cbec2f1b3f5f1b7f6fc23acb9d00c70fb51",
+                "view_type": "music_release",
+                "music_release": {
+                    "artist_pick_message": "Artist pick string",
+                    "release_time": "2019-08-23T19:29:41Z",
+                    "artists": [
+                        {
+                            "uri": "spotify:artist:3XHO7cRUPCLOr6jwp8vsx5",
+                            "display_name": "Alt J",
+                            "image_url": "https://i.scdn.co/image/7ac54cbec2f1b3f5f1b7f6fc23acb9d00c70fb51"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease2-2",
+                            "display_name": "ArtistName2",
+                            "image_url": "http://image.com"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease2-3",
+                            "display_name": "ArtistName3",
+                            "image_url": "http://image.com"
+                        }
+                    ],
+                    "name": "Last Year (feat. GoldLink)",
+                    "album_type": "Single",
+                    "image_url": "https://i.scdn.co/image/7dc5e069c8f85d10135b42f2b96c304654613796",
+                    "uri": "spotify:album:3RwEFwQ2w8KDwfGrFfkjpM",
+                    "explicit": false,
+                    "tracks": [
+                        {
+                            "uri": "spotify:track:trackUriRelease2",
+                            "title": "Track title",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:uriRelease2",
+                                    "display_name": "Toto",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "musicReleases0SwO7SWeDHJijQ3XNS7xEE",
+                "view_type": "music_release",
+                "music_release": {
+                    "artist_pick_message": "Artist pick string",
+                    "release_time": "2019-08-23T19:29:41Z",
+                    "artists": [
+                        {
+                            "uri": "spotify:artist:0SwO7SWeDHJijQ3XNS7xEE",
+                            "display_name": "MGMT",
+                            "image_url": "https://i.scdn.co/image/552cc07e487a1dc7fd91d680824086b4daff8fc8"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease2-2",
+                            "display_name": "ArtistName2",
+                            "image_url": "http://image.com"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease2-3",
+                            "display_name": "ArtistName3",
+                            "image_url": "http://image.com"
+                        }
+                    ],
+                    "name": "Congratulations Remixes",
+                    "album_type": "Album",
+                    "image_url": "https://i.scdn.co/image/522612611a244a73fe5b64903b4bc2aaf629072e",
+                    "uri": "spotify:album:3o2GoxFqCpbVM2TJapzTiH",
+                    "explicit": false,
+                    "tracks": [
+                        {
+                            "uri": "spotify:track:3wjxySSJbYzLzWU0v14dva",
+                            "title": "Congratulations - Erol Alkan Remix",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:0SwO7SWeDHJijQ3XNS7xEE",
+                                    "display_name": "MGMT",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "spotify:track:15ntTgts0vLB5fuNHFuUJH",
+                            "title": "Siberian Breaks - Ed Banger All start Remix",
+                            "explicit": true,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:0SwO7SWeDHJijQ3XNS7xEE",
+                                    "display_name": "MGMT",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "spotify:track:5CUzXBZER3rUSbJhqYh0xc",
+                            "title": "Brian Eno - Cornelius mix",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:0SwO7SWeDHJijQ3XNS7xEE",
+                                    "display_name": "MGMT",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "musicReleasesId5275af0184e2cf3fghfgh887d048d4c18a1fbb284a44ef",
+                "view_type": "music_release",
+                "music_release": {
+                    "artist_pick_message": "Artist pick string",
+                    "release_time": "2019-08-23T19:29:41Z",
+                    "artists": [
+                        {
+                            "uri": "spotify:artist:3DiDSECUqqY1AuBP8qtaIa",
+                            "display_name": "Alicia Keys",
+                            "image_url": "https://i.scdn.co/image/5275af0184e2cf3887d048d4c18a1fbb284a44ef"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease2-2",
+                            "display_name": "ArtistName2",
+                            "image_url": "http://image.com"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease2-3",
+                            "display_name": "ArtistName3",
+                            "image_url": "http://image.com"
+                        }
+                    ],
+                    "name": "Us",
+                    "album_type": "Single",
+                    "image_url": "https://i.scdn.co/image/c9af71cf746cb20a9e7e749ecb63c8868adfbd60",
+                    "uri": "spotify:album:7pWw6ozRByPfbII3rqDnct",
+                    "explicit": false,
+                    "tracks": [
+                        {
+                            "uri": "spotify:track:trackUriRelease2",
+                            "title": "Track title",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:uriRelease2",
+                                    "display_name": "Toto",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "musicReleases4XaUmUGjidSklcDHxv3XWf",
+                "view_type": "music_release",
+                "music_release": {
+                    "artist_pick_message": "Artist pick string",
+                    "release_time": "2019-08-23T19:29:41Z",
+                    "artists": [
+                        {
+                            "uri": "spotify:artist:4XaUmUGjidSklcDHxv3XWf",
+                            "display_name": "MS MR",
+                            "image_url": "https://i.scdn.co/image/a4325b1eef0d2b09541acf340cba1220ebb3139e"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease2-2",
+                            "display_name": "ArtistName2",
+                            "image_url": "http://image.com"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease2-3",
+                            "display_name": "ArtistName3",
+                            "image_url": "http://image.com"
+                        }
+                    ],
+                    "name": "Criminals Remixes",
+                    "album_type": "Album",
+                    "image_url": "https://i.scdn.co/image/ab67616d0000b2730c99f08bbbb2fc5c4698cc8a",
+                    "uri": "spotify:album:0To2XStCsWhk23u71K9VM0",
+                    "explicit": false,
+                    "tracks": [
+                        {
+                            "uri": "spotify:track:6dsq7Nt5mIFzvm5kIYNORy",
+                            "title": "Criminals - Everything Everything Remix",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:4XaUmUGjidSklcDHxv3XWf",
+                                    "display_name": "MS MR",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        },
+                        {
+                            "uri": "spotify:track:4m0Vgr48VFaMYw0Sp1ozJu",
+                            "title": "Criminals - MAIZE Remix",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:4XaUmUGjidSklcDHxv3XWf",
+                                    "display_name": "MS MR",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "musicReleasesId5275af01822222cf3887d048d4c18a1fbb284a44ef",
+                "view_type": "music_release",
+                "music_release": {
+                    "artist_pick_message": "Artist pick string",
+                    "release_time": "2019-08-23T19:29:41Z",
+                    "artists": [
+                        {
+                            "uri": "spotify:artist:3DiDSECUqqY1AuBP8qtaIa",
+                            "display_name": "Jack White",
+                            "image_url": "https://i.scdn.co/image/1385c6229549198d429ac290627991617c71edc4"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease2-2",
+                            "display_name": "ArtistName2",
+                            "image_url": "http://image.com"
+                        },
+                        {
+                            "uri": "spotify:artist:uriRelease2-3",
+                            "display_name": "ArtistName3",
+                            "image_url": "http://image.com"
+                        }
+                    ],
+                    "name": "High Ball Stepper",
+                    "album_type": "Single",
+                    "image_url": "https://i.scdn.co/image/adec92b041cfc991def55c3caf81442e2939c934",
+                    "uri": "spotify:album:2NV2tNyRk9qiqq8UJTptHu",
+                    "explicit": false,
+                    "tracks": [
+                        {
+                            "uri": "spotify:track:trackUriRelease2",
+                            "title": "Track title",
+                            "explicit": false,
+                            "artists": [
+                                {
+                                    "uri": "spotify:artist:uriRelease2",
+                                    "display_name": "Toto",
+                                    "image_url": "http://image.com"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "delete_item_ids": []
+    }
+}

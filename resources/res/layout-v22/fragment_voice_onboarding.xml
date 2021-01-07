@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/bottom_sheet_content" android:background="@drawable/shape_top_rounded_corners" android:paddingLeft="@dimen/full_width_content_area_horizontal_margin" android:paddingRight="@dimen/full_width_content_area_horizontal_margin" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="@dimen/full_width_content_area_horizontal_margin" app:behavior_hideable="true" app:behavior_skipCollapsed="true" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

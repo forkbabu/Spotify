@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="center" android:id="@+id/frameLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/playlist_entity_home_mix_education_view_bg" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+            <TextView android:textAppearance="?attr/pasteTextAppearanceBodyMedium" android:textSize="14sp" android:textColor="@color/black" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/textSuggestion" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </FrameLayout>
+    <View android:id="@+id/arrow_view" android:background="@drawable/plyalist_entity_home_mix_education_view_arrow" android:layout_width="8dp" android:layout_height="8dp" android:scaleY="-1"/>
+</merge>

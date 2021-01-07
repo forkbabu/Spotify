@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@+id/dot1" android:background="@drawable/dot" android:layout_width="@dimen/dot_size" android:layout_height="@dimen/dot_size" android:layout_marginRight="@dimen/dot_margin" android:layout_marginEnd="@dimen/dot_margin"/>
+    <View android:id="@+id/dot2" android:background="@drawable/dot" android:layout_width="@dimen/dot_size" android:layout_height="@dimen/dot_size" android:layout_marginRight="@dimen/dot_margin" android:layout_marginEnd="@dimen/dot_margin"/>
+    <View android:id="@+id/dot3" android:background="@drawable/dot" android:layout_width="@dimen/dot_size" android:layout_height="@dimen/dot_size"/>
+</merge>

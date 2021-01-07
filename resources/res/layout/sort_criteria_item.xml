@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:paddingTop="@dimen/std_16dp" android:paddingBottom="@dimen/std_16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="18sp" android:id="@+id/sort_criteria_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <com.spotify.paste.spotifyicon.SpotifyIconView android:id="@+id/check_icon_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:iconColor="@color/glue_button_primary_green_background_default" app:iconSize="@dimen/std_24dp" app:iconType="337"/>
+</LinearLayout>

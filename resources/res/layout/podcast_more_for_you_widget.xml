@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.music.nowplaying.scroll.widgets.podcastmoreforyou.view.PodcastMoreForYouWidgetView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/widget_rounded_corner_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/widget_padding_top" android:paddingBottom="@dimen/widget_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/scroll_widget_more_for_you_header" android:paddingLeft="@dimen/widget_padding" android:paddingRight="@dimen/widget_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scroll_widget_podcast_more_for_you_header" style="@style/ScrollWidgetHeader"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/scroll_widget_more_for_you_recyclerview" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</com.spotify.music.nowplaying.scroll.widgets.podcastmoreforyou.view.PodcastMoreForYouWidgetView>

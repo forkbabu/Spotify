@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/drag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_16dp" android:src="@drawable/ic_drag"/>
+    <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_32dp" android:text="@string/mic_title" style="@style/Encore_TextView_Canon"/>
+    <TextView android:id="@android:id/text1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/std_24dp" android:text="@string/mic_description" style="@style/Encore_TextView_Ballad"/>
+    <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <Button android:gravity="start" android:id="@android:id/button2" android:paddingLeft="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/enable_wake_word_footer_title" android:filterTouchesWhenObscured="false" style="?attr/solarButtonTertiary"/>
+    <Button android:id="@android:id/button1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/std_32dp" android:text="@string/mic_give_access_button" android:filterTouchesWhenObscured="false" style="?attr/pasteButtonStylePrimary"/>
+    <Button android:id="@android:id/closeButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sheet_bottom_margin" android:text="@string/maybe_later" android:filterTouchesWhenObscured="false" style="?attr/solarButtonTertiary"/>
+</LinearLayout>

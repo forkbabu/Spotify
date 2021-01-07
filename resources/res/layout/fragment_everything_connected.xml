@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.music.superbird.setup.SetupView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/everything_connected_setup_view" android:layout_width="match_parent" android:layout_height="match_parent" app:buttonText="@string/all_next" app:description="@string/everything_connected_description" app:title="@string/everything_connected_title"/>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/std_32dp" android:layout_marginEnd="@dimen/std_32dp">
+    <TextView android:textAppearance="?attr/pasteTextAppearanceHeaderLarge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_16dp" android:text="@string/scanning"/>
+    <ProgressBar android:visibility="visible" android:layout_marginTop="@dimen/std_16dp" style="@style/indeterminateProgressBar"/>
+    <TextView android:textAppearance="?attr/pasteTextAppearanceBodyMedium" android:layout_gravity="start" android:id="@+id/choose_device_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_32dp" android:text="@string/choose_device"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/std_8dp"/>
+</LinearLayout>

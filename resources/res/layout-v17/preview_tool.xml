@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@+id/progress_circular" android:visibility="gone" android:layout_width="155dp" android:layout_height="wrap_content"/>
+    <Button android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/preview_button" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="36dp" android:layout_marginTop="40dp" android:layout_marginRight="15dp" android:text="@string/preview" android:filterTouchesWhenObscured="false" android:layout_marginEnd="15dp" style="@style/res_2132083973_widget_solar_button_primary_small_white"/>
+    <com.spotify.inappmessaging.preview.views.PreviewSubmissionView android:gravity="center_horizontal" android:layout_gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/in_app_messaging_preview_submission_view" android:background="@color/white" android:visibility="gone" android:layout_width="300dp" android:layout_height="wrap_content" android:layout_marginTop="100dp"/>
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/music_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/peek_placeholder" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/track_icon" android:layout_width="60dp" android:layout_height="wrap_content" android:src="@drawable/cat_placeholder_track" android:scaleType="centerCrop" android:adjustViewBounds="true"/>
+        <TextView android:textColor="@color/white" android:padding="10dp" android:layout_width="170dp" android:layout_height="wrap_content" android:text="@string/player_radio_no_forecasting" style="@style/res_2132083326_textappearance_cat_secondary"/>
+    </LinearLayout>
+</FrameLayout>

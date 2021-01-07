@@ -1,0 +1,20 @@
+package com.spotify.music.superbird.setup.domain;
+
+public enum SetupStep {
+    NONE,
+    WELCOME,
+    SEARCHING,
+    CONNECTED,
+    CONNECT_TO_CAR,
+    TEST_SOUND,
+    CHECK_FOR_UPDATES,
+    CONNECT_TO_WIFI,
+    READY,
+    READY_WITH_UPDATE,
+    DOWNLOADING,
+    DOWNLOADED,
+    EVERYTHING_CONNECTED,
+    RECONNECTING,
+    MOUNT_SELECTION,
+    MOUNT_INSTRUCTIONS
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/toolbar_wrapper" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/contentContainer" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <TextView android:textAppearance="?attr/pasteTextAppearanceSecondary" android:layout_gravity="center" android:id="@+id/description" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.spotify.music.libs.search.view.ToolbarSearchFieldView android:layout_gravity="top" android:id="@+id/search_toolbar" android:layout_width="match_parent" android:layout_height="?android:attr/actionBarSize" android:layout_marginLeft="@dimen/full_width_content_area_horizontal_margin" android:layout_marginRight="@dimen/full_width_content_area_horizontal_margin" android:layout_marginBottom="10dp" android:layout_marginHorizontal="@dimen/full_width_content_area_horizontal_margin"/>
+    </LinearLayout>
+</LinearLayout>

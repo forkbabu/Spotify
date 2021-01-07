@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="@dimen/std_32dp" android:layout_marginRight="16dp" android:layout_marginBottom="@dimen/std_16dp" style="@style/TextAppearance_Encore_Canon"/>

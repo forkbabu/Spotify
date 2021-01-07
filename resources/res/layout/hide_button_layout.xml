@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.encore.consumer.elements.quickactions.hide.HideButton xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="@dimen/quick_action_button_size" android:layout_height="@dimen/quick_action_button_size" style="@style/Encore_Elements_Action"/>

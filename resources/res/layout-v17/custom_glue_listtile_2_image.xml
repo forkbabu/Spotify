@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_vertical" android:id="@android:id/icon" android:duplicateParentState="true" android:layout_width="@dimen/image_size" android:layout_height="@dimen/image_size" android:scaleType="centerCrop"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="12dp" android:layout_marginEnd="12dp">
+        <TextView android:ellipsize="end" android:id="@android:id/text1" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="@dimen/std_8dp" style="@style/ResultsTitle"/>
+        <TextView android:textColor="@color/gray_70" android:ellipsize="end" android:id="@android:id/text2" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/ResultsSubTitle"/>
+    </LinearLayout>
+    <com.spotify.paste.spotifyicon.SpotifyIconView android:layout_gravity="center_vertical" android:id="@+id/spotifyIconView" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginStart="@dimen/std_8dp" app:iconColor="@color/white" app:iconType="361"/>
+</merge>

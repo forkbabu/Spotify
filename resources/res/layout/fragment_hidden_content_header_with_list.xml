@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.spotify.android.glue.patterns.header.GlueHeaderLayout android:id="@+id/glue_header_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.spotify.android.glue.patterns.header.headers.GlueHeaderView android:gravity="center" android:id="@+id/header_view" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/res_2132083813_widget_glueheaderview_extrareduced"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="com.spotify.music.features.hiddencontent.TabBarAccessoryOffsetHeaderBehaviour"/>
+    </com.spotify.android.glue.patterns.header.GlueHeaderLayout>
+</FrameLayout>

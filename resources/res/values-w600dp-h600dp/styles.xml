@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="res_2132082931_bottomnavigationitemindicator_adaptive" parent="@style/BottomNavigationItemIndicator">
+        <item name="android:visibility">@null</item>
+    </style>
+</resources>

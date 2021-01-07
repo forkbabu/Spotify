@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/lyrics_full_screen_header_height">
+    <FrameLayout android:background="@drawable/card_shadow" android:layout_width="@dimen/lyrics_full_screen_image_with_shadow_width" android:layout_height="@dimen/lyrics_full_screen_image_with_shadow_height">
+        <com.spotify.paste.widgets.SquareImageView android:id="@+id/coverArt" android:layout_width="@dimen/lyrics_full_screen_image_width" android:layout_height="@dimen/lyrics_full_screen_image_height" android:scaleType="centerCrop"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/title_container" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <TextView android:textAppearance="@style/TextAppearance_Encore_BalladBold" android:textColor="@color/white" android:ellipsize="end" android:gravity="start" android:id="@+id/title" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="@dimen/lyrics_full_screen_header_title_height" android:maxLines="1"/>
+        <TextView android:textAppearance="@style/TextAppearance_Encore_Mesto" android:textColor="@color/white" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/artistName" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="@dimen/lyrics_full_screen_header_artist_height" android:layout_marginTop="@dimen/lyrics_full_screen_header_line_gap" android:maxLines="1"/>
+    </LinearLayout>
+    <ImageButton android:id="@+id/close" android:layout_width="@dimen/std_32dp" android:layout_height="@dimen/std_32dp"/>
+</LinearLayout>

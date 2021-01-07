@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/onboarding" app:startDestination="@+id/initial_loading_fragment">
+    <fragment android:label="InitialLoadingFragment" android:name="com.spotify.libs.onboarding.allboarding.flow.InitialLoadingFragment" android:id="@+id/initial_loading_fragment">
+        <action android:id="@+id/action_initialLoadingFragment_to_pickerFragment" app:destination="@+id/pickerFragment"/>
+        <argument android:name="entryPoint" app:argType="com.spotify.libs.onboarding.allboarding.EntryPoint"/>
+    </fragment>
+    <fragment android:label="PickerFragment" android:name="com.spotify.libs.onboarding.allboarding.picker.PickerFragment" android:id="@+id/pickerFragment">
+        <action android:id="@+id/action_pickerFragment_to_postingDataFragment" app:destination="@+id/ShowLoadingFragment"/>
+        <action android:id="@+id/action_pickerFragment_to_searchFragment" app:destination="@+id/searchFragment" app:popUpTo="@+id/pickerFragment"/>
+        <action android:id="@+id/action_pickerFragment_self" app:destination="@+id/pickerFragment"/>
+        <argument android:name="onboardingSessionId" app:argType="string"/>
+        <argument android:name="stepId" app:argType="long"/>
+        <action android:id="@+id/action_pickerFragment_to_pickerSkipDialogFragment" app:destination="@+id/skipDialogFragment"/>
+    </fragment>
+    <fragment android:label="ShowLoadingFragment" android:name="com.spotify.libs.onboarding.allboarding.flow.ShowLoadingFragment" android:id="@+id/ShowLoadingFragment">
+        <argument android:name="loadingText" app:argType="string"/>
+        <argument android:name="onboardingSessionId" app:argType="string"/>
+    </fragment>
+    <fragment android:label="SearchFragment" android:name="com.spotify.libs.onboarding.allboarding.search.SearchFragment" android:id="@+id/searchFragment">
+        <argument android:name="searchConfig" app:argType="com.spotify.libs.onboarding.allboarding.room.AllboardingSearch"/>
+        <argument android:name="sessionId" app:argType="string"/>
+    </fragment>
+    <dialog android:label="SkipDialogFragment" android:name="com.spotify.libs.onboarding.allboarding.picker.SkipDialogFragment" android:id="@+id/skipDialogFragment">
+        <argument android:name="isSkippable" app:argType="boolean"/>
+    </dialog>
+</navigation>

@@ -1,0 +1,56 @@
+package defpackage;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import androidx.recyclerview.widget.RecyclerView;
+import com.spotify.music.C0707R;
+import defpackage.yrc;
+
+/* renamed from: uhc  reason: default package */
+public class uhc implements yrc {
+
+    /* renamed from: uhc$a */
+    public static class a extends csc {
+        private View.OnClickListener b;
+
+        public a() {
+            c(false);
+        }
+
+        public void f(View.OnClickListener onClickListener) {
+            this.b = onClickListener;
+        }
+    }
+
+    /* renamed from: uhc$b */
+    public static class b extends yrc.a {
+        final Button C;
+
+        public b(View view) {
+            super(view);
+            this.C = (Button) view.findViewById(C0707R.id.button);
+        }
+    }
+
+    @Override // defpackage.yrc
+    public /* synthetic */ void a() {
+        xrc.b(this);
+    }
+
+    @Override // defpackage.yrc
+    public void c(csc csc, RecyclerView.b0 b0Var, int i) {
+        ((b) b0Var).C.setOnClickListener(((a) csc).b);
+    }
+
+    @Override // defpackage.yrc
+    public /* synthetic */ void d(csc csc, RecyclerView.b0 b0Var) {
+        xrc.a(this, csc, b0Var);
+    }
+
+    @Override // defpackage.yrc
+    public yrc.a e(LayoutInflater layoutInflater, ViewGroup viewGroup) {
+        return new b(layoutInflater.inflate(C0707R.layout.filter_show_all, viewGroup, false));
+    }
+}

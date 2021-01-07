@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/fragment_device_holder" android:background="@color/bg_picker" android:paddingLeft="@dimen/full_width_content_area_horizontal_margin_device_picker" android:paddingRight="@dimen/full_width_content_area_horizontal_margin_device_picker" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="@dimen/full_width_content_area_horizontal_margin_device_picker">
+    <FrameLayout android:id="@+id/volume_bar_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:animateLayoutChanges="true">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/volume_bar" android:background="@color/device_picker_volume_background" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/volume_img" android:paddingLeft="@dimen/device_picker_volume_padding" android:paddingRight="@dimen/device_picker_volume_slider_image_spacing" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/icn_device_picker_volume" android:paddingStart="@dimen/device_picker_volume_padding" android:paddingEnd="@dimen/device_picker_volume_slider_image_spacing"/>
+            <com.spotify.mobile.android.ui.view.DraggableSeekBar android:id="@+id/volume_slider" android:paddingTop="@dimen/device_picker_volume_padding" android:paddingBottom="@dimen/device_picker_volume_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/device_picker_volume_height" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/bg_picker_progress"/>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/devices_layout_content" android:background="@color/bg_picker" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/volume_bar_container">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/devices_list" android:layoutAnimation="@anim/device_picker_animation" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+    <com.spotify.encore.consumer.components.yourlibrary.impl.elements.chips.LibraryChipsView android:layout_gravity="center_vertical" android:id="@+id/chips" android:paddingLeft="@dimen/std_16dp" android:paddingRight="@dimen/std_16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/std_16dp" app:layoutDescription="@xml/library_filter_chips_layout_scene"/>
+</HorizontalScrollView>

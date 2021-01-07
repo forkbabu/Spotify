@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.music.features.yourlibrary.container.view.YourLibraryTabView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="@dimen/bottom_tabs_min_height">
+    <TextView android:textAppearance="@style/TextAppearance_Encore_BalladBold" android:textColor="@color/tab_text_inactive_color" android:textColorHighlight="@color/tab_text_highlight_color" android:layout_gravity="bottom" android:id="@+id/bottom_tab_view_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="10dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+</com.spotify.music.features.yourlibrary.container.view.YourLibraryTabView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/bg_picker" android:paddingLeft="@dimen/full_width_content_area_horizontal_margin_device_picker" android:paddingRight="@dimen/full_width_content_area_horizontal_margin_device_picker" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="@dimen/full_width_content_area_horizontal_margin_device_picker">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingTop="25dp" android:paddingBottom="25dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/steps_icon" android:layout_width="212dp" android:layout_height="@dimen/connect_education_icon_size" android:scaleType="fitXY"/>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/steps_list" android:paddingLeft="28dp" android:paddingRight="28dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_24dp" android:layout_marginBottom="@dimen/std_24dp"/>
+        <Button android:id="@+id/steps_got_it" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connect_education_got_it" android:filterTouchesWhenObscured="false" style="?attr/glueButtonPrimaryGreen"/>
+        <TextView android:textAppearance="?attr/pasteTextAppearanceBodyMedium" android:textColor="@color/white" android:id="@+id/steps_additional" android:paddingTop="@dimen/device_picker_education_link_padding" android:paddingBottom="@dimen/device_picker_education_link_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

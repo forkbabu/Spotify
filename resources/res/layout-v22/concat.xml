@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/now_playing_bar_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RadioGroup android:orientation="horizontal" android:id="@+id/endpoint_selector" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/concat_regular_endpoint"/>
+        <RadioButton android:id="@+id/concat_exercise_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/concat_exercise_endpoint"/>
+    </RadioGroup>
+    <EditText android:id="@+id/first_string" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="text" android:autofillHints="auto" app:layout_constraintStart_toEndOf="@+id/endpoint_selector" app:layout_constraintTop_toBottomOf="@+id/endpoint_selector"/>
+    <EditText android:id="@+id/second_string" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="text" android:autofillHints="auto" app:layout_constraintStart_toEndOf="@+id/first_string" app:layout_constraintTop_toBottomOf="@+id/first_string"/>
+    <Button android:id="@+id/concatenate_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/concatenate" android:filterTouchesWhenObscured="true" app:layout_constraintStart_toEndOf="@+id/second_string" app:layout_constraintTop_toBottomOf="@+id/second_string" style="?attr/glueButtonPrimaryGreen"/>
+    <TextView android:id="@+id/result_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintStart_toEndOf="@+id/concatenate_button" app:layout_constraintTop_toBottomOf="@+id/concatenate_button"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/allboarding_stockholm_black_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.spotify.libs.onboarding.allboarding.simpleloading.SimpleLoadingView android:id="@+id/loading_animation_lite" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.spotify.libs.onboarding.allboarding.greatpicksloading.GreatPicksLoadingView android:id="@+id/loading_animation_great_picks" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

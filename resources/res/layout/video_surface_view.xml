@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextureView android:id="@+id/texture_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ProgressBar android:id="@+id/throbber" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/indeterminateProgressBar"/>
+    <com.spotify.mobile.android.video.SubtitlesView android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/subtitle_view" android:background="@color/black_90" android:padding="0dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <LinearLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/seek_thumbnail" android:background="@drawable/video_thumbnail" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="120dp">
+        <com.spotify.mobile.android.video.thumbnails.ThumbnailView android:id="@+id/seek_thumbnail_image" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:layout_gravity="center" android:id="@+id/seek_thumbnail_timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</merge>

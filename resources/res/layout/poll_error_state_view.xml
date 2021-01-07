@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="?attr/pasteTextAppearanceHeaderSmall" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@+id/poll_error_title" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textAppearance="?attr/pasteTextAppearanceBodySmall" android:textColor="?attr/pasteColorTextSecondary" android:gravity="center_horizontal" android:id="@+id/poll_error_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="28dp"/>
+    <Button android:textAppearance="@style/TextAppearance_Encore_MinuetBold" android:textColor="@color/vote_button_text_color" android:layout_gravity="center_horizontal" android:id="@+id/error_button" android:background="@drawable/vote_button_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/podcast_poll_error_general_error_button" android:filterTouchesWhenObscured="true" style="?attr/pasteButtonStyleSmall"/>
+</LinearLayout>

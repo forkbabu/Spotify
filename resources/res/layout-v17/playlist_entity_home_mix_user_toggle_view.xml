@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/fragment_taste_viz" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?attr/pasteTextAppearanceHeaderSmall" android:gravity="center" android:id="@+id/instructions" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="32dp" android:layout_marginTop="32dp" android:layout_marginRight="32dp" android:text="@string/home_mix_user_toggle_instructions" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginStart="32dp" android:layout_marginEnd="32dp"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:paddingBottom="96dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@+id/instructions" android:layout_alignParentBottom="true" android:overScrollMode="never" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout android:id="@+id/user_toggle_done" android:background="@drawable/playlist_entity_home_mix_gradient_to_black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textAppearance="?attr/pasteTextAppearanceButton" android:ellipsize="none" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/action_button" android:layout_width="wrap_content" android:layout_height="48dp" android:layout_marginTop="32dp" android:layout_marginBottom="32dp" android:text="@string/home_mix_view_taste_viz_close" android:singleLine="true" android:filterTouchesWhenObscured="false" android:textAllCaps="true" style="?attr/glueButtonPrimaryWhite"/>
+    </FrameLayout>
+</RelativeLayout>

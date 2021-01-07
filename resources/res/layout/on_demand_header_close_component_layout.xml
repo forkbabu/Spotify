@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/header_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Button android:layout_gravity="end" android:id="@+id/close" android:background="@drawable/close_button" android:layout_width="@dimen/close_button_size" android:layout_height="@dimen/close_button_size" android:layout_margin="@dimen/header_margin" android:scaleType="centerCrop" android:filterTouchesWhenObscured="true"/>
+</FrameLayout>

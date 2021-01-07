@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/image" android:layout_width="136dp" android:layout_height="136dp" android:src="@drawable/cat_placeholder_album" android:scaleType="centerCrop"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginStart="16dp">
+        <TextView android:textAppearance="?attr/pasteTextAppearanceBodyMediumBold" android:textColor="@color/white" android:ellipsize="end" android:gravity="bottom" android:id="@+id/title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:maxLines="4" android:layout_weight="1"/>
+        <TextView android:textAppearance="?attr/pasteTextAppearanceBodySmall" android:textColor="@color/gray_70" android:ellipsize="end" android:gravity="bottom" android:id="@+id/subtitle" android:paddingTop="2dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="4"/>
+        <TextView android:textAppearance="?attr/pasteTextAppearanceMetadata" android:textColor="@color/gray_70" android:ellipsize="end" android:gravity="bottom" android:id="@+id/accessoryText" android:paddingTop="12dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/more_vocal" android:title="@string/lyrics_full_screen_sing_along_more_vocal"/>
+    <item android:id="@+id/less_vocal" android:title="@string/lyrics_full_screen_sing_along_less_vocal"/>
+    <item android:id="@+id/report" android:title="@string/lyrics_full_screen_sing_along_report"/>
+</menu>

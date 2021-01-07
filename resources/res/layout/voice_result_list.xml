@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/result_item_container" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@drawable/voice_results_empty_divider" android:showDividers="middle">
+    <com.spotify.voice.results.impl.view.ResultRowView android:id="@+id/result_item_1" android:background="@drawable/container_bg" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height"/>
+    <com.spotify.voice.results.impl.view.ResultRowView android:id="@+id/result_item_2" android:background="@drawable/container_bg" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height"/>
+    <com.spotify.voice.results.impl.view.ResultRowView android:id="@+id/result_item_3" android:background="@drawable/container_bg" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height"/>
+    <com.spotify.voice.results.impl.view.ResultRowView android:id="@+id/result_item_4" android:background="@drawable/container_bg" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height"/>
+</LinearLayout>

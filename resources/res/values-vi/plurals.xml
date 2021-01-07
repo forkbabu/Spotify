@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_playlist_your_episodes_subtitle">
+        <item quantity="other">%1$s tập</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_hours">
+        <item quantity="other">%1$d giờ</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_min">
+        <item quantity="other">%1$d phút</item>
+    </plurals>
+    <plurals name="artist_header_followers_count">
+        <item quantity="other">%1$,d NGƯỜI THEO DÕI</item>
+    </plurals>
+    <plurals name="artist_number_of_songs">
+        <item quantity="other">%1$,d bài hát của %2$s</item>
+    </plurals>
+    <plurals name="artist_saved_songs_subtitle">
+        <item quantity="other">%1$d bài hát • %2$s</item>
+    </plurals>
+    <plurals name="charts_daily_plays">
+        <item quantity="other">%1$,d Phát Hàng ngày</item>
+    </plurals>
+    <plurals name="charts_header_new_entry_count">
+        <item quantity="other">%1$,d Nội dung Mới</item>
+    </plurals>
+    <plurals name="collection_podcast_updated_days_ago">
+        <item quantity="other">Đã cập nhật cách đây %1$d ngày</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_hours">
+        <item quantity="other">%1$d giờ</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_mins">
+        <item quantity="other">%1$d phút</item>
+    </plurals>
+    <plurals name="device_picker_available_for_join_subtitle_others">
+        <item quantity="other">%1$s đang nghe cùng %2$d người khác</item>
+    </plurals>
+    <plurals name="edit_profile_notice_character_cap">
+        <item quantity="other">Tối đa %1$,d ký tự</item>
+    </plurals>
+    <plurals name="error_dialog_body_resend_limit">
+        <item quantity="other">Hãy đợi %1$d giây rồi yêu cầu một mã mới.</item>
+    </plurals>
+    <plurals name="error_dialog_title_resend_limit">
+        <item quantity="other">Thử lại sau %1$d giây</item>
+    </plurals>
+    <plurals name="find_friends_flow_confirm_desc">
+        <item quantity="other">Bạn có chắc chắn muốn theo dõi tất cả %1$,d người?</item>
+    </plurals>
+    <plurals name="follow_feed_timestamp_days_ago">
+        <item quantity="other">%1$d ngày trước</item>
+    </plurals>
+    <plurals name="follow_feed_timestamp_hours_ago">
+        <item quantity="other">%1$d giờ trước</item>
+    </plurals>
+    <plurals name="follow_feed_timestamp_minutes_ago">
+        <item quantity="other">%1$d phút trước</item>
+    </plurals>
+    <plurals name="header_playlist_followers_count">
+        <item quantity="other">%1$,d NGƯỜI THEO DÕI</item>
+    </plurals>
+    <plurals name="home_inline_onboarding_header_title">
+        <item quantity="other">Theo dõi %1$d nghệ sĩ để nhận được nhạc dành riêng cho bạn</item>
+    </plurals>
+    <plurals name="item_description_folder_folders_count">
+        <item quantity="other">%1$s thư mục</item>
+    </plurals>
+    <plurals name="item_description_folder_playlists_count">
+        <item quantity="other">%1$s danh sách phát</item>
+    </plurals>
+    <plurals name="item_description_liked_songs">
+        <item quantity="other">Danh sách phát • %1$s bài hát</item>
+    </plurals>
+    <plurals name="item_description_liked_songs_filtered">
+        <item quantity="other">%1$s bài hát</item>
+    </plurals>
+    <plurals name="item_description_your_episodes">
+        <item quantity="other">Danh sách phát • %1$s tập</item>
+    </plurals>
+    <plurals name="item_description_your_episodes_filtered">
+        <item quantity="other">%1$s tập</item>
+    </plurals>
+    <plurals name="local_files_imported_dialog_body">
+        <item quantity="other">%1$,d bài hát đã được thêm vào Bài hát trong Thư viện</item>
+    </plurals>
+    <plurals name="local_files_subtitle_number_of_songs">
+        <item quantity="other">%1$,d bài hát</item>
+    </plurals>
+    <plurals name="mobile_artist_tracks_count">
+        <item quantity="other">%1$,d bài hát</item>
+    </plurals>
+    <plurals name="notification_syncing_text">
+        <item quantity="other">%1$,d trong số %2$,d (%3$,d%% hoàn thành)</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">Chúng tôi đã gửi SMS kèm mã gồm %1$d chữ số tới %2$s.</item>
+    </plurals>
+    <plurals name="playlist_folder_count">
+        <item quantity="other">%1$,d thư mục</item>
+    </plurals>
+    <plurals name="playlist_header_owner_button_text_collaborative">
+        <item quantity="other">%1$s và %2$d người khác</item>
+    </plurals>
+    <plurals name="playlist_header_subtitle_likes">
+        <item quantity="other">%1$s LƯỢT THÍCH</item>
+    </plurals>
+    <plurals name="playlist_header_subtitle_owner_collaborative">
+        <item quantity="other">Của %1$s và %2$d người khác</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_episodes">
+        <item quantity="other">%1$d tập</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_tracks">
+        <item quantity="other">%1$d bài hát</item>
+    </plurals>
+    <plurals name="playlist_participants_title">
+        <item quantity="other">%1$d người</item>
+    </plurals>
+    <plurals name="playlist_playlist_count">
+        <item quantity="other">%1$,d playlist</item>
+    </plurals>
+    <plurals name="playlist_track_count">
+        <item quantity="other">%1$,d bài hát</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_episodes">
+        <item quantity="other">%1$,d TẬP</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_songs">
+        <item quantity="other">%1$,d BÀI HÁT</item>
+    </plurals>
+    <plurals name="podcast_poll_days_left_label">
+        <item quantity="other">%1$d ngày</item>
+    </plurals>
+    <plurals name="podcast_poll_hours_left_label">
+        <item quantity="other">Còn %1$d giờ</item>
+    </plurals>
+    <plurals name="podcast_poll_minutes_left_label">
+        <item quantity="other">Còn %1$d phút</item>
+    </plurals>
+    <plurals name="podcast_poll_poll_subtitle">
+        <item quantity="other">%1$d lượt bình chọn • %2$s</item>
+    </plurals>
+    <plurals name="podcast_qna_days_ago">
+        <item quantity="other">%1$d ngày trước</item>
+    </plurals>
+    <plurals name="podcast_qna_month_ago">
+        <item quantity="other">%1$d tháng trước</item>
+    </plurals>
+    <plurals name="podcast_qna_week_ago">
+        <item quantity="other">%1$d tuần trước</item>
+    </plurals>
+    <plurals name="podcast_topic_episodes">
+        <item quantity="other">%1$d tập podcast</item>
+    </plurals>
+    <plurals name="points_label">
+        <item quantity="other">%1$d điểm</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_add_song_subtitle">
+        <item quantity="other">Còn %1$d bài hát</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_subtitle">
+        <item quantity="other">%1$d bài hát • %2$s</item>
+    </plurals>
+    <plurals name="profile_list_item_followers_count">
+        <item quantity="other">%1$,d người theo dõi</item>
+    </plurals>
+    <plurals name="redownload_dialog_message">
+        <item quantity="other">Bạn sẽ phải tải những bản nhạc này xuống thiết bị để nghe lại mà không cần kết nối mạng. Việc này sẽ tiêu tốn %1$d Mb.</item>
+    </plurals>
+    <plurals name="refresh_header_followers_count">
+        <item quantity="other">%1$,d người theo dõi</item>
+    </plurals>
+    <plurals name="refresh_header_likes_count">
+        <item quantity="other">%1$s lượt thích</item>
+    </plurals>
+    <plurals name="response_count">
+        <item quantity="other">%1$d phản hồi</item>
+    </plurals>
+    <plurals name="selection_subtitle">
+        <item quantity="other">Đã chọn %1$d/%2$d dòng</item>
+    </plurals>
+    <plurals name="share_notice">
+        <item quantity="other">Thêm %1$d bài hát hoặc podcast để chia sẻ.</item>
+    </plurals>
+    <plurals name="social_listening_join_failed_session_full_body">
+        <item quantity="other">Danh sách chờ cho phép %1$s người nghe cùng một lúc và chúng tôi đã đủ người rồi.</item>
+    </plurals>
+    <plurals name="social_listening_participant_list_invite_notice_title">
+        <item quantity="other">Mời tối đa %1$s người bạn</item>
+    </plurals>
+    <plurals name="social_listening_participants_listening">
+        <item quantity="other">%1$s đang nghe</item>
+    </plurals>
+    <plurals name="song_limit_dialog_title">
+        <item quantity="other">Bạn đã đạt đến giới hạn %1$d bài hát tải xuống</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="one">%d ngày</item>
+        <item quantity="other">%d ngày</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="one">%d giờ</item>
+        <item quantity="other">%d giờ</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="one">%d phút</item>
+        <item quantity="other">%d phút</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="one">%d ngày</item>
+        <item quantity="other">%d ngày</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="one">%d giờ</item>
+        <item quantity="other">%d giờ</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="one">%d phút</item>
+        <item quantity="other">%d phút</item>
+    </plurals>
+    <plurals name="time_format_hours">
+        <item quantity="other">%1$d giờ</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$d phút</item>
+    </plurals>
+    <plurals name="time_format_sec">
+        <item quantity="other">%1$d giây</item>
+    </plurals>
+    <plurals name="title_group_session_view">
+        <item quantity="other">%1$d người đang nghe</item>
+    </plurals>
+    <plurals name="toast_imported_to_collection">
+        <item quantity="other">Đã thêm %1$,d bài hát</item>
+    </plurals>
+    <plurals name="user_mix_songs_limit_popup_header">
+        <item quantity="other">Playlist Bài hát đã tải xuống của bạn đã đạt đến giới hạn %1$d bài hát</item>
+    </plurals>
+    <plurals name="your_episodes_header_subtitle">
+        <item quantity="other">%1$d tập</item>
+    </plurals>
+    <plurals name="your_episodes_subtitle">
+        <item quantity="other">%1$d tập</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_artist_tracks_in_collection_subtitle">
+        <item quantity="other">%1$s bài hát</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_favorite_songs_subtitle">
+        <item quantity="other">%1$s bài hát</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_folder_folders_count_subtitle">
+        <item quantity="other">%1$s thư mục</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_folder_subtitle">
+        <item quantity="other">%1$s playlist</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_your_episodes_subtitle">
+        <item quantity="other">%1$s tập</item>
+    </plurals>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.spotify.music.nowplaying.drivingmode.view.connectionlabel.ConnectionLabelView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/connect_label_view" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</merge>

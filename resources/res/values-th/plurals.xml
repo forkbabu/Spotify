@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_playlist_your_episodes_subtitle">
+        <item quantity="other">%1$s ตอน</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_hours">
+        <item quantity="other">%1$d ชม.</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_min">
+        <item quantity="other">%1$d นาที</item>
+    </plurals>
+    <plurals name="artist_header_followers_count">
+        <item quantity="other">ผู้ติดตาม %1$,d คน</item>
+    </plurals>
+    <plurals name="artist_number_of_songs">
+        <item quantity="other">%1$,d เพลงจาก %2$s</item>
+    </plurals>
+    <plurals name="artist_saved_songs_subtitle">
+        <item quantity="other">%1$d เพลง • %2$s</item>
+    </plurals>
+    <plurals name="charts_daily_plays">
+        <item quantity="other">วันนี้เล่นไปแล้ว %1$,d ครั้ง</item>
+    </plurals>
+    <plurals name="charts_header_new_entry_count">
+        <item quantity="other">%1$,d เพลงใหม่</item>
+    </plurals>
+    <plurals name="collection_podcast_updated_days_ago">
+        <item quantity="other">อัพเดต %1$d วันที่ผ่านมา</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_hours">
+        <item quantity="other">%1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_mins">
+        <item quantity="other">%1$d นาที</item>
+    </plurals>
+    <plurals name="device_picker_available_for_join_subtitle_others">
+        <item quantity="other">%1$s กำลังฟังกับอีก %2$d คน</item>
+    </plurals>
+    <plurals name="edit_profile_notice_character_cap">
+        <item quantity="other">อักขระสูงสุด %1$,d ตัว</item>
+    </plurals>
+    <plurals name="error_dialog_body_resend_limit">
+        <item quantity="other">รอ %1$d วินาทีแล้วขอโค้ดใหม่</item>
+    </plurals>
+    <plurals name="error_dialog_title_resend_limit">
+        <item quantity="other">ลองใหม่อีกครั้งใน %1$d วินาที</item>
+    </plurals>
+    <plurals name="find_friends_flow_confirm_desc">
+        <item quantity="other">แน่ใจหรือไม่ว่าต้องการติดตามทั้งหมด %1$,d คน</item>
+    </plurals>
+    <plurals name="follow_feed_timestamp_days_ago">
+        <item quantity="other">%1$d วันที่ผ่านมา</item>
+    </plurals>
+    <plurals name="follow_feed_timestamp_hours_ago">
+        <item quantity="other">%1$d ชั่วโมงที่ผ่านมา</item>
+    </plurals>
+    <plurals name="follow_feed_timestamp_minutes_ago">
+        <item quantity="other">%1$d นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="header_playlist_followers_count">
+        <item quantity="other">ผู้ติดตาม %1$,d คน</item>
+    </plurals>
+    <plurals name="home_inline_onboarding_header_title">
+        <item quantity="other">ติดตามศิลปิน %1$d รายเพืือรับเพลงที่คัดสรรเพื่อคุณ</item>
+    </plurals>
+    <plurals name="item_description_folder_folders_count">
+        <item quantity="other">%1$s โฟลเดอร์</item>
+    </plurals>
+    <plurals name="item_description_folder_playlists_count">
+        <item quantity="other">%1$s เพลย์ลิสต์</item>
+    </plurals>
+    <plurals name="item_description_liked_songs">
+        <item quantity="other">เพลย์ลิสต์ • %1$s เพลง</item>
+    </plurals>
+    <plurals name="item_description_liked_songs_filtered">
+        <item quantity="other">%1$s เพลง</item>
+    </plurals>
+    <plurals name="item_description_your_episodes">
+        <item quantity="other">เพลย์ลิสต์ • %1$s ตอน</item>
+    </plurals>
+    <plurals name="item_description_your_episodes_filtered">
+        <item quantity="other">%1$s ตอน</item>
+    </plurals>
+    <plurals name="local_files_imported_dialog_body">
+        <item quantity="other">เพิ่ม %1$,d เพลงเข้ารายการเพลงในคอลเลกชันของคุณแล้ว</item>
+    </plurals>
+    <plurals name="local_files_subtitle_number_of_songs">
+        <item quantity="other">%1$,d เพลง</item>
+    </plurals>
+    <plurals name="mobile_artist_tracks_count">
+        <item quantity="other">%1$,d เพลง</item>
+    </plurals>
+    <plurals name="notification_syncing_text">
+        <item quantity="other">%1$,d จาก %2$,d (เสร็จแล้ว %3$,d%%)</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">เราส่ง SMS ที่มีเลขรหัส %1$d หลักไปยัง %2$s แล้ว</item>
+    </plurals>
+    <plurals name="playlist_folder_count">
+        <item quantity="other">%1$,d โฟลเดอร์</item>
+    </plurals>
+    <plurals name="playlist_header_owner_button_text_collaborative">
+        <item quantity="other">%1$s + อีก %2$d คน</item>
+    </plurals>
+    <plurals name="playlist_header_subtitle_likes">
+        <item quantity="other">%1$s ถูกใจ</item>
+    </plurals>
+    <plurals name="playlist_header_subtitle_owner_collaborative">
+        <item quantity="other">โดย %1$s + อีก %2$d คน</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_episodes">
+        <item quantity="other">%1$d ตอน</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_tracks">
+        <item quantity="other">%1$d เพลง</item>
+    </plurals>
+    <plurals name="playlist_participants_title">
+        <item quantity="other">%1$d คน</item>
+    </plurals>
+    <plurals name="playlist_playlist_count">
+        <item quantity="other">%1$,d เพลย์ลิสต์</item>
+    </plurals>
+    <plurals name="playlist_track_count">
+        <item quantity="other">%1$,d เพลง</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_episodes">
+        <item quantity="other">%1$,d ตอน</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_songs">
+        <item quantity="other">%1$,d เพลง</item>
+    </plurals>
+    <plurals name="podcast_poll_days_left_label">
+        <item quantity="other">%1$d วัน</item>
+    </plurals>
+    <plurals name="podcast_poll_hours_left_label">
+        <item quantity="other">เหลือ %1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="podcast_poll_minutes_left_label">
+        <item quantity="other">เหลืออีก %1$d นาที</item>
+    </plurals>
+    <plurals name="podcast_poll_poll_subtitle">
+        <item quantity="other">%1$d คะแนน • %2$s</item>
+    </plurals>
+    <plurals name="podcast_qna_days_ago">
+        <item quantity="other">%1$d วันที่ผ่านมา</item>
+    </plurals>
+    <plurals name="podcast_qna_month_ago">
+        <item quantity="other">%1$d เดือนที่ผ่านมา</item>
+    </plurals>
+    <plurals name="podcast_qna_week_ago">
+        <item quantity="other">%1$d สัปดาห์ที่ผ่านมา</item>
+    </plurals>
+    <plurals name="podcast_topic_episodes">
+        <item quantity="other">พอดแคสต์ %1$d ตอน</item>
+    </plurals>
+    <plurals name="points_label">
+        <item quantity="other">%1$d คะแนน</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_add_song_subtitle">
+        <item quantity="other">เหลืออีก %1$d เพลง</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_subtitle">
+        <item quantity="other">%1$d เพลง • %2$s</item>
+    </plurals>
+    <plurals name="profile_list_item_followers_count">
+        <item quantity="other">ผู้ติดตาม %1$,d คน</item>
+    </plurals>
+    <plurals name="redownload_dialog_message">
+        <item quantity="other">หากต้องการฟังแทร็กเหล่านี้แบบออฟไลน์อีกครั้ง คุณจะต้องดาวน์โหลดลงในอุปกรณ์ของคุณ ซึ่งจะใช้พื้นที่ %1$d Mb</item>
+    </plurals>
+    <plurals name="refresh_header_followers_count">
+        <item quantity="other">ผู้ติดตาม %1$,d คน</item>
+    </plurals>
+    <plurals name="refresh_header_likes_count">
+        <item quantity="other">ถูกใจ %1$s ครั้ง</item>
+    </plurals>
+    <plurals name="response_count">
+        <item quantity="other">%1$d คำตอบ</item>
+    </plurals>
+    <plurals name="selection_subtitle">
+        <item quantity="other">เลือก %1$d / %2$d บรรทัดแล้ว</item>
+    </plurals>
+    <plurals name="share_notice">
+        <item quantity="other">เพิ่มเพลงหรือพอดแคสต์ %1$d รายการเพื่อแชร์</item>
+    </plurals>
+    <plurals name="social_listening_join_failed_session_full_body">
+        <item quantity="other">อนุญาตให้มีผู้ฟังพร้อมกัน %1$s คน ซึ่งครบจำนวนที่จำกัดแล้ว</item>
+    </plurals>
+    <plurals name="social_listening_participant_list_invite_notice_title">
+        <item quantity="other">เชิญเพื่อนสูงสุด %1$s คน</item>
+    </plurals>
+    <plurals name="social_listening_participants_listening">
+        <item quantity="other">%1$s คนกำลังฟัง</item>
+    </plurals>
+    <plurals name="song_limit_dialog_title">
+        <item quantity="other">คุณดาวน์โหลดเพลงถึงจำนวนจำกัด %1$d เพลงแล้ว</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="one">%d ว</item>
+        <item quantity="other">%d ว</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="one">%d ชม.</item>
+        <item quantity="other">%d ชม.</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="one">%d น</item>
+        <item quantity="other">%d น</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="one">%d ว</item>
+        <item quantity="other">%d ว</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="one">%d ชั่วโมง</item>
+        <item quantity="other">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="one">%d นาที</item>
+        <item quantity="other">%d นาที</item>
+    </plurals>
+    <plurals name="time_format_hours">
+        <item quantity="other">%1$d ชม.</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$d นาที</item>
+    </plurals>
+    <plurals name="time_format_sec">
+        <item quantity="other">%1$d วิ</item>
+    </plurals>
+    <plurals name="title_group_session_view">
+        <item quantity="other">%1$d คนกำลังฟัง</item>
+    </plurals>
+    <plurals name="toast_imported_to_collection">
+        <item quantity="other">เพิ่มแล้ว %1$,d เพลง</item>
+    </plurals>
+    <plurals name="user_mix_songs_limit_popup_header">
+        <item quantity="other">เพลย์ลิสต์เพลงที่ดาวน์โหลดของคุณมีเพลงครบจำนวนสูงสุดที่ %1$d เพลงแล้ว</item>
+    </plurals>
+    <plurals name="your_episodes_header_subtitle">
+        <item quantity="other">%1$d ตอน</item>
+    </plurals>
+    <plurals name="your_episodes_subtitle">
+        <item quantity="other">%1$d ตอน</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_artist_tracks_in_collection_subtitle">
+        <item quantity="other">%1$s เพลง</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_favorite_songs_subtitle">
+        <item quantity="other">%1$s เพลง</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_folder_folders_count_subtitle">
+        <item quantity="other">%1$s โฟลเดอร์</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_folder_subtitle">
+        <item quantity="other">%1$s เพลย์ลิสต์</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_your_episodes_subtitle">
+        <item quantity="other">%1$s ตอน</item>
+    </plurals>
+</resources>

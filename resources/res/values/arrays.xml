@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="android_wear_capabilities">
+        <item>play_uri</item>
+    </array>
+    <array name="attribution_blacklist">
+        <item>com.sec.android.app.launcher</item>
+        <item>com.android.vending</item>
+        <item>com.sonyericsson.home</item>
+        <item>com.sonymobile.home</item>
+        <item>com.google.android.packageinstaller</item>
+        <item>com.teslacoilsw.launcher</item>
+    </array>
+    <array name="autosize_text_sizes">
+        <item>18sp</item>
+        <item>24sp</item>
+        <item>32sp</item>
+        <item>40sp</item>
+    </array>
+    <array name="cast_expanded_controller_default_control_buttons">
+        <item>@id/cast_button_type_closed_caption</item>
+        <item>@id/cast_button_type_skip_previous</item>
+        <item>@id/cast_button_type_skip_next</item>
+        <item>@id/cast_button_type_mute_toggle</item>
+    </array>
+    <array name="cast_mini_controller_default_control_buttons">
+        <item>@id/cast_button_type_empty</item>
+        <item>@id/cast_button_type_empty</item>
+        <item>@id/cast_button_type_play_pause_toggle</item>
+    </array>
+    <array name="edit_playlist_add_image_dialog_options">
+        <item>@string/edit_playlist_change_image_dialog_take_photo</item>
+        <item>@string/edit_playlist_change_image_dialog_choose_photo</item>
+    </array>
+    <array name="edit_playlist_change_image_dialog_options">
+        <item>@string/edit_playlist_change_image_dialog_take_photo</item>
+        <item>@string/edit_playlist_change_image_dialog_choose_photo</item>
+        <item>@string/edit_playlist_change_image_dialog_remove_photo</item>
+    </array>
+    <array name="excluded_share_destinations">
+        <item>@id/share_app_facebook_feed</item>
+        <item>@id/share_app_facebook_stories</item>
+        <item>@id/share_app_instagram_stories</item>
+        <item>@id/share_app_snapchat_stories</item>
+        <item>@id/share_app_tumblr</item>
+        <item>@id/share_app_twitter</item>
+    </array>
+    <array name="information_card_body_autosize_text_sizes">
+        <item>16sp</item>
+        <item>18sp</item>
+        <item>24sp</item>
+        <item>32sp</item>
+    </array>
+    <array name="password_blacklist">
+        <item>11111111</item>
+        <item>12345678</item>
+        <item>123456789</item>
+        <item>access14</item>
+        <item>alejandra</item>
+        <item>alejandro</item>
+        <item>baseball</item>
+        <item>bigdaddy</item>
+        <item>butthead</item>
+        <item>cocacola</item>
+        <item>computer</item>
+        <item>consumer</item>
+        <item>corvette</item>
+        <item>danielle</item>
+        <item>dolphins</item>
+        <item>einstein</item>
+        <item>estrella</item>
+        <item>firebird</item>
+        <item>football</item>
+        <item>hardcore</item>
+        <item>iloveyou</item>
+        <item>internet</item>
+        <item>jennifer</item>
+        <item>mariposa</item>
+        <item>marlboro</item>
+        <item>maverick</item>
+        <item>mercedes</item>
+        <item>michelle</item>
+        <item>midnight</item>
+        <item>mistress</item>
+        <item>mountain</item>
+        <item>nicholas</item>
+        <item>password</item>
+        <item>password1</item>
+        <item>password12</item>
+        <item>password123</item>
+        <item>princess</item>
+        <item>qwertyui</item>
+        <item>redskins</item>
+        <item>redwings</item>
+        <item>rush2112</item>
+        <item>samantha</item>
+        <item>scorpion</item>
+        <item>sebastian</item>
+        <item>srinivas</item>
+        <item>startrek</item>
+        <item>starwars</item>
+        <item>steelers</item>
+        <item>sunshine</item>
+        <item>superman</item>
+        <item>swimming</item>
+        <item>tequiero</item>
+        <item>trustno1</item>
+        <item>victoria</item>
+        <item>whatever</item>
+        <item>xxxxxxxx</item>
+    </array>
+    <array name="pme_attributions">
+        <item>com.lockwoodpublishing.avakinlife</item>
+        <item>com.nordeus.heroic</item>
+    </array>
+    <array name="progress_spinner_sequence">
+        <item>#fff4b400</item>
+        <item>#ffdb4437</item>
+        <item>#ff4285f4</item>
+        <item>#ff0f9d58</item>
+    </array>
+    <array name="suggestions_array">
+        <item>You can say: &quot;Show driving music&quot;</item>
+        <item>You can say: &quot;Play songs to sing in the car&quot;</item>
+        <item>You can say: &quot;Show my playlists&quot;</item>
+        <item>You can say: &quot;Play my liked songs&quot;</item>
+        <item>You can say: &quot;Show my podcasts&quot;</item>
+        <item>You can say: &quot;Play some music&quot;</item>
+        <item>You can say: &quot;Show 80s music&quot;</item>
+        <item>You can say: &quot;Play more like this&quot;</item>
+        <item>You can say: &quot;Show similar artists&quot;</item>
+        <item>You can say: &quot;Play 90s rock&quot;</item>
+    </array>
+    <array name="suggestions_array_no_show">
+        <item>You can say: &quot;Play songs to sing in the car&quot;</item>
+        <item>You can say: &quot;Play my liked songs&quot;</item>
+        <item>You can say: &quot;Play some music&quot;</item>
+        <item>You can say: &quot;Play more like this&quot;</item>
+        <item>You can say: &quot;Play 90s rock&quot;</item>
+    </array>
+    <array name="suggestions_error_array">
+        <item>Or try this: &quot;Show driving music&quot;</item>
+        <item>Or try this: &quot;Play songs to sing in the car&quot;</item>
+        <item>Or try this: &quot;Show my playlists&quot;</item>
+        <item>Or try this: &quot;Play my liked songs&quot;</item>
+        <item>Or try this: &quot;Show my podcasts&quot;</item>
+        <item>Or try this: &quot;Play some music&quot;</item>
+        <item>Or try this: &quot;Show 80s music&quot;</item>
+        <item>Or try this: &quot;Play more like this&quot;</item>
+        <item>Or try this: &quot;Show similar artists&quot;</item>
+        <item>Or try this: &quot;Play 90s rock&quot;</item>
+    </array>
+    <array name="suggestions_error_array_no_show">
+        <item>Or try this: &quot;Play songs to sing in the car&quot;</item>
+        <item>Or try this: &quot;Play my liked songs&quot;</item>
+        <item>Or try this: &quot;Play some music&quot;</item>
+        <item>Or try this: &quot;Play more like this&quot;</item>
+        <item>Or try this: &quot;Play 90s rock&quot;</item>
+    </array>
+    <array name="suggestions_error_generic">
+        <item>Try saying an artist, song, or playlist name</item>
+    </array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:background="@drawable/glue_dialog_background" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/res_2132083779_widget_glue_dialog">
+    <TextView android:textAppearance="?attr/pasteTextAppearanceHeading" android:gravity="center_horizontal" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="@dimen/glue_dialog_content_vertical_margin" android:layout_marginRight="16dp" android:text="@string/social_listening_session_ended_dialog_title"/>
+    <Button android:id="@+id/confirm_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/single_positive_button_margin" android:text="@string/social_listening_session_ended_dialog_confirm_button" android:filterTouchesWhenObscured="false" style="?attr/pasteButtonStylePrimary"/>
+</LinearLayout>

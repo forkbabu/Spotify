@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/preview_container" android:clipChildren="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/quicksilver_card_container" android:clipChildren="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.spotify.mobile.android.spotlets.tooltip.TooltipContainer android:id="@+id/tooltip_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

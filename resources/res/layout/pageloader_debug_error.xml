@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/debug_error" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/debug_error_reveal_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/debug_error_reveal_text" style="@style/res_2132083973_widget_solar_button_primary_small_white"/>
+    <TextView android:textAppearance="@style/TextAppearance_Encore_Finale" android:textSize="8sp" android:textColor="@color/white" android:id="@+id/debug_error_stacktrace_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="16dp" android:shadowColor="@color/black" android:shadowDx="2" android:shadowDy="2" android:shadowRadius="7" android:animateLayoutChanges="true"/>
+</LinearLayout>

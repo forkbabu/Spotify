@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/remote_volume_widget" android:background="@color/gray_10" android:padding="4dp" android:layout_width="300dp" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/device_image" android:layout_width="@dimen/connect_dialog_device_icon_size" android:layout_height="@dimen/connect_dialog_device_icon_size" android:layout_marginTop="16dp" android:layout_marginBottom="16dp"/>
+    <TextView android:textColor="@color/white_70" android:layout_gravity="center_horizontal" android:id="@+id/device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MarqueeTextRepeatEndless"/>
+    <com.spotify.mobile.android.ui.view.DraggableSeekBar android:id="@+id/volume_slider" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

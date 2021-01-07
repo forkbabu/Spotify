@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@+id/artist_image" android:layout_width="0dp" android:layout_height="0dp" android:contentDescription="@string/free_tier_taste_onboarding_artist_picker_content_description_artist_image"/>
+    <TextView android:textAppearance="?attr/pasteTextAppearanceBodySmallBold" android:textSize="12sp" android:textColor="@color/cat_text_primary" android:ellipsize="end" android:gravity="center" android:id="@+id/artist_name" android:layout_width="0dp" android:layout_height="@dimen/taste_picker_artist_name_height" android:lines="2"/>
+    <ImageView android:id="@+id/artist_image_icon" android:layout_width="0dp" android:layout_height="0dp" android:contentDescription="@string/free_tier_taste_onboarding_artist_picker_content_description_selected_icon" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="@+id/artist_image_icon_guideline_end" app:layout_constraintStart_toStartOf="@+id/artist_image_icon_guideline_start" app:layout_constraintTop_toTopOf="@+id/artist_image"/>
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@+id/artist_image_icon_guideline_start" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.67"/>
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@+id/artist_image_icon_guideline_end" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="1"/>
+</merge>

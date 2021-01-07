@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/voice_search_shadow"/>
+    <item android:left="@dimen/voice_search_button_inset" android:top="@dimen/voice_search_button_inset" android:right="@dimen/voice_search_button_inset" android:bottom="@dimen/voice_search_button_inset">
+        <shape android:shape="oval">
+            <size android:height="@dimen/voice_search_button_size" android:width="@dimen/voice_search_button_size"/>
+            <solid android:color="@color/green_light"/>
+        </shape>
+    </item>
+</layer-list>

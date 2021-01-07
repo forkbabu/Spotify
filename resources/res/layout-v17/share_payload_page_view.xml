@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.mobile.android.share.menu.preview.view.SharePayloadView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/share_payload" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="24dp" android:layout_marginStart="24dp" android:layout_marginEnd="24dp"/>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:paste="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:background="@color/gray_7" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize">
+    <com.spotify.paste.spotifyicon.SpotifyIconView android:id="@+id/btn_close" android:background="?android:attr/selectableItemBackground" android:layout_width="40dp" android:layout_height="match_parent" android:contentDescription="@string/generic_content_description_close" paste:iconSize="@dimen/toolbar_icon_size" paste:iconType="211"/>
+</LinearLayout>

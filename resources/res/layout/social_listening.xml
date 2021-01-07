@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/std_16dp" android:paddingTop="@dimen/std_16dp" android:paddingRight="@dimen/std_16dp" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/social_listening_title_container" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp">
+        <TextView android:textSize="16sp" android:textColor="@color/white" android:id="@+id/social_listening_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/pasteTextAppearanceHeaderMedium"/>
+        <TextView android:textColor="@color/black" android:id="@+id/social_listening_beta_badge" android:background="@drawable/social_listening_title_badge_bg" android:paddingLeft="@dimen/social_listening_badge_horizontal_padding" android:paddingTop="@dimen/social_listening_badge_vertical_padding" android:paddingRight="@dimen/social_listening_badge_horizontal_padding" android:paddingBottom="@dimen/social_listening_badge_vertical_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/social_listening_title_badge" style="@style/TextAppearance_Encore_MinuetBold"/>
+    </LinearLayout>
+    <TextView android:gravity="center" android:id="@+id/social_listening_subtitle" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" style="?attr/pasteTextAppearanceSecondaryMuted"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_24dp" android:animateLayoutChanges="true">
+        <com.spotify.music.sociallistening.facepile.FacePile android:layout_gravity="center" android:id="@+id/facepile" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="64dp"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/error_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="22dp">
+                <TextView android:textAppearance="@style/res_2132083327_textappearance_cat_secondary_muted" android:gravity="center" android:id="@+id/error_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/social_listening_scannable_general_error_description_multi_output_design"/>
+                <Button android:layout_gravity="center" android:id="@+id/error_retry_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/social_listening_scannable_general_error_retry_button" android:filterTouchesWhenObscured="false" style="?attr/pasteButtonStyleSmall"/>
+            </LinearLayout>
+            <FrameLayout android:layout_gravity="center" android:paddingTop="@dimen/std_32dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:layout_gravity="center" android:id="@+id/start_session_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/social_listening_start_session_button_title" android:filterTouchesWhenObscured="false" style="?attr/glueButtonPrimaryGreen"/>
+                <Button android:layout_gravity="center" android:id="@+id/see_listeners_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/social_listening_see_listeners_button_title" android:filterTouchesWhenObscured="false" style="?attr/glueButtonPrimaryWhite"/>
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center" android:id="@+id/loading_view_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ProgressBar android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/indeterminateProgressBar"/>
+            </FrameLayout>
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="6dp" android:animateLayoutChanges="true">
+            <Button android:layout_gravity="center" android:id="@+id/scan_code_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/social_listening_scan_button_title" android:filterTouchesWhenObscured="false" style="?attr/pasteButtonStyleSmall"/>
+            <Button android:layout_gravity="center" android:id="@+id/leave_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/social_listening_leave_button_title_participant" android:filterTouchesWhenObscured="false" style="?attr/pasteButtonStyleSmall"/>
+            <Button android:layout_gravity="center" android:id="@+id/end_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/social_listening_leave_button_title_host" android:filterTouchesWhenObscured="false" style="?attr/pasteButtonStyleSmall"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

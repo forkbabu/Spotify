@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/fragment_driving_mode" android:background="?attr/pasteColorBackground" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.spotify.music.nowplaying.drivingmode.view.verticalsplitlayout.VerticalSplitLayout android:id="@+id/split_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.spotify.music.nowplaying.drivingmode.view.backgroundgradients.DrivingOverlayNpvGradientBackgroundView android:id="@+id/npv_gradient_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <Space android:id="@+id/pivot_top_space" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHeight_percent="@dimen/driving_pivot_entry_exit_height_percent" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/driving_npv" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/pivot_top_space" app:layout_constraintVertical_weight="1">
+                <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@+id/waze_vertical_guideline_first" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/driving_top_bar_start_guideline_percent"/>
+                <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@+id/waze_vertical_guideline_second" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/driving_top_bar_end_guideline_percent"/>
+                <include android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/driving_npv_components"/>
+                <include android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/driving_seekbar_and_overlay_components"/>
+                <com.spotify.music.nowplaying.drivingmode.view.waze.WazeAnchorBar android:id="@+id/waze_anchor_bar" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintEnd_toStartOf="@+id/waze_vertical_guideline_second" app:layout_constraintStart_toEndOf="@+id/waze_vertical_guideline_first" app:layout_constraintTop_toTopOf="@+id/driving_npv"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.spotify.music.nowplaying.drivingmode.view.coachmark.DrivingCoachMarkView android:id="@+id/driving_coach_mark" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:id="@+id/close_pivot_touch_area" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHeight_percent="@dimen/driving_pivot_entry_exit_height_percent" app:layout_constraintStart_toStartOf="0">
+                <TextView android:textAppearance="@style/res_2132083363_textappearance_driving_pivotentryexit" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/driving_pivot_close_button_text"/>
+                <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="30dp" android:layout_height="4dp" android:layout_marginBottom="8dp" android:src="@drawable/driving_pivot_peek_pill" android:alpha="0.3"/>
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include android:id="@+id/driving_pivot_view" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/driving_pivot_components"/>
+    </com.spotify.music.nowplaying.drivingmode.view.verticalsplitlayout.VerticalSplitLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/gray_30" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/image_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="240dp" android:contentDescription="@string/generic_content_description_cover_art"/>
+    <TextView android:textAppearance="@style/TextAppearance_Encore_Canon" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/title" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="2dp" app:autoSizeTextType="uniform"/>
+    <TextView android:textAppearance="@style/TextAppearance_Encore_Ballad" android:textColor="@color/white" android:gravity="center" android:id="@+id/sub_title" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24dp" android:maxLines="4" android:minLines="2" app:autoSizeTextType="uniform"/>
+    <FrameLayout android:id="@+id/action_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:layout_gravity="center" android:id="@+id/action_button" android:layout_width="200dp" android:layout_height="wrap_content" android:filterTouchesWhenObscured="true" style="?attr/glueButtonPrimaryWhite"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progress" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" style="@style/indeterminateProgressBar"/>
+    </FrameLayout>
+</LinearLayout>

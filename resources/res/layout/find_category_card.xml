@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.paste.widgets.layouts.AspectRatioView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/category_card_max_height" android:minHeight="68dp" app:aspectRatioViewAllowTaller="true" app:aspectRatioViewAspectRatio="@fraction/category_card_width_to_height_ratio">
+    <com.spotify.music.features.browse.component.findcard.FindCardView android:id="@+id/card" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.spotify.paste.widgets.layouts.AspectRatioView>

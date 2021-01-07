@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center_horizontal" android:id="@+id/content_promo_footer_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/screensaver_ad_dismiss" style="@style/res_2132083332_textappearance_companion_footer"/>

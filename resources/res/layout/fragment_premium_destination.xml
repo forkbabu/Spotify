@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.android.glue.patterns.header.GlueHeaderLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/glue_header_layout" android:background="@color/gray_7" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.spotify.mobile.android.ui.activity.upsell.premiumdestination.PremiumDestinationHeader android:id="@+id/header_view" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/glueHeaderStyleExtraReduced"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="com.spotify.android.glue.patterns.header.behavior.GlueScrollingViewBehavior"/>
+    <com.spotify.mobile.android.ui.view.FontFitButton android:id="@+id/button_upgrade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:filterTouchesWhenObscured="false" app:layout_behavior="@string/glue_behavior_accessory" style="@style/res_2132083769_widget_glue_button_primary_white"/>
+</com.spotify.android.glue.patterns.header.GlueHeaderLayout>

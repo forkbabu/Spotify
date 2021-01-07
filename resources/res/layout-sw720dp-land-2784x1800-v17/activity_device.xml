@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:background="@color/black_90" android:layout_width="0dp" android:layout_height="match_parent" android:onClick="finish" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintWidth_default="2" app:layout_constraintWidth_percent="0.5"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/content" android:paddingLeft="@dimen/std_16dp" android:layout_width="0dp" android:layout_height="match_parent" android:paddingStart="@dimen/std_16dp" app:layout_constraintRight_toRightOf="0" app:layout_constraintWidth_default="2" app:layout_constraintWidth_percent="0.5">
+        <FrameLayout android:id="@+id/toolbar_holder" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout style="@style/DialogRoot"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

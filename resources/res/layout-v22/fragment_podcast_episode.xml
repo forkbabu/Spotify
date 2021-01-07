@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/podcast_episode_content" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/res_2132083506_theme_glue_noactionbar" android:gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/header_view" android:paddingLeft="@dimen/content_area_horizontal_margin" android:paddingTop="?attr/actionBarSize" android:paddingRight="@dimen/content_area_horizontal_margin" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/content_area_horizontal_margin" app:elevation="0dp"/>
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <include layout="@layout/body_podcast_episode"/>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_navigation_height">54dp</dimen>
+    <dimen name="floating_now_playing_bar_content_size">48dp</dimen>
+    <dimen name="floating_now_playing_bar_video_width">86dp</dimen>
+    <dimen name="now_playing_bar_height">64dp</dimen>
+</resources>

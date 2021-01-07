@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/red" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Space android:layout_width="48dp" android:layout_height="48dp"/>
+        <TextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@+id/tvTitle_paymentFailureBanner" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:fontFamily="@font/encore_font_circular_bold" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+        <com.spotify.paste.spotifyicon.SpotifyIconView android:id="@+id/ivClose_paymentFailureBanner" android:background="?android:attr/selectableItemBackground" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="centerInside" android:contentDescription="@string/generic_content_description_close" app:iconType="1135"/>
+    </LinearLayout>
+    <TextView android:gravity="center_horizontal" android:id="@+id/tvDescription_paymentFailureBanner" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginBottom="16dp"/>
+    <Button android:gravity="center" android:layout_gravity="center" android:id="@+id/btnCta_paymentFailureBanner" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="48dp" android:layout_marginRight="48dp" android:filterTouchesWhenObscured="false" style="?attr/pasteButtonStyleInfoSmall"/>
+</LinearLayout>

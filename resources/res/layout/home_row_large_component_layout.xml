@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/row" android:paddingTop="@dimen/row_large_vertical_padding" android:paddingBottom="@dimen/row_large_vertical_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.spotify.paste.widgets.SquareImageView android:id="@+id/image" android:layout_width="@dimen/row_large_image_size" android:layout_height="@dimen/row_large_image_size" android:layout_marginRight="16dp" android:minWidth="@dimen/row_large_image_size" android:minHeight="@dimen/row_large_image_size" android:contentDescription="@null"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/white" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toLeftOf="@+id/shuffle_badge" android:layout_alignParentLeft="true" android:layout_alignWithParentIfMissing="true" style="@style/TextAppearance_Encore_BalladBold"/>
+            <ImageView android:id="@+id/shuffle_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@null"/>
+        </RelativeLayout>
+        <TextView android:textAppearance="?attr/pasteTextAppearanceBodySmall" android:textColor="@color/gray_60_color" android:ellipsize="end" android:id="@+id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/row_large_text_margin" android:maxLines="2"/>
+    </LinearLayout>
+</LinearLayout>

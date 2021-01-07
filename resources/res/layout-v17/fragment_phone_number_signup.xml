@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/content" android:background="@color/sthlm_blk" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="?attr/actionBarSize">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textAppearance="@style/TextAppearance_Encore_Alto" android:textColor="@color/sthlm_blk_white" android:id="@+id/header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:textDirection="locale" android:textAlignment="gravity"/>
+        <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <FrameLayout android:id="@+id/container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/login_page_margin_top">
+                <include android:visibility="gone" layout="@layout/request_otp"/>
+                <include android:visibility="gone" layout="@layout/validate_otp"/>
+            </FrameLayout>
+        </ScrollView>
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

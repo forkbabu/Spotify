@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/tabs" android:background="?attr/pasteColorBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/tab_artists" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/res_2132083762_widget_freetier_tab">
+            <TextView android:textAppearance="?attr/pasteTextAppearanceHeaderSmall" android:id="@+id/tab_artists_count" style="@style/res_2132083763_widget_freetier_tab_title"/>
+            <TextView android:textAppearance="?attr/pasteTextAppearanceMetadata" android:text="@string/hidden_content_section_artists" style="@style/res_2132083763_widget_freetier_tab_title"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/tab_songs" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/res_2132083762_widget_freetier_tab">
+            <TextView android:textAppearance="?attr/pasteTextAppearanceHeaderSmall" android:id="@+id/tab_songs_count" style="@style/res_2132083763_widget_freetier_tab_title"/>
+            <TextView android:textAppearance="?attr/pasteTextAppearanceMetadata" android:text="@string/hidden_content_section_songs" style="@style/res_2132083763_widget_freetier_tab_title"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

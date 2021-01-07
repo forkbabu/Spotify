@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.paste.widgets.layouts.PasteLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="?attr/pasteTextAppearanceHeaderSmall" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:layout_marginBottom="8dp" android:text="@string/settings_free_account_header" android:maxLines="1"/>
+    <Button android:id="@+id/btn_get_premium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:text="@string/in_app_premium_destination_nav_title_go_premium" android:filterTouchesWhenObscured="false" style="@style/res_2132083769_widget_glue_button_primary_white"/>
+</com.spotify.paste.widgets.layouts.PasteLinearLayout>

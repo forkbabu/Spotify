@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base_Theme_AppCompat" parent="@style/Base_V26_Theme_AppCompat">
+    </style>
+    <style name="Base_Theme_AppCompat_Light" parent="@style/Base_V26_Theme_AppCompat_Light">
+    </style>
+    <style name="Base_V26_Theme_AppCompat" parent="@style/Base_V23_Theme_AppCompat">
+        <item name="colorError">?android:attr/colorError</item>
+    </style>
+    <style name="Base_V26_Theme_AppCompat_Light" parent="@style/Base_V23_Theme_AppCompat_Light">
+        <item name="colorError">?android:attr/colorError</item>
+    </style>
+    <style name="Base_V26_Widget_AppCompat_Toolbar" parent="@style/Base_V7_Widget_AppCompat_Toolbar">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="Base_Widget_AppCompat_Toolbar" parent="@style/Base_V26_Widget_AppCompat_Toolbar">
+    </style>
+    <style name="Marquee" parent="@style/res_2132083506_theme_glue_noactionbar">
+    </style>
+    <style name="res_2132083576_theme_nowplayingactivity" parent="@style/res_2132083506_theme_glue_noactionbar">
+        <item name="android:windowBackground">@color/black_90</item>
+    </style>
+    <style name="res_2132083579_theme_queueactivity" parent="@style/res_2132083506_theme_glue_noactionbar">
+        <item name="android:windowBackground">@color/black_90</item>
+    </style>
+    <style name="Widget_Design_AppBarLayout" parent="@android:style/Widget">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:stateListAnimator">@animator/design_appbar_state_list_animator</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

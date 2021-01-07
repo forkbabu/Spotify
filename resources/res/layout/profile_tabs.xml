@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="?attr/pasteColorSubHeaderBackground" android:layout_width="match_parent" android:layout_height="@dimen/cell_height" android:baselineAligned="false">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/playlists_layout" android:paddingLeft="@dimen/std_16dp" android:paddingRight="@dimen/std_8dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" style="?attr/pasteButtonStyleBorderlessTransparent">
+        <TextView android:gravity="center" android:id="@+id/playlists_count" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/pasteTextAppearanceSmall"/>
+        <TextView android:gravity="center" android:id="@+id/playlists_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/profile_tabs_playlists" style="?attr/pasteTextAppearanceMetadata"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/followers_layout" android:paddingLeft="@dimen/std_8dp" android:paddingRight="@dimen/std_8dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" style="?attr/pasteButtonStyleBorderlessTransparent">
+        <TextView android:gravity="center" android:id="@+id/followers_count" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/pasteTextAppearanceSmall"/>
+        <TextView android:gravity="center" android:id="@+id/followers_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/profile_tabs_followers" style="?attr/pasteTextAppearanceMetadata"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/following_layout" android:paddingLeft="@dimen/std_8dp" android:paddingRight="@dimen/std_16dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" style="?attr/pasteButtonStyleBorderlessTransparent">
+        <TextView android:gravity="center" android:id="@+id/following_count" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/pasteTextAppearanceSmall"/>
+        <TextView android:gravity="center" android:id="@+id/following_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/profile_tabs_following" style="?attr/pasteTextAppearanceMetadata"/>
+    </LinearLayout>
+</LinearLayout>

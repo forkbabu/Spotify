@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/header_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:gravity="center" android:id="@+id/header_view" android:paddingLeft="@dimen/content_area_horizontal_margin" android:paddingRight="@dimen/content_area_horizontal_margin" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/content_area_horizontal_margin" android:layout_marginRight="@dimen/content_area_horizontal_margin" app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+    <com.spotify.paste.widgets.recyclerview.fastscroll.RecyclerViewFastScroller android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/recycler_view_fast_scroll" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:orientation="vertical" android:id="@+id/accessory" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:elevation="4dp" app:layout_anchor="@+id/header_view" app:layout_anchorGravity="51"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

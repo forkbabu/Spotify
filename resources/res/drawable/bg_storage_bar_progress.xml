@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="4dp"/>
+            <solid android:color="@color/gray_30"/>
+        </shape>
+    </item>
+    <item android:id="@+id/storage_progress_cache">
+        <clip android:gravity="start">
+            <shape>
+                <corners android:radius="4dp"/>
+                <solid android:color="@color/gray_70"/>
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@+id/storage_progress_downloads">
+        <clip android:gravity="start">
+            <shape>
+                <corners android:radius="4dp"/>
+                <solid android:color="@color/green"/>
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@+id/storage_progress_others">
+        <clip android:gravity="start">
+            <shape>
+                <corners android:radius="4dp"/>
+                <solid android:color="@color/blue"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

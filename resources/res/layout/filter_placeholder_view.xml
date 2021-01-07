@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/std_8dp" android:paddingBottom="@dimen/std_8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:contentDescription="@string/add_to_playlist_filter_placeholder_hint">
+    <View android:id="@+id/edit_text_placeholder" android:background="@drawable/dummy_filter_background" android:layout_width="match_parent" android:layout_height="@dimen/filter_placeholder_height" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    <ImageView android:id="@+id/icon" android:background="@null" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/edit_text_placeholder" android:layout_centerVertical="true"/>
+    <TextView android:textAppearance="@style/TextAppearance_Encore_MestoBold" android:textColor="@color/white_70" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_to_playlist_filter_placeholder_hint" android:layout_toRightOf="@+id/icon" android:layout_centerVertical="true"/>
+</RelativeLayout>

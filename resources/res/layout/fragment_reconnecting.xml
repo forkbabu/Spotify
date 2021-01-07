@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.music.superbird.setup.SetupView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/reconnecting_setup_view" android:layout_width="match_parent" android:layout_height="match_parent" app:buttonText="@string/searching_try_again" app:buttonVisible="false" app:footer="@string/reconnecting_disclaimer" app:footerVisible="true" app:title="@string/reconnecting_title">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@+id/loading_progress_bar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100dp" style="@style/indeterminateProgressBar"/>
+    </LinearLayout>
+</com.spotify.music.superbird.setup.SetupView>

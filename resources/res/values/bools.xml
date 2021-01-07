@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_allow_stacked_button_bar">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="action_choose_expand_selected">true</bool>
+    <bool name="action_choose_symmetrical_dimen">false</bool>
+    <bool name="connect_dialog_has_image">true</bool>
+    <bool name="enable_system_alarm_service_default">true</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">false</bool>
+    <bool name="fullBleed">true</bool>
+    <bool name="is_tablet">false</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="quickscroll_default_initially_visible">false</bool>
+    <bool name="quickscroll_default_should_disappear_on_bottom">false</bool>
+    <bool name="quickscroll_default_should_disappear_on_top">false</bool>
+    <bool name="quickscroll_default_with_handler">false</bool>
+    <bool name="showPlayButtonInHeader">true</bool>
+    <bool name="show_bottom_navigation_items_text">false</bool>
+    <bool name="useLargerPlaylistImageResolution">false</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+</resources>

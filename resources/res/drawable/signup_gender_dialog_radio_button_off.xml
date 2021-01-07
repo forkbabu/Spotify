@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="@color/gray_hover"/>
+    <size android:height="@dimen/std_16dp" android:width="@dimen/std_16dp"/>
+</shape>

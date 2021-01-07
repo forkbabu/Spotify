@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:left="@dimen/fullscreen_story_content_frame_radius_negative" android:top="@dimen/fullscreen_story_content_frame_radius_negative" android:right="@dimen/fullscreen_story_content_frame_radius_negative" android:bottom="@dimen/fullscreen_story_content_frame_radius_negative"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="0dp" android:bottomLeftRadius="@dimen/fullscreen_story_content_frame_radius_times_two" android:bottomRightRadius="@dimen/fullscreen_story_content_frame_radius_times_two"/>
+            <stroke android:width="@dimen/fullscreen_story_content_frame_radius" android:color="@color/gray_7"/>
+        </shape>
+    </item>
+</layer-list>

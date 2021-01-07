@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.paste.widgets.layouts.PasteLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/podcast_charts_header" android:paddingLeft="@dimen/std_16dp" android:paddingTop="@dimen/podcast_charts_88dp_padding" android:paddingRight="@dimen/std_16dp" android:paddingBottom="@dimen/std_16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textColor="@color/white" android:gravity="start" android:id="@+id/podcast_charts_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/TextAppearance_Encore_MestoBold"/>
+    <TextView android:textColor="@color/white" android:gravity="start" android:id="@+id/podcast_charts_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance_Encore_Alto"/>
+</com.spotify.paste.widgets.layouts.PasteLinearLayout>

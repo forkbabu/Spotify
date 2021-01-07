@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/settings_storage_bar" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/device_storage_progress" android:layout_width="match_parent" android:layout_height="8dp" android:layout_margin="@dimen/std_16dp" android:src="@drawable/bg_storage_bar_progress" android:contentDescription="@string/settings_storage_overview_content_description"/>
+    <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/std_16dp" android:layout_marginRight="@dimen/std_16dp" android:stretchColumns="*" android:shrinkColumns="*">
+        <TableRow android:id="@+id/device_storage_row_other" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/std_8dp">
+            <TextView android:textSize="13sp" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/settings_storage_device_other" android:drawableLeft="@drawable/circle_blue" android:drawablePadding="6dp" android:layout_weight="2" android:drawableStart="@drawable/circle_blue"/>
+            <TextView android:textSize="13sp" android:id="@+id/device_storage_other" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3"/>
+        </TableRow>
+        <TableRow android:id="@+id/device_storage_row_downloads" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/std_8dp">
+            <TextView android:textSize="13sp" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/settings_storage_device_downloads" android:drawableLeft="@drawable/circle_green" android:drawablePadding="6dp" android:layout_weight="2" android:drawableStart="@drawable/circle_green"/>
+            <TextView android:textSize="13sp" android:id="@+id/device_storage_downloads" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3"/>
+        </TableRow>
+        <TableRow android:id="@+id/device_storage_row_cache" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/std_8dp">
+            <TextView android:textSize="13sp" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/settings_storage_device_cache" android:drawableLeft="@drawable/circle_gray" android:drawablePadding="6dp" android:layout_weight="2" android:drawableStart="@drawable/circle_gray"/>
+            <TextView android:textSize="13sp" android:id="@+id/device_storage_cache" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3"/>
+        </TableRow>
+        <TableRow android:id="@+id/device_storage_row_free" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/std_8dp">
+            <TextView android:textSize="13sp" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/settings_storage_device_free" android:drawableLeft="@drawable/circle_gray_30" android:drawablePadding="6dp" android:layout_weight="2" android:drawableStart="@drawable/circle_gray_30"/>
+            <TextView android:textSize="13sp" android:id="@+id/device_storage_free" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

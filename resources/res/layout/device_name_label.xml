@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textAppearance="@style/res_2132083435_textappearance_nowplayingbar_singlelinetitle" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.spotify.music.libs.connect.destination.ConnectLabel android:id="@+id/connect_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

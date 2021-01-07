@@ -1,0 +1,31 @@
+package defpackage;
+
+import android.content.Context;
+import com.spotify.music.libs.mediabrowserservice.d3;
+import com.spotify.music.libs.mediabrowserservice.k2;
+
+/* renamed from: hka  reason: default package */
+public final class hka implements fjf<gka> {
+    private final wlf<Context> a;
+    private final wlf<k2> b;
+    private final wlf<d3> c;
+    private final wlf<jka> d;
+    private final wlf<pea> e;
+    private final wlf<asd> f;
+    private final wlf<eka> g;
+
+    public hka(wlf<Context> wlf, wlf<k2> wlf2, wlf<d3> wlf3, wlf<jka> wlf4, wlf<pea> wlf5, wlf<asd> wlf6, wlf<eka> wlf7) {
+        this.a = wlf;
+        this.b = wlf2;
+        this.c = wlf3;
+        this.d = wlf4;
+        this.e = wlf5;
+        this.f = wlf6;
+        this.g = wlf7;
+    }
+
+    @Override // defpackage.wlf
+    public Object get() {
+        return new gka(this.a.get(), this.b.get(), this.c.get(), this.d.get(), this.e.get(), this.f.get(), this.g.get());
+    }
+}

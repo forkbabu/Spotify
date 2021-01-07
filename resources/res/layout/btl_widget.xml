@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.music.newplaying.scroll.widgets.btl.BtlWidgetView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/btl_widget_layout" android:layout_width="match_parent" android:layout_height="@dimen/btl_widget_height" style="@style/ScrollWidget">
+    <include layout="@layout/btl_widget_intro"/>
+    <include layout="@layout/btl_widget_content"/>
+    <include layout="@layout/btl_credits_card"/>
+</com.spotify.music.newplaying.scroll.widgets.btl.BtlWidgetView>

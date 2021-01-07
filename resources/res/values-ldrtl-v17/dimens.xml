@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="driving_music_primarysecondary_vertical_guideline_four_inner_percent">0.175</dimen>
+    <dimen name="driving_music_primarysecondary_vertical_guideline_one_inner_percent">0.825</dimen>
+</resources>

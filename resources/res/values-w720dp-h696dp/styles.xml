@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="res_2132083405_textappearance_marqueetracksubtitle_mini" parent="@style/TextAppearance_Encore_Mesto">
+        <item name="android:textColor">@color/gray_70</item>
+    </style>
+    <style name="res_2132083407_textappearance_marqueetracktitle_mini" parent="@style/TextAppearance_Encore_BalladBold">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

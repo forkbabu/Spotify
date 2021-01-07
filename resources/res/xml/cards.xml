@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cards>
+    <card-provider cardId="465335983" id="streaming_card" templateId="MULTIMEDIA_STREAMING_BASIC"/>
+    <card-provider cardId="465335984" id="streaming_card_us" templateId="MULTIMEDIA_STREAMING_BASIC"/>
+    <card cardId="465335983" id="streaming_card" templateId="MULTIMEDIA_STREAMING_BASIC"/>
+    <card cardId="465335984" id="streaming_card_us" templateId="MULTIMEDIA_STREAMING_BASIC"/>
+</cards>

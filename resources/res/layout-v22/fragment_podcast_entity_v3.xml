@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/header_holder" android:background="?android:attr/windowBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@+id/coordinator_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout android:gravity="center" android:id="@+id/header_view" android:paddingLeft="@dimen/content_area_horizontal_margin" android:paddingRight="@dimen/content_area_horizontal_margin" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/content_area_horizontal_margin" app:elevation="0dp"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:paddingLeft="@dimen/content_area_horizontal_margin" android:paddingRight="@dimen/content_area_horizontal_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/content_area_horizontal_margin" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:layout_constrainedHeight="true"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

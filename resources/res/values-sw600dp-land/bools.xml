@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="connect_dialog_has_image">true</bool>
+    <bool name="fullBleed">true</bool>
+    <bool name="showPlayButtonInHeader">false</bool>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mme_seek_bar_margin_horizontal">152dp</dimen>
+    <dimen name="newplaying_footer_bottom_padding">8dp</dimen>
+    <dimen name="newplaying_footer_button_external_margin">160dp</dimen>
+    <dimen name="newplaying_footer_top_padding">20dp</dimen>
+    <dimen name="newplaying_header_button_external_margin">16dp</dimen>
+    <dimen name="newplaying_header_top_margin">16dp</dimen>
+    <dimen name="newplaying_player_controls_margin">160dp</dimen>
+    <dimen name="newplaying_seek_bar_margin_horizontal">152dp</dimen>
+    <dimen name="newplaying_seek_bar_margin_vertical">8dp</dimen>
+    <dimen name="peek_height">40dp</dimen>
+    <dimen name="queue_player_controls_width_landscape">416dp</dimen>
+    <dimen name="widgets_container_horizontal_padding">160dp</dimen>
+    <dimen name="widgets_vertical_margin">12dp</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mme_seek_bar_margin_horizontal">232dp</dimen>
+    <dimen name="newplaying_footer_bottom_padding">24dp</dimen>
+    <dimen name="newplaying_footer_button_external_margin">240dp</dimen>
+    <dimen name="newplaying_player_controls_margin">240dp</dimen>
+    <dimen name="newplaying_seek_bar_margin_horizontal">232dp</dimen>
+    <dimen name="peek_height">40dp</dimen>
+    <dimen name="widgets_container_horizontal_padding">240dp</dimen>
+    <dimen name="widgets_vertical_margin">12dp</dimen>
+</resources>

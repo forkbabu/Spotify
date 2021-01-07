@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/your_library_root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.spotify.music.features.yourlibraryx.view.YourLibraryXHeaderView android:id="@+id/header_view" android:background="@color/your_library_background" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@+id/filter_row_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.spotify.music.features.yourlibraryx.view.YourLibraryXFilterRowView android:id="@+id/filter_row_view" android:background="@color/your_library_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="10dp" app:layout_scrollFlags="17"/>
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"/>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:gravity="center" android:id="@+id/empty_view_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32dp" android:layout_marginRight="32dp" android:layout_marginBottom="8dp" android:text="@string/your_library_empty_view_title" app:layout_constraintBottom_toTopOf="@+id/empty_view_subtitle" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:layout_constraintVertical_chainStyle="2" style="@style/Encore_TextView_Canon"/>
+                <TextView android:textColor="@color/gray_70" android:gravity="center" android:id="@+id/empty_view_subtitle" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/your_library_empty_view_subtitle" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="@+id/empty_view_title" app:layout_constraintStart_toStartOf="@+id/empty_view_title" app:layout_constraintTop_toBottomOf="@+id/empty_view_title" style="@style/Encore_TextView_Mesto"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <View android:layout_gravity="top" android:id="@+id/filter_shadow" android:background="@drawable/your_library_header_shadow" android:layout_width="match_parent" android:layout_height="4dp"/>
+        </FrameLayout>
+        <com.spotify.music.yourlibrary.quickscroll.QuickScrollView android:id="@+id/quickscroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="48dp" app:quickscroll_initialIndicatorPadding="80dp" app:quickscroll_withHandler="true"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

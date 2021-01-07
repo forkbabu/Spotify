@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.libs.connect.picker.view.ConnectView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/connect_view_root" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/connect_buttons_container" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/icn_connect" android:visibility="gone" android:duplicateParentState="true" android:layout_width="@dimen/connect_device_icon_size" android:layout_height="@dimen/connect_device_icon_size" android:scaleType="centerInside"/>
+        <ImageView android:id="@+id/icn_cast" android:visibility="gone" android:duplicateParentState="true" android:layout_width="@dimen/connect_device_icon_size" android:layout_height="@dimen/connect_device_icon_size" android:scaleType="centerInside"/>
+        <ImageView android:id="@+id/icn_devices" android:visibility="gone" android:duplicateParentState="true" android:layout_width="@dimen/connect_device_icon_size" android:layout_height="@dimen/connect_device_icon_size" android:scaleType="centerInside"/>
+    </LinearLayout>
+    <TextView android:textAppearance="@style/TextAppearance_Encore_Minuet" android:textColor="@color/btn_now_playing_connect" android:ellipsize="marquee" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_gravity="center_vertical" android:id="@+id/btn_connect" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+</com.spotify.libs.connect.picker.view.ConnectView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base_Theme_AppCompat_Dialog" parent="@style/Base_V7_Theme_AppCompat_Dialog">
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="Base_Theme_AppCompat_Light_Dialog" parent="@style/Base_V7_Theme_AppCompat_Light_Dialog">
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="Base_ThemeOverlay_AppCompat_Dialog" parent="@style/Base_V7_ThemeOverlay_AppCompat_Dialog">
+        <item name="android:windowIsFloating">false</item>
+    </style>
+</resources>

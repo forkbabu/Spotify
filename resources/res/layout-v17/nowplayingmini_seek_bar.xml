@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spotify.mobile.android.ui.view.CancellableSeekBar android:id="@+id/seek_bar" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="2dp" android:thumb="@null" android:contentDescription="@string/player_content_description_seekbar" android:layoutDirection="ltr" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0" style="@style/SeekBar"/>
+</merge>

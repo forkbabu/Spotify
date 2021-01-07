@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="add_to_playlist_your_episodes_subtitle">
+        <item quantity="other">%1$s episod</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_hours">
+        <item quantity="other">%1$d jam</item>
+    </plurals>
+    <plurals name="android_auto_podcast_episode_time_format_min">
+        <item quantity="other">%1$d min</item>
+    </plurals>
+    <plurals name="artist_header_followers_count">
+        <item quantity="other">%1$,d PENGIKUT</item>
+    </plurals>
+    <plurals name="artist_number_of_songs">
+        <item quantity="other">%1$,d lagu oleh %2$s</item>
+    </plurals>
+    <plurals name="artist_saved_songs_subtitle">
+        <item quantity="other">%1$d lagu • %2$s</item>
+    </plurals>
+    <plurals name="charts_daily_plays">
+        <item quantity="other">%1$,d Main Harian</item>
+    </plurals>
+    <plurals name="charts_header_new_entry_count">
+        <item quantity="other">%1$,d Entri Baharu</item>
+    </plurals>
+    <plurals name="collection_podcast_updated_days_ago">
+        <item quantity="other">Dikemas kini %1$d hari lalu</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_hours">
+        <item quantity="other">%1$d jam</item>
+    </plurals>
+    <plurals name="context_menu_sleep_timer_mins">
+        <item quantity="other">%1$d minit</item>
+    </plurals>
+    <plurals name="device_picker_available_for_join_subtitle_others">
+        <item quantity="other">%1$s orang sedang mendengar dengan %2$d orang yang lain</item>
+    </plurals>
+    <plurals name="edit_profile_notice_character_cap">
+        <item quantity="other">Maksimum %1$,d aksara</item>
+    </plurals>
+    <plurals name="error_dialog_body_resend_limit">
+        <item quantity="other">Tunggu selama %1$d saat sebelum meminta kod baharu.</item>
+    </plurals>
+    <plurals name="error_dialog_title_resend_limit">
+        <item quantity="other">Cuba semula dalam %1$d saat</item>
+    </plurals>
+    <plurals name="find_friends_flow_confirm_desc">
+        <item quantity="other">Adakah anda pasti anda mahu mengikut semua %1$,d orang?</item>
+    </plurals>
+    <plurals name="follow_feed_timestamp_days_ago">
+        <item quantity="other">%1$d Hari Lalu</item>
+    </plurals>
+    <plurals name="follow_feed_timestamp_hours_ago">
+        <item quantity="other">%1$d Jam Lalu</item>
+    </plurals>
+    <plurals name="follow_feed_timestamp_minutes_ago">
+        <item quantity="other">%1$d Min Lalu</item>
+    </plurals>
+    <plurals name="header_playlist_followers_count">
+        <item quantity="other">%1$,d PENGIKUT</item>
+    </plurals>
+    <plurals name="home_inline_onboarding_header_title">
+        <item quantity="other">Ikuti %1$d artis agar kami boleh memilih muzik untuk anda</item>
+    </plurals>
+    <plurals name="item_description_folder_folders_count">
+        <item quantity="other">%1$s folder</item>
+    </plurals>
+    <plurals name="item_description_folder_playlists_count">
+        <item quantity="other">%1$s playlist</item>
+    </plurals>
+    <plurals name="item_description_liked_songs">
+        <item quantity="other">Playlist • %1$s buah lagu</item>
+    </plurals>
+    <plurals name="item_description_liked_songs_filtered">
+        <item quantity="other">%1$s lagu</item>
+    </plurals>
+    <plurals name="item_description_your_episodes">
+        <item quantity="other">Playlist • %1$s episod</item>
+    </plurals>
+    <plurals name="item_description_your_episodes_filtered">
+        <item quantity="other">%1$s episod</item>
+    </plurals>
+    <plurals name="local_files_imported_dialog_body">
+        <item quantity="other">%1$,d lagu yang ditambahkan ke dalam Lagu dalam Pustaka Anda</item>
+    </plurals>
+    <plurals name="local_files_subtitle_number_of_songs">
+        <item quantity="other">%1$,d lagu</item>
+    </plurals>
+    <plurals name="mobile_artist_tracks_count">
+        <item quantity="other">%1$,d lagu</item>
+    </plurals>
+    <plurals name="notification_syncing_text">
+        <item quantity="other">%1$,d daripada %2$,d (%3$,d%% selesai)</item>
+    </plurals>
+    <plurals name="otp_description">
+        <item quantity="other">Kami menghantar SMS dengan %1$d kod angka ke %2$s.</item>
+    </plurals>
+    <plurals name="playlist_folder_count">
+        <item quantity="other">%1$,d folder</item>
+    </plurals>
+    <plurals name="playlist_header_owner_button_text_collaborative">
+        <item quantity="other">%1$s + %2$d orang lain</item>
+    </plurals>
+    <plurals name="playlist_header_subtitle_likes">
+        <item quantity="other">%1$s SUKA</item>
+    </plurals>
+    <plurals name="playlist_header_subtitle_owner_collaborative">
+        <item quantity="other">Oleh %1$s + %2$d orang lain</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_episodes">
+        <item quantity="other">%1$d episod</item>
+    </plurals>
+    <plurals name="playlist_participants_row_subtitle_tracks">
+        <item quantity="other">%1$d lagu</item>
+    </plurals>
+    <plurals name="playlist_participants_title">
+        <item quantity="other">%1$d orang</item>
+    </plurals>
+    <plurals name="playlist_playlist_count">
+        <item quantity="other">%1$,d senarai main</item>
+    </plurals>
+    <plurals name="playlist_track_count">
+        <item quantity="other">%1$,d lagu</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_episodes">
+        <item quantity="other">%1$,d EPISOD</item>
+    </plurals>
+    <plurals name="playlist_trackcloud_includes_label_songs">
+        <item quantity="other">%1$,d LAGU</item>
+    </plurals>
+    <plurals name="podcast_poll_days_left_label">
+        <item quantity="other">%1$d hari</item>
+    </plurals>
+    <plurals name="podcast_poll_hours_left_label">
+        <item quantity="other">%1$d jam lagi</item>
+    </plurals>
+    <plurals name="podcast_poll_minutes_left_label">
+        <item quantity="other">%1$d minit lagi</item>
+    </plurals>
+    <plurals name="podcast_poll_poll_subtitle">
+        <item quantity="other">%1$d undian • %2$s</item>
+    </plurals>
+    <plurals name="podcast_qna_days_ago">
+        <item quantity="other">%1$d hari yang lalu</item>
+    </plurals>
+    <plurals name="podcast_qna_month_ago">
+        <item quantity="other">%1$d bulan lalu</item>
+    </plurals>
+    <plurals name="podcast_qna_week_ago">
+        <item quantity="other">%1$d minggu lalu</item>
+    </plurals>
+    <plurals name="podcast_topic_episodes">
+        <item quantity="other">%1$d episod podcast</item>
+    </plurals>
+    <plurals name="points_label">
+        <item quantity="other">%1$d Mata</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_add_song_subtitle">
+        <item quantity="other">%1$d lagu lagi</item>
+    </plurals>
+    <plurals name="premium_mini_playlist_subtitle">
+        <item quantity="other">%1$d lagu • %2$s</item>
+    </plurals>
+    <plurals name="profile_list_item_followers_count">
+        <item quantity="other">%1$,d pengikut</item>
+    </plurals>
+    <plurals name="redownload_dialog_message">
+        <item quantity="other">Untuk mendengar lagu ini di luar talian sekali lagi, anda perlu memuat turun lagu ini pada peranti anda. Ini akan menggunakan %1$d Mb.</item>
+    </plurals>
+    <plurals name="refresh_header_followers_count">
+        <item quantity="other">%1$,d Pengikut</item>
+    </plurals>
+    <plurals name="refresh_header_likes_count">
+        <item quantity="other">%1$s Suka</item>
+    </plurals>
+    <plurals name="response_count">
+        <item quantity="other">%1$d balasan</item>
+    </plurals>
+    <plurals name="selection_subtitle">
+        <item quantity="other">%1$d / %2$d Baris dipilih</item>
+    </plurals>
+    <plurals name="share_notice">
+        <item quantity="other">Tambah %1$d lagu atau podcast untuk dikongsi.</item>
+    </plurals>
+    <plurals name="social_listening_join_failed_session_full_body">
+        <item quantity="other">Ia membolehkan %1$s orang pendengar pada satu-satu masa dan had telah dicapai.</item>
+    </plurals>
+    <plurals name="social_listening_participant_list_invite_notice_title">
+        <item quantity="other">Jemput sehingga %1$s rakan</item>
+    </plurals>
+    <plurals name="social_listening_participants_listening">
+        <item quantity="other">%1$s orang mendengar</item>
+    </plurals>
+    <plurals name="song_limit_dialog_title">
+        <item quantity="other">Anda telah mencapai had %1$d lagu yang dimuat turun</item>
+    </plurals>
+    <plurals name="time_format_hours">
+        <item quantity="other">%1$d jam</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$d minit</item>
+    </plurals>
+    <plurals name="time_format_sec">
+        <item quantity="other">%1$d saat</item>
+    </plurals>
+    <plurals name="title_group_session_view">
+        <item quantity="other">%1$d orang sedang mendengar</item>
+    </plurals>
+    <plurals name="toast_imported_to_collection">
+        <item quantity="other">%1$,d lagu ditambahkan</item>
+    </plurals>
+    <plurals name="user_mix_songs_limit_popup_header">
+        <item quantity="other">Playlist Lagu Muat Turun anda telah mencecah had %1$d lagu</item>
+    </plurals>
+    <plurals name="your_episodes_header_subtitle">
+        <item quantity="other">%1$d episod</item>
+    </plurals>
+    <plurals name="your_episodes_subtitle">
+        <item quantity="other">%1$d episod</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_artist_tracks_in_collection_subtitle">
+        <item quantity="other">%1$s lagu</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_favorite_songs_subtitle">
+        <item quantity="other">%1$s lagu</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_folder_folders_count_subtitle">
+        <item quantity="other">%1$s folder</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_folder_subtitle">
+        <item quantity="other">%1$s playlist</item>
+    </plurals>
+    <plurals name="your_library_music_pages_row_your_episodes_subtitle">
+        <item quantity="other">%1$s episod</item>
+    </plurals>
+</resources>

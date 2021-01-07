@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/picker_mini_volume_container" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:translationY="@dimen/device_picker_volume_widget_height">
+    <View android:background="@drawable/volume_widget_top_gradient" android:layout_width="match_parent" android:layout_height="@dimen/device_picker_volume_widget_top_shadow_height"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/volume_bar" android:background="@color/gray_7" android:paddingBottom="@dimen/device_picker_volume_widget_bottom_padding" android:layout_width="match_parent" android:layout_height="@dimen/device_picker_volume_widget_height">
+        <ImageView android:id="@+id/volume_img" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/icn_device_picker_volume" android:paddingStart="@dimen/device_picker_volume_padding" android:paddingEnd="@dimen/device_picker_volume_slider_image_spacing"/>
+        <com.spotify.mobile.android.ui.view.DraggableSeekBar android:id="@+id/volume_slider" android:layout_width="match_parent" android:layout_height="match_parent" android:maxHeight="@dimen/device_picker_volume_height" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/bg_picker_progress" android:contentDescription="@string/volume_slider_accessibility"/>
+    </LinearLayout>
+</LinearLayout>

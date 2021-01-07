@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_navigation_text_padding_left_right">1dp</dimen>
+    <dimen name="filter_list_popup_width">240dp</dimen>
+    <dimen name="find_inline_empty_padding">64dp</dimen>
+    <dimen name="find_inline_empty_with_button_padding">32dp</dimen>
+    <dimen name="login_page_header_margin_bottom">25dp</dimen>
+    <dimen name="login_page_header_margin_top">25dp</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_bottom">24dp</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_top">24dp</dimen>
+</resources>

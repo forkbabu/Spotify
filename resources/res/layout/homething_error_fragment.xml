@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="?attr/pasteTextAppearanceHeaderLarge" android:gravity="center" android:id="@+id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_16dp" android:text="@string/something_went_wrong"/>
+    <TextView android:textAppearance="?attr/pasteTextAppearanceBodyMedium" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_32dp" android:text="@string/try_factory_reset"/>
+    <Button android:id="@+id/button_done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_32dp" android:layout_marginBottom="@dimen/std_32dp" android:text="@string/try_again" android:filterTouchesWhenObscured="false" style="@style/res_2132083974_widget_solar_button_primary_white"/>
+</LinearLayout>

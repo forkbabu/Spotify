@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:radius="@dimen/chip_button_corner_radius"/>
+            <size android:height="@dimen/chip_button_height"/>
+            <solid android:color="@color/pasteTransparent"/>
+            <stroke android:width="@dimen/chip_button_border_width" android:color="@color/gray_25"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="@dimen/chip_button_corner_radius"/>
+            <size android:height="@dimen/chip_button_height"/>
+            <solid android:color="@color/pasteTransparent"/>
+            <stroke android:width="@dimen/chip_button_border_width" android:color="@color/white_30"/>
+        </shape>
+    </item>
+</selector>

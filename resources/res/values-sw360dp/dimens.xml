@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btl_artist_quote_min_text_size">13dp</dimen>
+    <dimen name="btl_artist_quote_padding">12dp</dimen>
+    <dimen name="btl_artist_quote_text_size">19dp</dimen>
+    <dimen name="btl_card_icon_size">28dp</dimen>
+    <dimen name="btl_insights_min_text_size">13dp</dimen>
+    <dimen name="btl_insights_text_size">19dp</dimen>
+    <dimen name="btl_intro_title_text_size">44dp</dimen>
+    <dimen name="btl_lyrics_min_text_size">12dp</dimen>
+    <dimen name="btl_lyrics_text_size">20dp</dimen>
+</resources>

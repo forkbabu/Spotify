@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base_Theme_AppCompat_DialogWhenLarge" parent="@style/Base_Theme_AppCompat_Dialog_FixedSize">
+    </style>
+    <style name="Base_Theme_AppCompat_Light_DialogWhenLarge" parent="@style/Base_Theme_AppCompat_Light_Dialog_FixedSize">
+    </style>
+    <style name="Base_Theme_MaterialComponents_DialogWhenLarge" parent="@style/Base_Theme_MaterialComponents_Dialog_FixedSize">
+    </style>
+    <style name="Base_Theme_MaterialComponents_Light_DialogWhenLarge" parent="@style/Base_Theme_MaterialComponents_Light_Dialog_FixedSize">
+    </style>
+</resources>

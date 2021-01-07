@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/artist_verified" android:padding="@dimen/spacer_16" android:layout_width="match_parent" android:layout_height="@dimen/spacer_64">
+    <ImageView android:layout_width="@dimen/std_24dp" android:layout_height="@dimen/std_24dp" android:src="@drawable/artist_verified_badge" android:contentDescription="@string/creator_artist_verified" android:importantForAccessibility="no"/>
+    <TextView android:textAppearance="?attr/pasteTextAppearanceMetadata" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacer_8" android:layout_marginTop="@dimen/spacer_4" android:layout_marginRight="@dimen/spacer_8" android:text="@string/creator_artist_verified" android:maxLines="1" android:layout_marginStart="@dimen/spacer_8" android:layout_marginEnd="@dimen/spacer_8"/>
+</LinearLayout>

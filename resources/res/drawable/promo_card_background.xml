@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/home_promotion_background_overlay"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient android:startColor="@color/home_promotion_background_gradient_start" android:endColor="@color/home_promotion_background_gradient_end" android:angle="-90"/>
+        </shape>
+    </item>
+</layer-list>

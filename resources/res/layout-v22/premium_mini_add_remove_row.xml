@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/add_remove_row_min_height">
+    <TextView android:textAppearance="?attr/pasteTextAppearanceBodySmall" android:textColor="?attr/glueRowSubtitleColor" android:gravity="center" android:layout_gravity="center" android:id="@+id/premium_mini_playlist_full_textview" android:paddingLeft="@dimen/additional_adapter_hor_padding" android:paddingRight="@dimen/additional_adapter_hor_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/additional_adapter_hor_padding"/>
+</FrameLayout>

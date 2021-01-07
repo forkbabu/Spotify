@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+    <TextView android:textAppearance="?attr/pasteTextAppearanceBodyMediumBold" android:textColor="@color/glue_action_row_name_color" android:ellipsize="end" android:id="@+id/title" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+    <android.widget.Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+    <TextView android:textAppearance="?attr/pasteTextAppearanceBodySmallBold" android:textColor="@color/glue_metadata_pressable" android:id="@+id/action" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="0dp" android:paddingBottom="16dp" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="16dp" android:paddingEnd="0dp"/>
+</LinearLayout>

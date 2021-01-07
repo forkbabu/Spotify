@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:paste="http://schemas.android.com/apk/res-auto" android:background="@color/gray_7" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize">
+    <com.spotify.paste.spotifyicon.SpotifyIconView android:id="@+id/btn_close" android:background="?android:attr/selectableItemBackground" android:layout_width="40dp" android:layout_height="match_parent" android:scaleType="centerInside" android:contentDescription="@string/generic_content_description_close" paste:iconSize="@dimen/toolbar_icon_size"/>
+    <android.widget.Space android:id="@+id/space" android:layout_width="40dp" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_toLeftOf="@+id/space" android:layout_toRightOf="@+id/btn_close" android:layout_toStartOf="@+id/space" android:layout_toEndOf="@+id/btn_close">
+        <TextView android:textAppearance="?attr/pasteTextAppearanceBodyMediumBold" android:textStyle="bold" android:ellipsize="end" android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/webview_title" android:layout_width="match_parent" android:layout_height="0dp" android:maxLines="1" android:layout_weight="1"/>
+        <TextView android:textAppearance="?attr/pasteTextAppearanceBodySmall" android:ellipsize="end" android:gravity="top|center_vertical|center_horizontal|center" android:id="@+id/webview_url" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="4dp" android:maxLines="1" android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

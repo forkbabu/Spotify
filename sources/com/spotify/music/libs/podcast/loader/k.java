@@ -1,0 +1,17 @@
+package com.spotify.music.libs.podcast.loader;
+
+import com.spotify.cosmos.android.cosmonaut.CosmosService;
+import com.spotify.cosmos.android.cosmonaut.annotations.Body;
+import com.spotify.cosmos.android.cosmonaut.annotations.GET;
+import com.spotify.cosmos.android.cosmonaut.annotations.Path;
+import com.spotify.cosmos.android.cosmonaut.annotations.QueryMap;
+import com.spotify.mobile.android.playlist.model.policy.Policy;
+import com.spotify.mobile.android.spotlets.show.proto.ShowShowsRequest$ProtoShowsResponse;
+import io.reactivex.z;
+import java.util.Map;
+
+@CosmosService
+public interface k {
+    @GET("sp://core-collection/unstable/{username}/list/shows/all")
+    z<ShowShowsRequest$ProtoShowsResponse> a(@Path("username") String str, @QueryMap Map<String, String> map, @Body Policy policy);
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<allowed_callers>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung Page" package="com.samsung.android.app.spage">
+        <key release="false"> C8:A2:E9:BC:CF:59:7C:2F:B6:DC:66:BE:E2:93:FC:13:F2:FC:47:EC:77:BC:6B:2B:0D:52:C1:1F:51:19:2A:B8 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung Page Low End" package="com.samsung.android.app.spage">
+        <key release="true"> 0A:01:21:31:B1:BD:F9:E8:0E:F9:7D:37:F3:B4:83:62:BE:36:3A:46:4C:84:45:EC:F8:36:27:EB:E8:49:3A:1E 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung Page Partner" package="com.samsung.android.app.spage.partner">
+        <key release="false"> C8:A2:E9:BC:CF:59:7C:2F:B6:DC:66:BE:E2:93:FC:13:F2:FC:47:EC:77:BC:6B:2B:0D:52:C1:1F:51:19:2A:B8 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung Page Beta" package="com.samsung.android.app.spage.beta">
+        <key release="false"> C8:A2:E9:BC:CF:59:7C:2F:B6:DC:66:BE:E2:93:FC:13:F2:FC:47:EC:77:BC:6B:2B:0D:52:C1:1F:51:19:2A:B8 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung Page Beta" package="com.samsung.android.app.spage.beta">
+        <key release="true"> 34:DF:0E:7A:9F:1C:F1:89:2E:45:C0:56:B4:97:3C:D8:1C:CF:14:8A:40:50:D1:1A:EA:4A:C5:A6:5F:90:0A:42 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung Page" package="com.samsung.android.app.spage">
+        <key release="true"> 34:DF:0E:7A:9F:1C:F1:89:2E:45:C0:56:B4:97:3C:D8:1C:CF:14:8A:40:50:D1:1A:EA:4A:C5:A6:5F:90:0A:42 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung Routines" package="com.samsung.android.app.routines">
+        <key release="false"> C8:A2:E9:BC:CF:59:7C:2F:B6:DC:66:BE:E2:93:FC:13:F2:FC:47:EC:77:BC:6B:2B:0D:52:C1:1F:51:19:2A:B8 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung Routines" package="com.samsung.android.app.routines">
+        <key release="true"> 34:DF:0E:7A:9F:1C:F1:89:2E:45:C0:56:B4:97:3C:D8:1C:CF:14:8A:40:50:D1:1A:EA:4A:C5:A6:5F:90:0A:42 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung S Finder" package="com.samsung.android.app.galaxyfinder">
+        <key release="false"> C8:A2:E9:BC:CF:59:7C:2F:B6:DC:66:BE:E2:93:FC:13:F2:FC:47:EC:77:BC:6B:2B:0D:52:C1:1F:51:19:2A:B8 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung S Finder" package="com.samsung.android.app.galaxyfinder">
+        <key release="true"> 34:DF:0E:7A:9F:1C:F1:89:2E:45:C0:56:B4:97:3C:D8:1C:CF:14:8A:40:50:D1:1A:EA:4A:C5:A6:5F:90:0A:42 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung Clock High End" package="com.sec.android.app.clockpackage">
+        <key release="true"> 34:DF:0E:7A:9F:1C:F1:89:2E:45:C0:56:B4:97:3C:D8:1C:CF:14:8A:40:50:D1:1A:EA:4A:C5:A6:5F:90:0A:42 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung Clock Low End" package="com.sec.android.app.clockpackage">
+        <key release="true"> 0A:01:21:31:B1:BD:F9:E8:0E:F9:7D:37:F3:B4:83:62:BE:36:3A:46:4C:84:45:EC:F8:36:27:EB:E8:49:3A:1E 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung Clock Eng Binary" package="com.sec.android.app.clockpackage">
+        <key release="true"> C8:A2:E9:BC:CF:59:7C:2F:B6:DC:66:BE:E2:93:FC:13:F2:FC:47:EC:77:BC:6B:2B:0D:52:C1:1F:51:19:2A:B8 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung Keyboard Honeyboard" package="com.samsung.android.honeyboard">
+        <key release="true"> 34:DF:0E:7A:9F:1C:F1:89:2E:45:C0:56:B4:97:3C:D8:1C:CF:14:8A:40:50:D1:1A:EA:4A:C5:A6:5F:90:0A:42 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung Keyboard Icecone" package="com.samsung.android.icecone">
+        <key release="true"> 34:DF:0E:7A:9F:1C:F1:89:2E:45:C0:56:B4:97:3C:D8:1C:CF:14:8A:40:50:D1:1A:EA:4A:C5:A6:5F:90:0A:42 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung Keyboard Honeyboard" package="com.samsung.android.honeyboard">
+        <key release="false"> C8:A2:E9:BC:CF:59:7C:2F:B6:DC:66:BE:E2:93:FC:13:F2:FC:47:EC:77:BC:6B:2B:0D:52:C1:1F:51:19:2A:B8 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung Keyboard Icecone" package="com.samsung.android.icecone">
+        <key release="false"> C8:A2:E9:BC:CF:59:7C:2F:B6:DC:66:BE:E2:93:FC:13:F2:FC:47:EC:77:BC:6B:2B:0D:52:C1:1F:51:19:2A:B8 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung Keyboard Honeyboard Low-seg" package="com.samsung.android.honeyboard">
+        <key release="true"> 0A:01:21:31:B1:BD:F9:E8:0E:F9:7D:37:F3:B4:83:62:BE:36:3A:46:4C:84:45:EC:F8:36:27:EB:E8:49:3A:1E 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Samsung Keyboard Icecone Low-seg" package="com.samsung.android.icecone">
+        <key release="true"> 0A:01:21:31:B1:BD:F9:E8:0E:F9:7D:37:F3:B4:83:62:BE:36:3A:46:4C:84:45:EC:F8:36:27:EB:E8:49:3A:1E 
+        </key>
+    </signature>
+</allowed_callers>

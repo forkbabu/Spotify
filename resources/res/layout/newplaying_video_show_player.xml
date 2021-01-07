@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.spotify.nowplaying.ui.components.overlay.OverlayHidingGradientBackgroundView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?attr/pasteColorBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.spotify.music.nowplaying.common.view.pager.TrackCarouselView android:id="@+id/track_carousel" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/newplaying_video_show_player_overlay"/>
+</com.spotify.nowplaying.ui.components.overlay.OverlayHidingGradientBackgroundView>

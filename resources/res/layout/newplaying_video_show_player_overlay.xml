@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/nowplaying_overlay_gradient" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:layout_gravity="top" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/newplaying_header_top_margin" layout="@layout/newplaying_player_overlay_header"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/player_overlay_footer" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.spotify.music.nowplaying.common.view.trackinfo.MarqueeTrackInfoView android:layout_gravity="start" android:id="@+id/track_info_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/newplaying_player_controls_margin" android:layout_marginRight="@dimen/newplaying_player_controls_margin" style="@style/TrackInfoViewLeftAligned"/>
+        <com.spotify.nowplaying.ui.components.controls.seekbar.PersistentSeekbarView android:id="@+id/seek_bar_view" android:focusable="false" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/player_v2_seekbar_height" android:layout_marginLeft="@dimen/newplaying_seek_bar_margin_horizontal" android:layout_marginTop="@dimen/newplaying_seek_bar_margin_vertical" android:layout_marginRight="@dimen/newplaying_seek_bar_margin_horizontal" android:layout_marginBottom="@dimen/newplaying_seek_bar_margin_vertical"/>
+        <include layout="@layout/newplaying_video_show_playback_controls"/>
+        <include layout="@layout/newplaying_player_overlay_footer_share"/>
+    </LinearLayout>
+</FrameLayout>

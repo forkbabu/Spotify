@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ProgressBar android:layout_gravity="center" android:id="@+id/save_dialog_progress" android:visibility="visible" android:layout_width="120dp" android:layout_height="120dp" android:max="100" android:indeterminate="true" android:progressDrawable="@drawable/save_playlist_progress"/>
+    <Button android:id="@+id/save_dialog_progress_cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/std_16dp" android:layout_marginBottom="@dimen/std_16dp" android:text="@string/edit_playlist_save_dialog_cancel_button" android:filterTouchesWhenObscured="false" style="?attr/solarButtonSecondary"/>
+</LinearLayout>

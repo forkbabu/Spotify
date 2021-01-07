@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<allowed_callers>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Asus Clock" package="com.asus.deskclock">
+        <key release="true"> 9A:F9:49:7B:EC:4A:32:A8:AA:06:9D:C2:0B:0E:77:3A:86:6B:80:55:D2:AF:6B:FC:A7:7E:23:4A:3A:2B:21:93 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Asus Clock Dev" package="com.asus.deskclock">
+        <key release="false"> 3E:3E:0E:0F:D0:91:88:DF:7A:DA:A1:E1:25:3A:FE:BF:2C:B8:4B:20:50:E1:77:CB:54:F5:ED:A1:98:01:00:AD 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Google Clock" package="com.google.android.deskclock">
+        <key release="true"> F0:FD:6C:5B:41:0F:25:CB:25:C3:B5:33:46:C8:97:2F:AE:30:F8:EE:74:11:DF:91:04:80:AD:6B:2D:60:DB:83 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Google Clock" package="com.google.android.deskclock">
+        <key release="false"> 19:75:B2:F1:71:77:BC:89:A5:DF:F3:1F:9E:64:A6:CA:E2:81:A5:3D:C1:D1:D5:9B:1D:14:7F:E1:C8:2A:FA:00 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Shazam Encore" package="com.shazam.encore.android">
+        <key release="true"> BF:FE:B1:49:03:FB:C9:2F:FF:E6:40:4A:36:54:09:8A:3F:85:C8:1A:35:13:AF:D5:DC:EA:C1:21:CD:67:8D:1C 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Shazam Encore" package="com.shazam.encore.android">
+        <key release="false"> F7:53:E3:ED:C6:9A:09:6B:37:2F:98:64:05:5B:3B:42:88:FD:4F:E5:E4:E7:12:67:50:3C:C6:14:82:3C:8F:26 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Shazam" package="com.shazam.android">
+        <key release="true"> BF:FE:B1:49:03:FB:C9:2F:FF:E6:40:4A:36:54:09:8A:3F:85:C8:1A:35:13:AF:D5:DC:EA:C1:21:CD:67:8D:1C 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Shazam" package="com.shazam.android">
+        <key release="false"> F7:53:E3:ED:C6:9A:09:6B:37:2F:98:64:05:5B:3B:42:88:FD:4F:E5:E4:E7:12:67:50:3C:C6:14:82:3C:8F:26 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Musixmatch" package="com.musixmatch.android.lyrify">
+        <key release="true"> 66:96:E2:CF:97:89:35:C6:37:F5:2A:AE:FE:19:67:60:BC:3D:62:B4:FF:92:BC:C5:E3:F7:ED:01:5A:6D:9B:23 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Musixmatch" package="com.musixmatch.android.lyrify">
+        <key release="false"> 0B:66:AB:FC:23:E9:2C:17:80:2C:0F:B7:18:A0:53:85:C2:D7:EE:EF:AB:9D:16:50:A2:14:F0:B1:9C:87:28:87 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Unity Sample App" package="com.DefaultCompany.FuriousFowls">
+        <key release="true"> F4:E4:C9:11:F7:4C:EB:EE:BB:75:FD:FE:E0:C0:B0:D0:88:DD:73:3D:25:B3:35:CE:51:08:C1:DA:91:BA:8D:4D 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Nordeus Heroic" package="com.nordeus.heroic">
+        <key release="true"> \10            23:DC:B5:E6:1D:49:E4:4D:7A:F7:1B:70:38:2B:FF:AE:0B:2A:8F:5B:DB:8C:FE:91:CF:3E:AA:A0:A9:74:7C:4A 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Nordeus Heroic" package="com.nordeus.heroic.dev">
+        <key release="false"> 23:DC:B5:E6:1D:49:E4:4D:7A:F7:1B:70:38:2B:FF:AE:0B:2A:8F:5B:DB:8C:FE:91:CF:3E:AA:A0:A9:74:7C:4A 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Rakuten" package="jp.co.rakuten.mobile.rcs">
+        <key release="false"> 71:FD:45:CD:6F:07:24:76:E0:B2:06:18:CC:8F:68:9A:B8:3F:8A:2E:C9:DE:E7:CC:1B:96:82:84:03:F0:9F:6F 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Rakuten" package="jp.co.rakuten.mobile.rcs">
+        <key release="true"> E4:56:5F:B7:BE:3D:0E:2C:E7:12:3B:CF:7F:C6:8E:DC:63:ED:BD:F6:AA:A1:D6:26:20:28:EF:3F:13:44:2A:00 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Lockwood Avakin Life" package="com.lockwoodpublishing.avakinlife">
+        <key release="true"> FA:BF:C5:D7:11:AE:A9:EE:97:E3:E4:C6:FB:08:A2:2D:DC:B0:24:23:E1:01:9F:91:3A:E2:2F:4B:38:68:E6:94 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Hadouken Test App" package="com.spotify.hadoukensample">
+        <key release="false"> C4:C1:A2:94:92:B9:A4:38:53:8C:8C:A5:76:B1:FC:D2:9B:24:6F:3B:82:89:15:13:1C:6C:35:5B:6D:15:FB:C4 
+        </key>
+    </signature>
+    <signature allowedResources="com.spotify.mobile.android.service.media.provider.MediaProvider,com.spotify.music.libs.mediabrowserservice.SpotifyMediaBrowserService" name="Hadouken Test App - Denied by Denylist Test" package="com.spotify.hadoukensample.denied">
+        <key release="false"> F9:09:54:9A:D8:A2:FF:93:EA:81:5E:D4:04:76:68:A6:43:BD:3E:B3:38:84:73:92:59:23:B4:76:71:7F:FB:DC 
+        </key>
+    </signature>
+</allowed_callers>

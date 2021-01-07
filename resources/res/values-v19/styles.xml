@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="res_2132083492_theme_devicepicker" parent="@style/res_2132083514_theme_glue_noactionbar_transparent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="res_2132083512_theme_glue_noactionbar_sharemenuv2" parent="@style/res_2132083506_theme_glue_noactionbar">
+        <item name="android:windowAnimationStyle">@style/Animation_Design_BottomSheetDialog</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>

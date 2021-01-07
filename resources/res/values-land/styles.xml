@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="res_2132083309_textappearance_cat_description" parent="@style/res_2132083297_textappearance_cat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/cat_text_primary</item>
+        <item name="android:textColorLink">@color/cat_text_link</item>
+        <item name="android:fontFamily">@font/encore_font_circular_book</item>
+    </style>
+    <style name="Widget_Design_TabLayout" parent="@style/Base_Widget_Design_TabLayout">
+        <item name="tabGravity">1</item>
+        <item name="tabMode">1</item>
+    </style>
+    <style name="res_2132083816_widget_header_metadata" parent="@style/res_2132083815_widget_header">
+        <item name="android:textAppearance">?attr/pasteTextAppearanceMetadata</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">96dp</item>
+        <item name="android:paddingRight">96dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="res_2132083818_widget_header_metadata_small_left" parent="@style/res_2132083817_widget_header_metadata_small">
+        <item name="android:gravity">left</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">32dp</item>
+    </style>
+    <style name="res_2132083819_widget_header_subtitle" parent="@style/res_2132083815_widget_header">
+        <item name="android:textAppearance">?attr/pasteTextAppearanceBodySmall</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">64dp</item>
+        <item name="android:paddingRight">64dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    <style name="res_2132083821_widget_header_subtitle_small_left" parent="@style/res_2132083820_widget_header_subtitle_small">
+        <item name="android:gravity">left</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">32dp</item>
+    </style>
+    <style name="res_2132083822_widget_header_title" parent="@style/res_2132083815_widget_header">
+        <item name="android:textAppearance">?attr/pasteTextAppearanceHeaderLarge</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">64dp</item>
+        <item name="android:paddingRight">64dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="minimumTextSize">12sp</item>
+        <item name="sizeToFit">true</item>
+    </style>
+    <style name="res_2132083823_widget_header_title_small" parent="@style/res_2132083822_widget_header_title">
+        <item name="android:textAppearance">?attr/pasteTextAppearanceHeaderLarge</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">32dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    <style name="res_2132083824_widget_header_title_small_left" parent="@style/res_2132083823_widget_header_title_small">
+    </style>
+    <style name="Widget_MaterialComponents_MaterialCalendar_HeaderSelection" parent="@style/Widget_AppCompat_TextView">
+        <item name="android:textAppearance">?attr/textAppearanceHeadline6</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/mtrl_calendar_selection_text_lines</item>
+    </style>
+</resources>

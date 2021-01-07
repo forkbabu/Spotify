@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingBottom="@dimen/header_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="?attr/pasteTextAppearanceHeaderMedium" android:textColor="?attr/glueRowTitleColor" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:textDirection="locale" android:layout_marginStart="@dimen/header_margin" android:layout_marginEnd="@dimen/header_margin"/>
+    <TextView android:textAppearance="?attr/pasteTextAppearanceSecondaryMuted" android:textColor="?attr/glueRowSubtitleColor" android:id="@+id/subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:textDirection="locale" android:layout_marginStart="@dimen/header_margin" android:layout_marginEnd="@dimen/header_margin"/>
+</LinearLayout>

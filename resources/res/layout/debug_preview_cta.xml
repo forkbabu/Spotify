@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:layout_gravity="center_horizontal" android:id="@+id/btn_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:text="@string/premium_destination_debug_preview_cta" android:filterTouchesWhenObscured="false" style="@style/res_2132083974_widget_solar_button_primary_white"/>
+</LinearLayout>

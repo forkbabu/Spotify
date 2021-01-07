@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/content" android:background="?attr/pasteColorBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.spotify.music.newplaying.scroll.view.PeekScrollView android:id="@+id/scroll_container" android:layout_width="match_parent" android:layout_height="match_parent" app:peekHeight="@dimen/peek_height">
+        <com.spotify.nowplaying.ui.components.overlay.OverlayHidingGradientBackgroundView android:id="@+id/overlay_hiding_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.spotify.music.nowplaying.common.view.pager.TrackCarouselView android:id="@+id/track_carousel" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <com.spotify.music.nowplaying.common.view.canvas.artist.CanvasArtistWidgetView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/canvas_artist_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <include android:id="@+id/player_overlay" layout="@layout/newplaying_freetier_player_overlay"/>
+            <com.spotify.mobile.android.spotlets.tooltip.TooltipContainer android:id="@+id/tooltip_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </com.spotify.nowplaying.ui.components.overlay.OverlayHidingGradientBackgroundView>
+        <com.spotify.music.newplaying.scroll.container.WidgetsContainer android:id="@+id/widgets_container" android:paddingLeft="@dimen/widgets_container_horizontal_padding" android:paddingRight="@dimen/widgets_container_horizontal_padding" android:paddingBottom="@dimen/widgets_container_bottom_padding" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </com.spotify.music.newplaying.scroll.view.PeekScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

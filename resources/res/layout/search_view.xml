@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/container" android:background="@color/allboarding_stockholm_black_bg" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintTop_toTopOf="0">
+    <com.spotify.music.libs.search.view.ToolbarSearchFieldView android:id="@+id/search_toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="?android:attr/actionBarSize" app:backgroundCornerRadius="4dp" app:color="@color/allboarding_stockholm_black_searchbar_bg" app:insetX="16dp" app:insetY="8dp"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/search_rv" android:layout_width="match_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <include android:id="@+id/glue_empty_state_button" layout="@layout/glue_empty_state_button"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textAppearance="@style/TextAppearance_Encore_Cello" android:textColor="@color/car_mode_home_shortcuts_item_title_color" android:ellipsize="end" android:id="@+id/shortcuts_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHorizontal_bias="0" app:layout_constraintStart_toEndOf="@+id/shortcuts_item_image" app:layout_constraintTop_toTopOf="0"/>
+        <com.spotify.paste.widgets.SquareImageView android:id="@+id/shortcuts_item_image" android:layout_width="wrap_content" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

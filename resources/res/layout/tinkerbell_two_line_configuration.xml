@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:paste="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingTop="5dp" android:paddingRight="16dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <TextView android:textAppearance="?attr/pasteTextAppearance" android:textSize="20sp" android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/tinkerbell_tooltip_title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="2dp"/>
+        <TextView android:textAppearance="?attr/pasteTextAppearance" android:textSize="14sp" android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/tinkerbell_tooltip_body" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.1">
+        <com.spotify.paste.spotifyicon.SpotifyIconView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/btn_close" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerInside" android:contentDescription="@string/generic_content_description_close" paste:iconType="1135"/>
+    </FrameLayout>
+</LinearLayout>

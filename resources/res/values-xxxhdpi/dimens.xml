@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nowplaying_immersive_content_bottom_margin">364dp</dimen>
+    <dimen name="nowplaying_immersive_content_top_margin">108dp</dimen>
+</resources>

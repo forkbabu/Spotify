@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:color="@color/green" app:devices_available="true" app:remote_active="true"/>
+    <item android:state_pressed="false" android:color="@color/green" app:devices_available="true" app:remote_active="true"/>
+    <item android:state_pressed="true" android:color="@color/white_70" app:devices_available="true" app:remote_active="false"/>
+    <item android:state_pressed="false" android:color="@color/white" app:devices_available="true" app:remote_active="false"/>
+    <item android:color="@color/gray_70" app:devices_available="false"/>
+    <item android:color="@color/white"/>
+</selector>

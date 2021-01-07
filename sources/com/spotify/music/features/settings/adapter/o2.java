@@ -1,0 +1,4 @@
+package com.spotify.music.features.settings.adapter;
+
+public interface o2 {
+}

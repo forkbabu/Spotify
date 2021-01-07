@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="res_2132083576_theme_nowplayingactivity" parent="@style/res_2132083506_theme_glue_noactionbar">
+        <item name="android:windowBackground">@color/black_90</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="res_2132083579_theme_queueactivity" parent="@style/res_2132083506_theme_glue_noactionbar">
+        <item name="android:windowBackground">@color/black_90</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:padding="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="@style/TextAppearance_Encore_Cello" android:textColor="@color/white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/podcast_qna_tag_label" android:textAllCaps="true"/>
+    <TextView android:textAppearance="@style/TextAppearance_Encore_Ballad" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@+id/prompt_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12dp"/>
+    <TextView android:textAppearance="@style/TextAppearance_Encore_BalladBold" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@+id/featured_responses_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="@string/podcast_qna_pinned_replies_label"/>
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@+id/featured_responses_recycler_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="18dp"/>
+    <FrameLayout android:id="@+id/reply_row_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

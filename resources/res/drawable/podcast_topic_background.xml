@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape>
+            <stroke android:width="@dimen/glue_button_bordered_border_width" android:color="@color/white_5"/>
+            <solid android:color="@color/pasteTransparent"/>
+            <corners android:radius="@dimen/podcast_topic_radius"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <stroke android:width="@dimen/glue_button_bordered_border_width" android:color="@color/white_10"/>
+            <solid android:color="@color/pasteTransparent"/>
+            <corners android:radius="@dimen/podcast_topic_radius"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <stroke android:width="@dimen/glue_button_bordered_border_width" android:color="@color/white_20"/>
+            <solid android:color="@color/pasteTransparent"/>
+            <corners android:radius="@dimen/podcast_topic_radius"/>
+        </shape>
+    </item>
+</selector>

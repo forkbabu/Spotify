@@ -1,0 +1,19 @@
+package com.spotify.inappmessaging;
+
+public enum ActionType {
+    URL,
+    INTERNAL_WEBVIEW,
+    EXTERNAL_URL,
+    IAP,
+    DISMISS,
+    TRIAL,
+    EMAIL_VERIFICATION,
+    ADD_TO_PLAYLIST,
+    CREATE_PLAYLIST,
+    BAN_ENTITY,
+    SAVE_AND_NAVIGATE,
+    SAVE_ENTITY,
+    START_PLAYBACK,
+    SELECT_OPTION,
+    SET_NOTIFICATION_PREFERENCE
+}

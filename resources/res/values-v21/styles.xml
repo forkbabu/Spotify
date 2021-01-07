@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AndroidThemeColorAccentYellow">
+        <item name="android:colorAccent">#ffffff00</item>
+    </style>
+    <style name="Base_TextAppearance_AppCompat" parent="@android:style/TextAppearance.Material">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Body1" parent="@android:style/TextAppearance.Material.Body1">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Body2" parent="@android:style/TextAppearance.Material.Body2">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Button" parent="@android:style/TextAppearance.Material.Button">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Caption" parent="@android:style/TextAppearance.Material.Caption">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Display1" parent="@android:style/TextAppearance.Material.Display1">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Display2" parent="@android:style/TextAppearance.Material.Display2">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Display3" parent="@android:style/TextAppearance.Material.Display3">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Display4" parent="@android:style/TextAppearance.Material.Display4">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Headline" parent="@android:style/TextAppearance.Material.Headline">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Inverse" parent="@android:style/TextAppearance.Material.Inverse">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Large" parent="@android:style/TextAppearance.Material.Large">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Large_Inverse" parent="@android:style/TextAppearance.Material.Large.Inverse">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Large">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Small">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Medium" parent="@android:style/TextAppearance.Material.Medium">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Medium_Inverse" parent="@android:style/TextAppearance.Material.Medium.Inverse">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Menu" parent="@android:style/TextAppearance.Material.Menu">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_SearchResult_Subtitle" parent="@android:style/TextAppearance.Material.SearchResult.Subtitle">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_SearchResult_Title" parent="@android:style/TextAppearance.Material.SearchResult.Title">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Small" parent="@android:style/TextAppearance.Material.Small">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Small_Inverse" parent="@android:style/TextAppearance.Material.Small.Inverse">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Subhead" parent="@android:style/TextAppearance.Material.Subhead">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Title" parent="@android:style/TextAppearance.Material.Title">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle.Inverse">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Widget_ActionBar_Title" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title.Inverse">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle" parent="@android:style/TextAppearance.Material.Widget.ActionMode.Subtitle">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Widget_ActionMode_Title" parent="@android:style/TextAppearance.Material.Widget.ActionMode.Title">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Widget_Button" parent="@android:style/TextAppearance.Material.Widget.Button">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Widget_PopupMenu_Header" parent="@style/TextAppearance_AppCompat">
+        <item name="android:textSize">@dimen/abc_text_size_menu_header_material</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Widget_PopupMenu_Large" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Large">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Widget_PopupMenu_Small" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Small">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Widget_Switch" parent="@android:style/TextAppearance.Material.Button">
+    </style>
+    <style name="Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem" parent="@android:style/TextAppearance.Material.Widget.TextView.SpinnerItem">
+    </style>
+    <style name="Base_TextAppearance_MaterialComponents_Badge" parent="@style/TextAppearance_AppCompat">
+        <item name="android:textSize">@dimen/mtrl_badge_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnError</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.0893</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Base_TextAppearance_MaterialComponents_Button" parent="@style/TextAppearance_AppCompat_Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.0893</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Base_TextAppearance_MaterialComponents_Headline6" parent="@style/TextAppearance_AppCompat_Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.0125</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Base_TextAppearance_MaterialComponents_Subtitle2" parent="@style/TextAppearance_AppCompat_Subhead">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.0071</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle">
+    </style>
+    <style name="Base_TextAppearance_Widget_AppCompat_Toolbar_Title" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+    </style>
+    <style name="Base_Theme_AppCompat" parent="@style/Base_V21_Theme_AppCompat">
+    </style>
+    <style name="Base_Theme_AppCompat_Dialog" parent="@style/Base_V21_Theme_AppCompat_Dialog">
+    </style>
+    <style name="Base_Theme_AppCompat_Light" parent="@style/Base_V21_Theme_AppCompat_Light">
+    </style>
+    <style name="Base_Theme_AppCompat_Light_Dialog" parent="@style/Base_V21_Theme_AppCompat_Light_Dialog">
+    </style>
+    <style name="Base_Theme_MaterialComponents" parent="@style/res_2132082830_base_v21_theme_materialcomponents">
+    </style>
+    <style name="Base_Theme_MaterialComponents_Dialog" parent="@style/res_2132082831_base_v21_theme_materialcomponents_dialog">
+    </style>
+    <style name="Base_Theme_MaterialComponents_Light" parent="@style/res_2132082832_base_v21_theme_materialcomponents_light">
+    </style>
+    <style name="Base_Theme_MaterialComponents_Light_Dialog" parent="@style/res_2132082833_base_v21_theme_materialcomponents_light_dialog">
+    </style>
+    <style name="Base_ThemeOverlay_AppCompat_Dialog" parent="@style/Base_V21_ThemeOverlay_AppCompat_Dialog">
+    </style>
+    <style name="Base_ThemeOverlay_MaterialComponents_Dialog" parent="@style/Base_V14_ThemeOverlay_MaterialComponents_Dialog">
+        <item name="android:windowBackground">@drawable/mtrl_dialog_background</item>
+    </style>
+    <style name="res_2132082811_base_themeoverlay_materialcomponents_dialog_alert_framework" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:buttonBarButtonStyle">@style/Widget_MaterialComponents_Button_TextButton_Dialog_Flush</item>
+    </style>
+    <style name="res_2132082812_base_themeoverlay_materialcomponents_light_dialog_alert_framework" parent="@android:style/Theme.Material.Light.Dialog.Alert">
+        <item name="android:buttonBarButtonStyle">@style/Widget_MaterialComponents_Button_TextButton_Dialog_Flush</item>
+    </style>
+    <style name="Base_V14_Theme_MaterialComponents" parent="@style/Base_V14_Theme_MaterialComponents_Bridge">
+        <item name="android:colorBackground">@color/design_dark_default_color_background</item>
+        <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
+        <item name="android:timePickerDialogTheme">@style/ThemeOverlay_MaterialComponents_Dialog</item>
+        <item name="android:datePickerDialogTheme">@style/ThemeOverlay_MaterialComponents_Dialog</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay_MaterialComponents_Dark</item>
+        <item name="actionBarSize">@dimen/mtrl_toolbar_default_height</item>
+        <item name="actionBarStyle">@style/Widget_MaterialComponents_ActionBar_Surface</item>
+        <item name="actionBarTheme">@style/ThemeOverlay_MaterialComponents_ActionBar_Surface</item>
+        <item name="actionOverflowMenuStyle">@style/Widget_MaterialComponents_PopupMenu_Overflow</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay_MaterialComponents_Dialog_Alert</item>
+        <item name="appBarLayoutStyle">@style/Widget_MaterialComponents_AppBarLayout_Surface</item>
+        <item name="borderlessButtonStyle">@style/Widget_MaterialComponents_Button_TextButton</item>
+        <item name="bottomNavigationStyle">@style/Widget_MaterialComponents_BottomNavigationView</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay_MaterialComponents_BottomSheetDialog</item>
+        <item name="buttonBarButtonStyle">@style/Widget_MaterialComponents_Button_TextButton</item>
+        <item name="checkboxStyle">@style/Widget_MaterialComponents_CompoundButton_CheckBox</item>
+        <item name="colorAccent">?attr/colorSecondary</item>
+        <item name="colorError">@color/design_dark_default_color_error</item>
+        <item name="colorPrimary">@color/design_dark_default_color_primary</item>
+        <item name="colorPrimaryDark">@color/design_dark_default_color_primary_dark</item>
+        <item name="floatingActionButtonStyle">@style/Widget_MaterialComponents_FloatingActionButton</item>
+        <item name="listPopupWindowStyle">@style/Widget_MaterialComponents_PopupMenu_ListPopupWindow</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay_MaterialComponents_MaterialAlertDialog</item>
+        <item name="materialCalendarFullscreenTheme">@style/ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen</item>
+        <item name="materialCalendarStyle">@style/Widget_MaterialComponents_MaterialCalendar</item>
+        <item name="materialCalendarTheme">@style/ThemeOverlay_MaterialComponents_MaterialCalendar</item>
+        <item name="navigationViewStyle">@style/Widget_MaterialComponents_NavigationView</item>
+        <item name="popupMenuStyle">@style/Widget_MaterialComponents_PopupMenu</item>
+        <item name="radioButtonStyle">@style/Widget_MaterialComponents_CompoundButton_RadioButton</item>
+        <item name="snackbarButtonStyle">@style/Widget_MaterialComponents_Button_TextButton_Snackbar</item>
+        <item name="snackbarStyle">@style/Widget_MaterialComponents_Snackbar</item>
+        <item name="snackbarTextViewStyle">@style/res_2132083905_widget_materialcomponents_snackbar_textview</item>
+        <item name="switchStyle">@style/Widget_MaterialComponents_CompoundButton_Switch</item>
+        <item name="tabStyle">@style/Widget_MaterialComponents_TabLayout</item>
+        <item name="textAppearanceLargePopupMenu">?attr/textAppearanceSubtitle1</item>
+        <item name="textAppearanceSmallPopupMenu">?attr/textAppearanceSubtitle1</item>
+        <item name="textInputStyle">@style/Widget_MaterialComponents_TextInputLayout_FilledBox</item>
+        <item name="toolbarStyle">@style/Widget_MaterialComponents_Toolbar</item>
+        <item name="viewInflaterClass">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="Base_V14_Theme_MaterialComponents_Light" parent="@style/Base_V14_Theme_MaterialComponents_Light_Bridge">
+        <item name="android:colorBackground">@color/design_default_color_background</item>
+        <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
+        <item name="android:timePickerDialogTheme">@style/ThemeOverlay_MaterialComponents_Dialog</item>
+        <item name="android:datePickerDialogTheme">@style/ThemeOverlay_MaterialComponents_Dialog</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay_MaterialComponents_Light</item>
+        <item name="actionBarSize">@dimen/mtrl_toolbar_default_height</item>
+        <item name="actionBarStyle">@style/Widget_MaterialComponents_Light_ActionBar_Solid</item>
+        <item name="actionOverflowMenuStyle">@style/Widget_MaterialComponents_PopupMenu_Overflow</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay_MaterialComponents_Dialog_Alert</item>
+        <item name="appBarLayoutStyle">@style/Widget_MaterialComponents_AppBarLayout_Primary</item>
+        <item name="borderlessButtonStyle">@style/Widget_MaterialComponents_Button_TextButton</item>
+        <item name="bottomNavigationStyle">@style/Widget_MaterialComponents_BottomNavigationView</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay_MaterialComponents_Light_BottomSheetDialog</item>
+        <item name="buttonBarButtonStyle">@style/Widget_MaterialComponents_Button_TextButton</item>
+        <item name="checkboxStyle">@style/Widget_MaterialComponents_CompoundButton_CheckBox</item>
+        <item name="colorAccent">?attr/colorSecondary</item>
+        <item name="colorError">@color/design_default_color_error</item>
+        <item name="colorPrimary">@color/design_default_color_primary</item>
+        <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
+        <item name="floatingActionButtonStyle">@style/Widget_MaterialComponents_FloatingActionButton</item>
+        <item name="listPopupWindowStyle">@style/Widget_MaterialComponents_PopupMenu_ListPopupWindow</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay_MaterialComponents_MaterialAlertDialog</item>
+        <item name="materialCalendarFullscreenTheme">@style/ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen</item>
+        <item name="materialCalendarStyle">@style/Widget_MaterialComponents_MaterialCalendar</item>
+        <item name="materialCalendarTheme">@style/ThemeOverlay_MaterialComponents_MaterialCalendar</item>
+        <item name="navigationViewStyle">@style/Widget_MaterialComponents_NavigationView</item>
+        <item name="popupMenuStyle">@style/Widget_MaterialComponents_PopupMenu</item>
+        <item name="radioButtonStyle">@style/Widget_MaterialComponents_CompoundButton_RadioButton</item>
+        <item name="snackbarButtonStyle">@style/Widget_MaterialComponents_Button_TextButton_Snackbar</item>
+        <item name="snackbarStyle">@style/Widget_MaterialComponents_Snackbar</item>
+        <item name="snackbarTextViewStyle">@style/res_2132083905_widget_materialcomponents_snackbar_textview</item>
+        <item name="switchStyle">@style/Widget_MaterialComponents_CompoundButton_Switch</item>
+        <item name="tabStyle">@style/Widget_MaterialComponents_TabLayout</item>
+        <item name="textAppearanceLargePopupMenu">?attr/textAppearanceSubtitle1</item>
+        <item name="textAppearanceSmallPopupMenu">?attr/textAppearanceSubtitle1</item>
+        <item name="textInputStyle">@style/Widget_MaterialComponents_TextInputLayout_FilledBox</item>
+        <item name="toolbarStyle">@style/Widget_MaterialComponents_Toolbar</item>
+        <item name="viewInflaterClass">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="Base_V21_Theme_AppCompat" parent="@style/Base_V7_Theme_AppCompat">
+        <item name="android:colorControlNormal">?attr/colorControlNormal</item>
+        <item name="android:colorControlActivated">?attr/colorControlActivated</item>
+        <item name="android:colorButtonNormal">?attr/colorButtonNormal</item>
+        <item name="android:colorControlHighlight">?attr/colorControlHighlight</item>
+        <item name="android:colorPrimary">?attr/colorPrimary</item>
+        <item name="android:colorPrimaryDark">?attr/colorPrimaryDark</item>
+        <item name="android:colorAccent">?attr/colorAccent</item>
+        <item name="actionBarDivider">?android:attr/actionBarDivider</item>
+        <item name="actionBarItemBackground">@drawable/abc_action_bar_item_background_material</item>
+        <item name="actionBarSize">?android:attr/actionBarSize</item>
+        <item name="actionButtonStyle">?android:attr/actionButtonStyle</item>
+        <item name="actionModeBackground">?android:attr/actionModeBackground</item>
+        <item name="actionModeCloseDrawable">?android:attr/actionModeCloseDrawable</item>
+        <item name="borderlessButtonStyle">?android:attr/borderlessButtonStyle</item>
+        <item name="buttonStyle">?android:attr/buttonStyle</item>
+        <item name="buttonStyleSmall">?android:attr/buttonStyleSmall</item>
+        <item name="checkboxStyle">?android:attr/checkboxStyle</item>
+        <item name="checkedTextViewStyle">?android:attr/checkedTextViewStyle</item>
+        <item name="dividerHorizontal">?android:attr/dividerHorizontal</item>
+        <item name="dividerVertical">?android:attr/dividerVertical</item>
+        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="editTextColor">?android:attr/editTextColor</item>
+        <item name="homeAsUpIndicator">?android:attr/homeAsUpIndicator</item>
+        <item name="listChoiceBackgroundIndicator">?android:attr/listChoiceBackgroundIndicator</item>
+        <item name="listPreferredItemHeightSmall">?android:attr/listPreferredItemHeightSmall</item>
+        <item name="radioButtonStyle">?android:attr/radioButtonStyle</item>
+        <item name="ratingBarStyle">?android:attr/ratingBarStyle</item>
+        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="spinnerStyle">?android:attr/spinnerStyle</item>
+        <item name="textAppearanceLargePopupMenu">?android:attr/textAppearanceLargePopupMenu</item>
+        <item name="textAppearanceSmallPopupMenu">?android:attr/textAppearanceSmallPopupMenu</item>
+    </style>
+    <style name="Base_V21_Theme_AppCompat_Dialog" parent="@style/Base_V7_Theme_AppCompat_Dialog">
+        <item name="android:windowElevation">@dimen/abc_floating_window_z</item>
+    </style>
+    <style name="Base_V21_Theme_AppCompat_Light" parent="@style/Base_V7_Theme_AppCompat_Light">
+        <item name="android:colorControlNormal">?attr/colorControlNormal</item>
+        <item name="android:colorControlActivated">?attr/colorControlActivated</item>
+        <item name="android:colorButtonNormal">?attr/colorButtonNormal</item>
+        <item name="android:colorControlHighlight">?attr/colorControlHighlight</item>
+        <item name="android:colorPrimary">?attr/colorPrimary</item>
+        <item name="android:colorPrimaryDark">?attr/colorPrimaryDark</item>
+        <item name="android:colorAccent">?attr/colorAccent</item>
+        <item name="actionBarDivider">?android:attr/actionBarDivider</item>
+        <item name="actionBarItemBackground">@drawable/abc_action_bar_item_background_material</item>
+        <item name="actionBarSize">?android:attr/actionBarSize</item>
+        <item name="actionButtonStyle">?android:attr/actionButtonStyle</item>
+        <item name="actionModeBackground">?android:attr/actionModeBackground</item>
+        <item name="actionModeCloseDrawable">?android:attr/actionModeCloseDrawable</item>
+        <item name="borderlessButtonStyle">?android:attr/borderlessButtonStyle</item>
+        <item name="buttonStyle">?android:attr/buttonStyle</item>
+        <item name="buttonStyleSmall">?android:attr/buttonStyleSmall</item>
+        <item name="checkboxStyle">?android:attr/checkboxStyle</item>
+        <item name="checkedTextViewStyle">?android:attr/checkedTextViewStyle</item>
+        <item name="dividerHorizontal">?android:attr/dividerHorizontal</item>
+        <item name="dividerVertical">?android:attr/dividerVertical</item>
+        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="editTextColor">?android:attr/editTextColor</item>
+        <item name="homeAsUpIndicator">?android:attr/homeAsUpIndicator</item>
+        <item name="listChoiceBackgroundIndicator">?android:attr/listChoiceBackgroundIndicator</item>
+        <item name="listPreferredItemHeightSmall">?android:attr/listPreferredItemHeightSmall</item>
+        <item name="radioButtonStyle">?android:attr/radioButtonStyle</item>
+        <item name="ratingBarStyle">?android:attr/ratingBarStyle</item>
+        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="spinnerStyle">?android:attr/spinnerStyle</item>
+        <item name="textAppearanceLargePopupMenu">?android:attr/textAppearanceLargePopupMenu</item>
+        <item name="textAppearanceSmallPopupMenu">?android:attr/textAppearanceSmallPopupMenu</item>
+    </style>
+    <style name="Base_V21_Theme_AppCompat_Light_Dialog" parent="@style/Base_V7_Theme_AppCompat_Light_Dialog">
+        <item name="android:windowElevation">@dimen/abc_floating_window_z</item>
+    </style>
+    <style name="res_2132082830_base_v21_theme_materialcomponents" parent="@style/Base_V14_Theme_MaterialComponents">
+        <item name="android:alertDialogTheme">@style/res_2132083622_themeoverlay_materialcomponents_dialog_alert_framework</item>
+    </style>
+    <style name="res_2132082831_base_v21_theme_materialcomponents_dialog" parent="@style/Base_V14_Theme_MaterialComponents_Dialog">
+        <item name="android:alertDialogTheme">@style/res_2132083622_themeoverlay_materialcomponents_dialog_alert_framework</item>
+    </style>
+    <style name="res_2132082832_base_v21_theme_materialcomponents_light" parent="@style/Base_V14_Theme_MaterialComponents_Light">
+        <item name="android:alertDialogTheme">@style/res_2132083625_themeoverlay_materialcomponents_light_dialog_alert_framework</item>
+    </style>
+    <style name="res_2132082833_base_v21_theme_materialcomponents_light_dialog" parent="@style/Base_V14_Theme_MaterialComponents_Light_Dialog">
+        <item name="android:alertDialogTheme">@style/res_2132083625_themeoverlay_materialcomponents_light_dialog_alert_framework</item>
+    </style>
+    <style name="Base_V21_ThemeOverlay_AppCompat_Dialog" parent="@style/Base_V7_ThemeOverlay_AppCompat_Dialog">
+        <item name="android:windowElevation">@dimen/abc_floating_window_z</item>
+    </style>
+    <style name="Base_Widget_AppCompat_ActionBar_TabText" parent="@android:style/Widget.Material.ActionBar.TabText">
+    </style>
+    <style name="Base_Widget_AppCompat_ActionBar_TabView" parent="@android:style/Widget.Material.ActionBar.TabView">
+    </style>
+    <style name="Base_Widget_AppCompat_ActionButton" parent="@android:style/Widget.Material.ActionButton">
+    </style>
+    <style name="Base_Widget_AppCompat_ActionButton_CloseMode" parent="@android:style/Widget.Material.ActionButton.CloseMode">
+        <item name="android:minWidth">56dp</item>
+    </style>
+    <style name="Base_Widget_AppCompat_ActionButton_Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow">
+        <item name="android:src">@null</item>
+        <item name="srcCompat">@drawable/abc_ic_menu_overflow_material</item>
+    </style>
+    <style name="Base_Widget_AppCompat_AutoCompleteTextView" parent="@android:style/Widget.Material.AutoCompleteTextView">
+        <item name="android:background">?attr/editTextBackground</item>
+    </style>
+    <style name="Base_Widget_AppCompat_Button" parent="@android:style/Widget.Material.Button">
+    </style>
+    <style name="Base_Widget_AppCompat_Button_Borderless" parent="@android:style/Widget.Material.Button.Borderless">
+    </style>
+    <style name="Base_Widget_AppCompat_Button_Borderless_Colored" parent="@android:style/Widget.Material.Button.Borderless.Colored">
+        <item name="android:textColor">@color/abc_btn_colored_borderless_text_material</item>
+    </style>
+    <style name="Base_Widget_AppCompat_Button_Small" parent="@android:style/Widget.Material.Button.Small">
+    </style>
+    <style name="Base_Widget_AppCompat_ButtonBar" parent="@android:style/Widget.Material.ButtonBar">
+    </style>
+    <style name="Base_Widget_AppCompat_CompoundButton_CheckBox" parent="@android:style/Widget.Material.CompoundButton.CheckBox">
+    </style>
+    <style name="Base_Widget_AppCompat_CompoundButton_RadioButton" parent="@android:style/Widget.Material.CompoundButton.RadioButton">
+    </style>
+    <style name="Base_Widget_AppCompat_DropDownItem_Spinner" parent="@android:style/Widget.Material.DropDownItem.Spinner">
+    </style>
+    <style name="Base_Widget_AppCompat_EditText" parent="@android:style/Widget.Material.EditText">
+        <item name="android:background">?attr/editTextBackground</item>
+    </style>
+    <style name="Base_Widget_AppCompat_ImageButton" parent="@android:style/Widget.Material.ImageButton">
+    </style>
+    <style name="Base_Widget_AppCompat_Light_ActionBar_TabText" parent="@android:style/Widget.Material.Light.ActionBar.TabText">
+    </style>
+    <style name="Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse" parent="@android:style/Widget.Material.Light.ActionBar.TabText">
+    </style>
+    <style name="Base_Widget_AppCompat_Light_ActionBar_TabView" parent="@android:style/Widget.Material.Light.ActionBar.TabView">
+    </style>
+    <style name="Base_Widget_AppCompat_Light_PopupMenu" parent="@android:style/Widget.Material.Light.PopupMenu">
+    </style>
+    <style name="Base_Widget_AppCompat_Light_PopupMenu_Overflow" parent="@style/Base_Widget_AppCompat_Light_PopupMenu">
+        <item name="android:dropDownHorizontalOffset">-4dp</item>
+        <item name="android:overlapAnchor">true</item>
+    </style>
+    <style name="Base_Widget_AppCompat_ListPopupWindow" parent="@android:style/Widget.Material.ListPopupWindow">
+    </style>
+    <style name="Base_Widget_AppCompat_ListView" parent="@android:style/Widget.Material.ListView">
+    </style>
+    <style name="Base_Widget_AppCompat_ListView_DropDown" parent="@android:style/Widget.Material.ListView.DropDown">
+    </style>
+    <style name="Base_Widget_AppCompat_ListView_Menu" parent="@style/Base_Widget_AppCompat_ListView">
+    </style>
+    <style name="Base_Widget_AppCompat_PopupMenu" parent="@android:style/Widget.Material.PopupMenu">
+    </style>
+    <style name="Base_Widget_AppCompat_PopupMenu_Overflow" parent="@style/Base_Widget_AppCompat_PopupMenu">
+        <item name="android:dropDownHorizontalOffset">-4dp</item>
+        <item name="android:overlapAnchor">true</item>
+    </style>
+    <style name="Base_Widget_AppCompat_ProgressBar" parent="@android:style/Widget.Material.ProgressBar">
+    </style>
+    <style name="Base_Widget_AppCompat_ProgressBar_Horizontal" parent="@android:style/Widget.Material.ProgressBar.Horizontal">
+    </style>
+    <style name="Base_Widget_AppCompat_RatingBar" parent="@android:style/Widget.Material.RatingBar">
+    </style>
+    <style name="Base_Widget_AppCompat_SeekBar" parent="@android:style/Widget.Material.SeekBar">
+    </style>
+    <style name="Base_Widget_AppCompat_Spinner" parent="@android:style/Widget.Material.Spinner">
+    </style>
+    <style name="Base_Widget_AppCompat_TextView" parent="@android:style/Widget.Material.TextView">
+    </style>
+    <style name="Base_Widget_AppCompat_TextView_SpinnerItem" parent="@android:style/Widget.Material.TextView.SpinnerItem">
+    </style>
+    <style name="Base_Widget_AppCompat_Toolbar_Button_Navigation" parent="@android:style/Widget.Material.Toolbar.Button.Navigation">
+    </style>
+    <style name="Base_Widget_MaterialComponents_AutoCompleteTextView" parent="@style/Widget_AppCompat_AutoCompleteTextView">
+        <item name="android:textAppearance">?attr/textAppearanceSubtitle1</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:dropDownVerticalOffset">@dimen/mtrl_exposed_dropdown_menu_popup_vertical_offset</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:popupElevation">@dimen/mtrl_exposed_dropdown_menu_popup_elevation</item>
+        <item name="enforceMaterialTheme">true</item>
+        <item name="enforceTextAppearance">true</item>
+    </style>
+    <style name="Base_Widget_MaterialComponents_CheckedTextView" parent="@android:style/Widget.Material.CheckedTextView">
+    </style>
+    <style name="Base_Widget_MaterialComponents_Chip" parent="@android:style/Widget">
+        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+        <item name="android:textColor">@color/mtrl_chip_text_color</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:text">@null</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:checkable">false</item>
+        <item name="android:stateListAnimator">@animator/mtrl_chip_state_list_anim</item>
+        <item name="checkedIcon">@drawable/ic_mtrl_chip_checked_circle</item>
+        <item name="checkedIconVisible">true</item>
+        <item name="chipBackgroundColor">@color/mtrl_chip_background_color</item>
+        <item name="chipEndPadding">6dp</item>
+        <item name="chipIcon">@null</item>
+        <item name="chipIconSize">24dp</item>
+        <item name="chipIconVisible">true</item>
+        <item name="chipMinHeight">32dp</item>
+        <item name="chipMinTouchTargetSize">48dp</item>
+        <item name="chipStartPadding">4dp</item>
+        <item name="chipStrokeColor">?attr/colorOnSurface</item>
+        <item name="chipStrokeWidth">0dp</item>
+        <item name="chipSurfaceColor">@color/mtrl_chip_surface_color</item>
+        <item name="closeIcon">@drawable/ic_mtrl_chip_close_circle</item>
+        <item name="closeIconEndPadding">2dp</item>
+        <item name="closeIconSize">18dp</item>
+        <item name="closeIconStartPadding">2dp</item>
+        <item name="closeIconTint">@color/mtrl_chip_close_icon_tint</item>
+        <item name="closeIconVisible">true</item>
+        <item name="enforceMaterialTheme">true</item>
+        <item name="enforceTextAppearance">true</item>
+        <item name="ensureMinTouchTargetSize">true</item>
+        <item name="iconEndPadding">0dp</item>
+        <item name="iconStartPadding">0dp</item>
+        <item name="rippleColor">@color/mtrl_chip_ripple_color</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceSmallComponent</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_MaterialComponents_Chip</item>
+        <item name="textEndPadding">6dp</item>
+        <item name="textStartPadding">8dp</item>
+    </style>
+    <style name="Base_Widget_MaterialComponents_PopupMenu_ContextMenu" parent="@style/Widget_AppCompat_PopupMenu">
+        <item name="android:overlapAnchor">true</item>
+    </style>
+    <style name="Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow" parent="@style/Widget_AppCompat_ListPopupWindow">
+        <item name="android:popupBackground">?attr/popupMenuBackground</item>
+        <item name="android:dropDownVerticalOffset">1dp</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+    <style name="CarModeNowPlayingSeekBar" parent="@style/CarModeNowPlayingSeekBarBase">
+        <item name="android:background">@null</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:splitTrack">false</item>
+    </style>
+    <style name="CarModeOptInButton">
+        <item name="android:elevation">4dp</item>
+    </style>
+    <style name="DialogStyle" parent="@style/Theme_Design_Light_BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateHidden</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="bottomSheetStyle">@style/DialogModalStyle</item>
+    </style>
+    <style name="GlueExtension_Button_MultiLine" parent="@style/res_2132083959_widget_paste_button">
+        <item name="android:textAppearance">@style/TextAppearance_Encore_BalladBold</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:maxHeight">@dimen/cat_button_height</item>
+        <item name="android:minHeight">@dimen/cat_button_height</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:lines">@null</item>
+        <item name="android:paddingStart">@dimen/multiline_button_padding</item>
+        <item name="android:paddingEnd">@dimen/multiline_button_padding</item>
+        <item name="android:letterSpacing">@null</item>
+    </style>
+    <style name="MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar" parent="@android:style/Widget.DeviceDefault.DatePicker">
+        <item name="android:headerBackground">?attr/colorPrimary</item>
+        <item name="android:headerMonthTextAppearance">@style/ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text</item>
+        <item name="android:headerDayOfMonthTextAppearance">@style/ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day</item>
+        <item name="android:headerYearTextAppearance">@style/ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text</item>
+        <item name="android:calendarTextColor">?attr/colorOnSurface</item>
+        <item name="android:datePickerMode">calendar</item>
+        <item name="backgroundInsetBottom">@dimen/mtrl_alert_dialog_picker_background_inset</item>
+        <item name="backgroundInsetTop">@dimen/mtrl_alert_dialog_picker_background_inset</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceMediumComponent</item>
+    </style>
+    <style name="MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner" parent="@android:style/Widget.DeviceDefault.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+        <item name="backgroundInsetBottom">@dimen/mtrl_alert_dialog_picker_background_inset</item>
+        <item name="backgroundInsetTop">@dimen/mtrl_alert_dialog_picker_background_inset</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceMediumComponent</item>
+    </style>
+    <style name="NotificationsDialogTheme" parent="@style/BaseDialogTheme">
+        <item name="android:statusBarColor">@color/pasteTransparent</item>
+        <item name="android:navigationBarColor">@color/gray_15</item>
+    </style>
+    <style name="NowPlayingSeekBar" parent="@style/NowPlayingSeekBarBase">
+        <item name="android:background">@null</item>
+        <item name="android:paddingStart">@dimen/seekbar_padding</item>
+        <item name="android:paddingEnd">@dimen/seekbar_padding</item>
+        <item name="android:splitTrack">false</item>
+    </style>
+    <style name="Platform_AppCompat" parent="@style/Platform_V21_AppCompat">
+    </style>
+    <style name="Platform_AppCompat_Light" parent="@style/Platform_V21_AppCompat_Light">
+    </style>
+    <style name="res_2132083117_platform_theme_paste" parent="@style/res_2132083125_platform_v21_theme_paste">
+    </style>
+    <style name="Platform_ThemeOverlay_AppCompat">
+        <item name="android:colorControlNormal">?attr/colorControlNormal</item>
+        <item name="android:colorControlActivated">?attr/colorControlActivated</item>
+        <item name="android:colorButtonNormal">?attr/colorButtonNormal</item>
+        <item name="android:colorControlHighlight">?attr/colorControlHighlight</item>
+        <item name="android:colorPrimary">?attr/colorPrimary</item>
+        <item name="android:colorPrimaryDark">?attr/colorPrimaryDark</item>
+        <item name="android:colorAccent">?attr/colorAccent</item>
+    </style>
+    <style name="Platform_ThemeOverlay_AppCompat_Dark" parent="@style/Platform_ThemeOverlay_AppCompat">
+    </style>
+    <style name="Platform_ThemeOverlay_AppCompat_Light" parent="@style/Platform_ThemeOverlay_AppCompat">
+    </style>
+    <style name="Platform_V21_AppCompat" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:textColorHintInverse">@color/abc_hint_foreground_material_light</item>
+        <item name="android:textColorHint">@color/abc_hint_foreground_material_dark</item>
+        <item name="android:textColorLink">?android:attr/colorAccent</item>
+        <item name="android:buttonBarStyle">?attr/buttonBarStyle</item>
+        <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
+        <item name="android:textColorLinkInverse">?android:attr/colorAccent</item>
+    </style>
+    <style name="Platform_V21_AppCompat_Light" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:textColorHintInverse">@color/abc_hint_foreground_material_dark</item>
+        <item name="android:textColorHint">@color/abc_hint_foreground_material_light</item>
+        <item name="android:textColorLink">?android:attr/colorAccent</item>
+        <item name="android:buttonBarStyle">?attr/buttonBarStyle</item>
+        <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
+        <item name="android:textColorLinkInverse">?android:attr/colorAccent</item>
+    </style>
+    <style name="res_2132083125_platform_v21_theme_paste" parent="@style/res_2132083122_platform_v17_theme_paste">
+        <item name="android:switchStyle">?attr/android_switchStyle</item>
+        <item name="android:navigationBarColor">?attr/pasteNavigationBarColor</item>
+    </style>
+    <style name="SeekBar" parent="@style/SeekBarBase">
+        <item name="android:paddingStart">@dimen/mini_seek_bar_padding</item>
+        <item name="android:paddingEnd">@dimen/mini_seek_bar_padding</item>
+        <item name="android:splitTrack">false</item>
+    </style>
+    <style name="res_2132083193_signupdialogfragment_datepicker" parent="@android:style/Widget.Holo.Light">
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+    <style name="TasteOnboardingTheme" parent="@style/res_2132083506_theme_glue_noactionbar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="TextAppearance_Compat_Notification" parent="@android:style/TextAppearance.Material.Notification">
+    </style>
+    <style name="TextAppearance_Compat_Notification_Info" parent="@android:style/TextAppearance.Material.Notification.Info">
+    </style>
+    <style name="res_2132083336_textappearance_compat_notification_info_media" parent="@style/TextAppearance_Compat_Notification_Info">
+        <item name="android:textColor">@color/secondary_text_default_material_dark</item>
+    </style>
+    <style name="res_2132083339_textappearance_compat_notification_media" parent="@style/TextAppearance_Compat_Notification">
+        <item name="android:textColor">@color/secondary_text_default_material_dark</item>
+    </style>
+    <style name="TextAppearance_Compat_Notification_Time" parent="@android:style/TextAppearance.Material.Notification.Time">
+    </style>
+    <style name="res_2132083341_textappearance_compat_notification_time_media" parent="@style/TextAppearance_Compat_Notification_Time">
+        <item name="android:textColor">@color/secondary_text_default_material_dark</item>
+    </style>
+    <style name="TextAppearance_Compat_Notification_Title" parent="@android:style/TextAppearance.Material.Notification.Title">
+    </style>
+    <style name="res_2132083343_textappearance_compat_notification_title_media" parent="@style/TextAppearance_Compat_Notification_Title">
+        <item name="android:textColor">@color/primary_text_default_material_dark</item>
+    </style>
+    <style name="TextAppearance_Encore_Alto" parent="@style/res_2132083375_textappearance_encore">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/encore_font_circular_bold</item>
+        <item name="android:letterSpacing">-0.04</item>
+        <item name="android:fontFeatureSettings">liga 1</item>
+    </style>
+    <style name="TextAppearance_Encore_Ballad" parent="@style/res_2132083375_textappearance_encore">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/encore_font_circular_book</item>
+        <item name="android:letterSpacing">@null</item>
+        <item name="android:fontFeatureSettings">liga 1</item>
+    </style>
+    <style name="TextAppearance_Encore_BalladBold" parent="@style/res_2132083375_textappearance_encore">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/encore_font_circular_bold</item>
+        <item name="android:letterSpacing">@null</item>
+        <item name="android:fontFeatureSettings">liga 1</item>
+    </style>
+    <style name="TextAppearance_Encore_Bass" parent="@style/res_2132083375_textappearance_encore">
+        <item name="android:textSize">56sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/encore_font_circular_black</item>
+        <item name="android:letterSpacing">-0.04</item>
+        <item name="android:fontFeatureSettings">liga 1</item>
+    </style>
+    <style name="TextAppearance_Encore_Brio" parent="@style/res_2132083375_textappearance_encore">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/encore_font_circular_bold</item>
+        <item name="android:letterSpacing">-0.04</item>
+        <item name="android:fontFeatureSettings">liga 1</item>
+    </style>
+    <style name="TextAppearance_Encore_Canon" parent="@style/res_2132083375_textappearance_encore">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/encore_font_circular_bold</item>
+        <item name="android:letterSpacing">-0.04</item>
+        <item name="android:fontFeatureSettings">liga 1</item>
+    </style>
+    <style name="TextAppearance_Encore_Cello" parent="@style/res_2132083375_textappearance_encore">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/encore_font_circular_bold</item>
+        <item name="android:letterSpacing">@null</item>
+        <item name="android:fontFeatureSettings">liga 1</item>
+    </style>
+    <style name="TextAppearance_Encore_Finale" parent="@style/res_2132083375_textappearance_encore">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/encore_font_circular_book</item>
+        <item name="android:letterSpacing">@null</item>
+        <item name="android:fontFeatureSettings">liga 1</item>
+    </style>
+    <style name="TextAppearance_Encore_FinaleBold" parent="@style/res_2132083375_textappearance_encore">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/encore_font_circular_bold</item>
+        <item name="android:letterSpacing">@null</item>
+        <item name="android:fontFeatureSettings">liga 1</item>
+    </style>
+    <style name="TextAppearance_Encore_Forte" parent="@style/res_2132083375_textappearance_encore">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/encore_font_circular_bold</item>
+        <item name="android:letterSpacing">-0.04</item>
+        <item name="android:fontFeatureSettings">liga 1</item>
+    </style>
+    <style name="TextAppearance_Encore_Mesto" parent="@style/res_2132083375_textappearance_encore">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColorLink">?attr/encoreTextColorLink</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/encore_font_circular_book</item>
+        <item name="android:letterSpacing">@null</item>
+        <item name="android:fontFeatureSettings">liga 1</item>
+    </style>
+    <style name="TextAppearance_Encore_MestoBold" parent="@style/res_2132083375_textappearance_encore">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/encore_font_circular_bold</item>
+        <item name="android:letterSpacing">@null</item>
+        <item name="android:fontFeatureSettings">liga 1</item>
+    </style>
+    <style name="TextAppearance_Encore_Metronome" parent="@style/res_2132083375_textappearance_encore">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/encore_font_circular_bold</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontFeatureSettings">liga 1</item>
+    </style>
+    <style name="TextAppearance_Encore_Minuet" parent="@style/res_2132083375_textappearance_encore">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">?attr/encoreTextColorMetadata</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/encore_font_circular_book</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontFeatureSettings">liga 1</item>
+    </style>
+    <style name="TextAppearance_Encore_MinuetBold" parent="@style/res_2132083375_textappearance_encore">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/encore_font_circular_bold</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontFeatureSettings">liga 1</item>
+    </style>
+    <style name="TextAppearance_Encore_Viola" parent="@style/res_2132083375_textappearance_encore">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/encore_font_circular_book</item>
+        <item name="android:letterSpacing">@null</item>
+        <item name="android:fontFeatureSettings">liga 1</item>
+    </style>
+    <style name="TextAppearance_Encore_ViolaBold" parent="@style/res_2132083375_textappearance_encore">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/encore_font_circular_bold</item>
+        <item name="android:letterSpacing">@null</item>
+        <item name="android:fontFeatureSettings">liga 1</item>
+    </style>
+    <style name="TextAppearance_MaterialComponents_Badge" parent="@style/Base_TextAppearance_MaterialComponents_Badge">
+        <item name="android:textStyle">@null</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance_MaterialComponents_Body1" parent="@style/TextAppearance_AppCompat_Body2">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0312</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance_MaterialComponents_Body2" parent="@style/TextAppearance_AppCompat_Body1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0179</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance_MaterialComponents_Button" parent="@style/Base_TextAppearance_MaterialComponents_Button">
+        <item name="android:textStyle">@null</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance_MaterialComponents_Caption" parent="@style/TextAppearance_AppCompat_Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0333</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance_MaterialComponents_Headline1" parent="@style/TextAppearance_AppCompat_Display4">
+        <item name="android:textSize">96sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:letterSpacing">-0.0156</item>
+        <item name="fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextAppearance_MaterialComponents_Headline2" parent="@style/TextAppearance_AppCompat_Display3">
+        <item name="android:textSize">60sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:letterSpacing">-0.0083</item>
+        <item name="fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextAppearance_MaterialComponents_Headline3" parent="@style/TextAppearance_AppCompat_Display2">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">@null</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance_MaterialComponents_Headline4" parent="@style/TextAppearance_AppCompat_Display1">
+        <item name="android:textSize">34sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0074</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance_MaterialComponents_Headline5" parent="@style/TextAppearance_AppCompat_Headline">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">@null</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance_MaterialComponents_Headline6" parent="@style/Base_TextAppearance_MaterialComponents_Headline6">
+        <item name="android:textStyle">@null</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance_MaterialComponents_Overline" parent="@style/TextAppearance_AppCompat">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.1667</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance_MaterialComponents_Subtitle1" parent="@style/TextAppearance_AppCompat_Subhead">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.0094</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance_MaterialComponents_Subtitle2" parent="@style/Base_TextAppearance_MaterialComponents_Subtitle2">
+        <item name="android:textStyle">@null</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="res_2132083444_textappearance_weardiag" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/primary_text_dark</item>
+    </style>
+    <style name="res_2132083445_textappearance_weardiag_button" parent="@style/res_2132083444_textappearance_weardiag">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="res_2132083446_textappearance_weardiag_message" parent="@style/res_2132083444_textappearance_weardiag">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingMultiplier">0.96</item>
+    </style>
+    <style name="res_2132083447_textappearance_weardiag_title" parent="@style/res_2132083444_textappearance_weardiag">
+        <item name="android:textSize">20sp</item>
+        <item name="android:lineSpacingMultiplier">0.9387</item>
+    </style>
+    <style name="res_2132083492_theme_devicepicker" parent="@style/res_2132083514_theme_glue_noactionbar_transparent">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="res_2132083517_theme_glue_noactionbar_transparent_voice" parent="@style/res_2132083514_theme_glue_noactionbar_transparent">
+        <item name="android:windowBackground">@color/black_60</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:navigationBarColor">@color/immersive_bars</item>
+    </style>
+    <style name="res_2132083518_theme_glue_noactionbar_windowtransitions" parent="@style/res_2132083506_theme_glue_noactionbar">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+    <style name="res_2132083582_theme_weardiag" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:colorBackground">@color/dialog_background</item>
+        <item name="android:textAppearance">@style/res_2132083444_textappearance_weardiag</item>
+        <item name="android:buttonStyle">@style/res_2132083982_widget_weardiag_button</item>
+        <item name="android:windowBackground">@color/dialog_background</item>
+        <item name="android:colorBackgroundCacheHint">@color/dialog_background</item>
+    </style>
+    <style name="ThemeOverlay_MaterialComponents_BottomSheetDialog" parent="@style/ThemeOverlay_MaterialComponents_Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/Animation_MaterialComponents_BottomSheetDialog</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="bottomSheetStyle">@style/Widget_MaterialComponents_BottomSheet_Modal</item>
+        <item name="materialButtonStyle">@style/Widget_MaterialComponents_Button</item>
+    </style>
+    <style name="res_2132083622_themeoverlay_materialcomponents_dialog_alert_framework" parent="@style/res_2132082811_base_themeoverlay_materialcomponents_dialog_alert_framework">
+    </style>
+    <style name="ThemeOverlay_MaterialComponents_Light_BottomSheetDialog" parent="@style/ThemeOverlay_MaterialComponents_Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/Animation_MaterialComponents_BottomSheetDialog</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="bottomSheetStyle">@style/Widget_MaterialComponents_BottomSheet_Modal</item>
+        <item name="materialButtonStyle">@style/Widget_MaterialComponents_Button</item>
+    </style>
+    <style name="res_2132083625_themeoverlay_materialcomponents_light_dialog_alert_framework" parent="@style/res_2132082812_base_themeoverlay_materialcomponents_light_dialog_alert_framework">
+    </style>
+    <style name="ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date" parent="@style/ThemeOverlay_MaterialComponents_MaterialAlertDialog">
+        <item name="android:buttonBarPositiveButtonStyle">@style/Widget_MaterialComponents_Button_TextButton_Dialog</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/Widget_MaterialComponents_Button_TextButton_Dialog</item>
+    </style>
+    <style name="ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar" parent="@style/ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date">
+        <item name="android:datePickerStyle">@style/MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar</item>
+    </style>
+    <style name="ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text" parent="@style/TextAppearance_MaterialComponents_Headline6">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+    <style name="ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day" parent="@style/TextAppearance_MaterialComponents_Headline1">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+    <style name="ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner" parent="@style/ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date">
+        <item name="android:datePickerStyle">@style/MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner</item>
+    </style>
+    <style name="ThemeOverlayColorAccentRed">
+        <item name="android:colorAccent">#ffff0000</item>
+    </style>
+    <style name="res_2132083658_widget_actionpage" parent="@android:style/Widget">
+        <item name="android:textColor">@color/primary_text_dark</item>
+        <item name="android:background">#99000000</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:color">@color/circular_button</item>
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+        <item name="android:elevation">@dimen/circular_button_elevation</item>
+        <item name="android:stateListAnimator">@animator/circular_image_button_anim</item>
+        <item name="buttonRippleColor">@color/circular_button_pressed</item>
+        <item name="maxTextSize">20sp</item>
+        <item name="minTextSize">12sp</item>
+    </style>
+    <style name="Widget_Compat_NotificationActionContainer">
+        <item name="android:background">@drawable/notification_action_background</item>
+    </style>
+    <style name="Widget_Compat_NotificationActionText">
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+        <item name="android:textSize">@dimen/notification_action_text_size</item>
+        <item name="android:textColor">@color/androidx_core_secondary_text_default_material_light</item>
+    </style>
+    <style name="Widget_Design_AppBarLayout" parent="@android:style/Widget">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:stateListAnimator">@animator/design_appbar_state_list_animator</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+    </style>
+    <style name="Widget_Design_BottomSheet_Modal" parent="@android:style/Widget">
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="android:elevation">@dimen/design_bottom_sheet_modal_elevation</item>
+        <item name="backgroundTint">?android:attr/colorBackground</item>
+        <item name="behavior_hideable">true</item>
+        <item name="behavior_peekHeight">-1</item>
+        <item name="behavior_skipCollapsed">false</item>
+        <item name="enforceMaterialTheme">false</item>
+        <item name="shapeAppearance">@null</item>
+        <item name="shapeAppearanceOverlay">@null</item>
+    </style>
+    <style name="Widget_MaterialComponents_BottomSheet" parent="@style/Widget_Design_BottomSheet_Modal">
+        <item name="android:background">@null</item>
+        <item name="android:elevation">@dimen/design_bottom_sheet_elevation</item>
+        <item name="backgroundTint">?attr/colorSurface</item>
+        <item name="enforceMaterialTheme">true</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceLargeComponent</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_MaterialComponents_BottomSheet</item>
+    </style>
+    <style name="Widget_MaterialComponents_BottomSheet_Modal" parent="@style/Widget_MaterialComponents_BottomSheet">
+        <item name="android:elevation">@dimen/design_bottom_sheet_modal_elevation</item>
+    </style>
+    <style name="Widget_MaterialComponents_Button" parent="@style/Widget_AppCompat_Button">
+        <item name="android:textAppearance">?attr/textAppearanceButton</item>
+        <item name="android:textColor">@color/mtrl_btn_text_color_selector</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">@dimen/mtrl_btn_padding_left</item>
+        <item name="android:paddingTop">@dimen/mtrl_btn_padding_top</item>
+        <item name="android:paddingRight">@dimen/mtrl_btn_padding_right</item>
+        <item name="android:paddingBottom">@dimen/mtrl_btn_padding_bottom</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetTop">@dimen/mtrl_btn_inset</item>
+        <item name="android:insetBottom">@dimen/mtrl_btn_inset</item>
+        <item name="android:stateListAnimator">@animator/mtrl_btn_state_list_anim</item>
+        <item name="backgroundTint">@color/mtrl_btn_bg_color_selector</item>
+        <item name="cornerRadius">@null</item>
+        <item name="elevation">@dimen/mtrl_btn_elevation</item>
+        <item name="enforceMaterialTheme">true</item>
+        <item name="enforceTextAppearance">true</item>
+        <item name="iconPadding">@dimen/mtrl_btn_icon_padding</item>
+        <item name="iconTint">@color/mtrl_btn_text_color_selector</item>
+        <item name="rippleColor">@color/mtrl_btn_ripple_color</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceSmallComponent</item>
+    </style>
+    <style name="Widget_MaterialComponents_Button_UnelevatedButton" parent="@style/Widget_MaterialComponents_Button">
+        <item name="android:stateListAnimator">@animator/mtrl_btn_unelevated_state_list_anim</item>
+        <item name="elevation">0dp</item>
+    </style>
+    <style name="Widget_MaterialComponents_CardView" parent="@style/CardView">
+        <item name="android:stateListAnimator">@animator/mtrl_card_state_list_anim</item>
+        <item name="cardBackgroundColor">?attr/colorSurface</item>
+        <item name="cardCornerRadius">@null</item>
+        <item name="cardElevation">@dimen/mtrl_card_elevation</item>
+        <item name="cardForegroundColor">@color/mtrl_card_view_foreground</item>
+        <item name="checkedIcon">@drawable/ic_mtrl_checked_circle</item>
+        <item name="checkedIconTint">?attr/colorPrimary</item>
+        <item name="enforceMaterialTheme">true</item>
+        <item name="rippleColor">@color/mtrl_card_view_ripple</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceMediumComponent</item>
+    </style>
+    <style name="Widget_MaterialComponents_ExtendedFloatingActionButton" parent="@style/Widget_MaterialComponents_Button">
+        <item name="android:textColor">@color/mtrl_fab_icon_text_color_selector</item>
+        <item name="android:paddingLeft">@dimen/mtrl_extended_fab_start_padding</item>
+        <item name="android:paddingTop">@dimen/mtrl_extended_fab_top_padding</item>
+        <item name="android:paddingRight">@dimen/mtrl_extended_fab_end_padding</item>
+        <item name="android:paddingBottom">@dimen/mtrl_extended_fab_bottom_padding</item>
+        <item name="android:minWidth">@dimen/mtrl_extended_fab_min_width</item>
+        <item name="android:minHeight">@dimen/mtrl_extended_fab_min_height</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingStart">@dimen/mtrl_extended_fab_start_padding</item>
+        <item name="android:paddingEnd">@dimen/mtrl_extended_fab_end_padding</item>
+        <item name="android:stateListAnimator">@animator/mtrl_extended_fab_state_list_animator</item>
+        <item name="backgroundTint">@color/mtrl_fab_bg_color_selector</item>
+        <item name="elevation">@dimen/mtrl_extended_fab_elevation</item>
+        <item name="iconPadding">@dimen/mtrl_extended_fab_icon_text_spacing</item>
+        <item name="iconSize">@dimen/mtrl_extended_fab_icon_size</item>
+        <item name="iconTint">@color/mtrl_fab_icon_text_color_selector</item>
+        <item name="rippleColor">@color/mtrl_fab_ripple_color</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton</item>
+    </style>
+    <style name="Widget_MaterialComponents_PopupMenu" parent="@style/Base_Widget_MaterialComponents_PopupMenu">
+        <item name="android:popupBackground">?attr/popupMenuBackground</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+    <style name="Widget_MaterialComponents_PopupMenu_Overflow" parent="@style/Base_Widget_MaterialComponents_PopupMenu_Overflow">
+        <item name="android:popupBackground">?attr/popupMenuBackground</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+    <style name="res_2132083902_widget_materialcomponents_slider" parent="@style/res_2132082918_base_widget_materialcomponents_slider">
+        <item name="android:background">?attr/controlBackground</item>
+    </style>
+    <style name="Widget_MaterialComponents_Toolbar_Primary" parent="@style/Widget_MaterialComponents_Toolbar">
+        <item name="android:theme">@style/ThemeOverlay_MaterialComponents_Toolbar_Primary</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:elevation">@dimen/design_appbar_elevation</item>
+        <item name="subtitleTextColor">@color/material_on_primary_emphasis_medium</item>
+        <item name="titleTextColor">?attr/colorOnPrimary</item>
+    </style>
+    <style name="res_2132083982_widget_weardiag_button" parent="@android:style/Widget.DeviceDefault.Button">
+        <item name="android:textAppearance">@style/res_2132083445_textappearance_weardiag_button</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">right|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:minLines">1</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+    </style>
+    <style name="res_2132083983_widget_weardiag_textview" parent="@android:style/Widget.DeviceDefault.TextView">
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+    </style>
+    <style name="res_2132083984_widget_weardiag_textview_message" parent="@style/res_2132083983_widget_weardiag_textview">
+        <item name="android:textAppearance">@style/res_2132083446_textappearance_weardiag_message</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="res_2132083985_widget_weardiag_textview_title" parent="@style/res_2132083983_widget_weardiag_textview">
+        <item name="android:textAppearance">@style/res_2132083447_textappearance_weardiag_title</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+    </style>
+</resources>
